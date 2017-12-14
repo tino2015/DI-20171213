@@ -590,8 +590,15 @@ li {
 
 .mobile-logo {
     text-align: center;
-    /*padding-top: 2vh;*/
+    padding-top: 2vh;
     padding-bottom: 2rem;
+}
+
+.anchor {
+    display:block;
+    height:25vh; /* this is the height of your header */
+    margin-top:-25vh; /* this is again negative value of the height of your header */
+    visibility:hidden;
 }
 
 /*
@@ -682,7 +689,7 @@ li {
     }
 }
 
-#content-div,
+/*#content-div,
 #content-div2,
 #content-div3,
 #content-div4,
@@ -690,7 +697,7 @@ li {
     position:relative; 
     height:4em; 
     overflow:hidden;
-}
+}*/
 
 @media screen and (max-width:640px) {
     #content-div,
@@ -698,7 +705,9 @@ li {
     #content-div3,
     #content-div4,
     #content-div5 {
+        position:relative; 
         height:8em;
+        overflow:hidden;
     }
 }
 
@@ -712,13 +721,14 @@ li {
 }
 
 
-
-.fade,
-.fade2,
-.fade3,
-.fade4,
-.fade5 {
-    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+@media screen and (max-width:640px) {
+    .fade,
+    .fade2,
+    .fade3,
+    .fade4,
+    .fade5 {
+        -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+    }
 }
 
 #fade-out,
@@ -733,31 +743,43 @@ li {
     -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
 }
 
-.read-more,
-.read-more2,
-.read-more3,
-.read-more4,
-.read-more5 {
-    margin-top:3px;
-    text-align:center;
+@media screen and (min-width:640px) {
+    .read-more,
+    .read-more2,
+    .read-more3,
+    .read-more4,
+    .read-more5 {
+        visibility: hidden;
+    }
 }
 
-.read-more a,
-.read-more2 a,
-.read-more3 a,
-.read-more4 a,
-.read-more5 a {
-    color: white;
-}
+@media screen and (max-width:640px) {
+    .read-more,
+    .read-more2,
+    .read-more3,
+    .read-more4,
+    .read-more5 {
+        visibility: visible;
+        margin-top:3px;
+        text-align:center;
+    }
 
-#more-link,
-#more-link2,
-#more-link3,
-#more-link4,
-#more-link5 {
-    cursor: pointer;
-}
+    .read-more a,
+    .read-more2 a,
+    .read-more3 a,
+    .read-more4 a,
+    .read-more5 a {
+        color: white;
+    }
 
+    #more-link,
+    #more-link2,
+    #more-link3,
+    #more-link4,
+    #more-link5 {
+        cursor: pointer;
+    }
+}
 
 
 
