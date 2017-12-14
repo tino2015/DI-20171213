@@ -644,7 +644,8 @@ li {
 
 
 .process1,
-.process3 {
+.process3,
+.process5 {
     width: 100%;
     min-height: 150px;
     display: inline-flex;
@@ -675,10 +676,90 @@ li {
 @media screen and (max-width:640px) {
     .process2,
     .process3,
-    .process4 {
+    .process4,
+    .process5 {
         border: 0px;
     }
 }
+
+#content-div,
+#content-div2,
+#content-div3,
+#content-div4,
+#content-div5 {
+    position:relative; 
+    height:4em; 
+    overflow:hidden;
+}
+
+@media screen and (max-width:640px) {
+    #content-div,
+    #content-div2,
+    #content-div3,
+    #content-div4,
+    #content-div5 {
+        height:8em;
+    }
+}
+
+#more-content,
+#more-content2,
+#more-content3,
+#more-content4,
+#more-content5 {
+    font-size: 1.2em;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+.fade,
+.fade2,
+.fade3,
+.fade4,
+.fade5 {
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+}
+
+#fade-out,
+#fade-out2,
+#fade-out3,
+#fade-out4,
+#fade-out5 {
+    position:absolute;
+    bottom:0;
+    height:50px;
+    width:100%;
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+}
+
+.read-more,
+.read-more2,
+.read-more3,
+.read-more4,
+.read-more5 {
+    margin-top:3px;
+    text-align:center;
+}
+
+.read-more a,
+.read-more2 a,
+.read-more3 a,
+.read-more4 a,
+.read-more5 a {
+    color: white;
+}
+
+#more-link,
+#more-link2,
+#more-link3,
+#more-link4,
+#more-link5 {
+    cursor: pointer;
+}
+
+
+
 
 
 /*
