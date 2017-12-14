@@ -153,61 +153,133 @@
           <div class="grid-column grid-three-fifth">
             <div class="feature-content center">
                 <h3>HOW WE WORK</h3>
+
                     <div class="grid-column grid-whole process1 hideme">
                         <div class="grid-column grid-fifth stage">Initial Consultation</div>
                         <div class="grid-column grid-four-fifth hww-content justify">
                             <p class="stage-mobile">Initial Consultation</p>
                             <p>The initial consultation is to learn about you, your project, and to feel comfortable with your future interior designer.
-                            <p>It's important for us to understand your personal tastes, lifestyle, expectations, and inspirations. This helps to create the right design for your daily life.
-                            <p>We will take a detailed brief, get a feel for the space, and establish a scope of work together. We'll also talk about your budget and others involved in the project, such as your architect, builder, electrictian, etc.
+                            <div id="content-div">
+                            <div id="more-content" class="fade">
+                            It's important for us to understand your personal tastes, lifestyle, expectations, and inspirations. This helps to create the right design for your daily life.
+                            </div>
+                            <p>
+                            We will take a detailed brief, get a feel for the space, and establish a scope of work together. We'll also talk about your budget and others involved in the project, such as your architect, builder, electrictian, etc.
                             <p>
                             It’s also the perfect time for you to ask any questions about the design process and learn more about similar past projects and experience.
-                            <p>
+                            </p>
+                            <p style="margin-bottom:0;">
                             The fee for this consultation is a pre-agreed fee to only cover travel expenses if applicable.
-                            <br>Please note that London zones 1 to 4 are free of charge.
+                            <br>Please note that London zones 1 to 4 are free of charge.</p>
+
+                        <div id="fade-out">
+                        </div>
+                        </div>
+                        <p class="read-more">
+                        <a id="more-link" href="#" onclick="RevealMore();return false;"> + Read more </a>
+                        </p>
                         </div>
                     </div>
+
+
                     <div class="grid-column grid-whole process2 hideme">
                         <div class="grid-column grid-four-fifth hww-content justify">
-                            <p class="stage-mobile">Concept</p>
-                            <p>Following After receipt of my proposal with the scope of works that we have established in the first consultation and that you agreed and paid for, the next stage will be for DELPHINE INTERIORS to come on site to take full measurements, take some pictures that will be used for the next presentation. If the site is not accessible then, DELPHINE INTERIORS can work on architect’s plan or state agent’s before realising full survey once possible.
- 
-                            <p>The fee for this stage is £80.00 per hour including VAT. 
-                             
-                            <p>A presentation will be arranged in a 2nd meeting to present the concept design of the project including general plans, samples, drawings, sketches and a selection of various products.
+                            <p class="stage-mobile">Concept Design</p>
+                            <p>Following this first meeting, I will send you the complete scope of works established together beforehand as well with my fee proposal.
+                            <div id="content-div2">
+                            <div id="more-content2" class="fade2">
+                            At this stage, it will be possible for you to add or edit any points in this document. Once agreed and paid for, the designer will start to work on the concept design for your project.
+                            </div>
+                            <p>
+                            This stage will include a site survey, floor plans illustrating the new furniture and concept layout, hand sketches, CGI, a presentation of the new items and products proposed by the designer as well as a mood board with samples of textures, colours and finishes.
+                            <p>
+                            Please note that if the site doesn’t allow a survey, it would be possible to work on architect’s plan or any measurements given by the client to the designer.
+                            </p>
+                            <p style="margin-bottom:0;">
+                            This stage is one of the most important during the process as it will determine your future interior.
+                            <br>The fee for this stage is £80.00 per hour including vat.</p>
+
+                        <div id="fade-out2">
                         </div>
-                        <div class="grid-column grid-fifth stage">Concept</div>
+                        </div>
+                        <p class="read-more2">
+                        <a id="more-link2" href="#" onclick="RevealMore2();return false;"> + Read more </a>
+                        </p>
+                        </div>
+                        <div class="grid-column grid-fifth stage">Concept Design</div>
                     </div>
+
+
                     <div class="grid-column grid-whole process3 hideme">
-                        <div class="grid-column grid-fifth stage">Technical</div>
+                        <div class="grid-column grid-fifth stage">Estimate and Detailed Plans</div>
                         <div class="grid-column grid-four-fifth hww-content justify">
-                            <p class="stage-mobile">Technical</p>
+                            <p class="stage-mobile">Estimate and Detailed Plans</p>
+                            <p>Once the concept design has been approved, we will start to develop the design into detailed drawings.
+                            <div id="content-div3">
+                            <div id="more-content3" class="fade3">
+                            We will also present you with the full itemised estimate conforming with your original budget. We will then start finalising the choices of finishes, colours, dimensions, etc.
+                            </div>
+                            <p>
+                            All goods within the design scheme can be purchased directly through Delphine Interiors. For this stage, a 50% deposit of the estimate will be required prior to the placement of any orders.
+                            <p style="margin-bottom:0;">
+                            The 50% balance payment will be required 10 days before the delivery of the goods on site.</p>
 
-                            <p>Once approved and signed off, mood boards, technical drawings and detailed drawings will be realised (example for a kitchen project: the package will include the mood board with samples of colours, paint, wallpaper, kitchen plan and elevations, kitchen lighting plan, appliances specifications, products details i.e bar stools…).
-     
-                            <p>This package is then ready and can be given to your own contractor (carpenters, plumbers, decorators, electricians). includes all schedules that the contractors might required such as decorative schedule for the decorator, indicative lighting plan for the electrician
-                             
-                            <p>DELPHINE INTERIORS will be able to recommend some contractors contacts if the client doesn’t have their own. However, the client will be charged by them directly.
-                             
-                            <p>The fee for this package is £70.00 per hour including VAT.
-
+                        <div id="fade-out3">
+                        </div>
+                        </div>
+                        <p class="read-more3">
+                        <a id="more-link3" href="#" onclick="RevealMore3();return false;"> + Read more </a>
+                        </p>
                         </div>
                     </div>
+
+
                     <div class="grid-column grid-whole process4 hideme">
                         <div class="grid-column grid-four-fifth hww-content justify">
-                            <p class="stage-mobile">Procurement</p>
+                            <p class="stage-mobile">Technical Package</p>
+                            <p>Once the detailed design and estimates have been approved and signed for, it is possible for Delphine Interiors to realise a technical package to give to your contractors on site.
+                            <div id="content-div4">
+                            <div id="more-content4" class="fade4">
+                            This can include an indicative lighting plan for the electrician, a decorative schedule for the decorator, some ceiling details for the builder, or the tiles elevations for the tiler.
+                            </div>
+                            <p>
+                            We will be able to recommend some trusted contractors if you don’t have one already anyone.
+                            <p style="margin-bottom:0;">
+                            The fee for this package is £80.00 per hour including VAT.</p>
 
-                            <p>This 3rd meeting will include a full estimate of the products presented then selected on stage 2 together with the amended drawings for the client’s approval. 
-
-                            <p>DELPHINE INTERIORS proposes a design and supply project only. 
-
-                            <p>The designer will continue to monitor the progress of each i
-                            tem and schedule them for delivery to site when required
-                             
-                            <p>All goods within the design scheme can be purchased directly through DELPHINE INTERIORS.
+                        <div id="fade-out4">
                         </div>
-                        <div class="grid-column grid-fifth stage">Procurement</div>
+                        </div>
+                        <p class="read-more4">
+                        <a id="more-link4" href="#" onclick="RevealMore4();return false;"> + Read more </a>
+                        </p>
+                        </div>
+                        <div class="grid-column grid-fifth stage">Technical Package</div>
                     </div>
+
+
+                    <div class="grid-column grid-whole process5 hideme">
+                        <div class="grid-column grid-fifth stage">Realisation</div>
+                        <div class="grid-column grid-four-fifth hww-content justify">
+                            <p class="stage-mobile">Realisation</p>
+                            <p>We will be in constant contact with your contractor to make sure that the work is progressing well as per our expectations and matches the designer's plans.
+                            <div id="content-div5">
+                            <div id="more-content5" class="fade5">
+                            This will include site visits as needed. We will also monitor the progress of the delivery of all of the items on site when these are required.
+                            </div>
+                            <p style="margin-bottom:0;">
+                            You will always be kept fully up to date with progress during this stage through to completion.</p>
+
+                        <div id="fade-out5">
+                        </div>
+                        </div>
+                        <p class="read-more5">
+                        <a id="more-link5" href="#" onclick="RevealMore5();return false;"> + Read more </a>
+                        </p>
+                        </div>
+                    </div>
+
+
             </div>
           </div>
           <div class="grid-column grid-fifth"></div>
