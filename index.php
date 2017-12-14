@@ -53,12 +53,7 @@
     <li><a href="#how-we-work">How we work</a></li>
     <li><a href="#portfolio">Portfolio</a></li>
     <li><a href="#events">Events</a></li>
-    <li>
-    <input id="burger-a" type="checkbox" />
-        <label for="burger-a">
-            <span><a href="#contact">Contact us</a></span>
-        </label>
-    </li>
+    <li><a href="#contact">Contact us</a></li>
   </ul>
 </nav>
 
@@ -129,9 +124,9 @@
                     </div>
 
 
-
+<a name="about" class="anchor"></a>
         <section class="grid-container about cf hideme">
-            <a name="about"></a>
+            
           <div class="grid-column grid-fifth cf"></div>
           <div class="grid-column grid-three-fifth cf">
             <div class="feature-content center cf">
@@ -146,9 +141,10 @@
           </div>
           <div class="grid-column grid-fifth cf"></div>
         </section>
-
+        
+            <a name="how-we-work" class="anchor"></a>
         <section class="grid-container how-we-work cf">
-            <a name="how-we-work"></a>
+
           <div class="grid-column grid-fifth"></div>
           <div class="grid-column grid-three-fifth">
             <div class="feature-content center">
@@ -285,9 +281,9 @@
           <div class="grid-column grid-fifth"></div>
         </section>
 
-
+<a name="portfolio" class="anchor"></a>
         <section class="grid-container portfolio cf hideme">
-            <a name="portfolio"></a>
+            
           <div class="grid-column grid-fifth"></div>
           <div class="grid-column grid-three-fifth">
             <div class="feature-content center">
@@ -318,9 +314,9 @@
           <div class="grid-column grid-fifth"></div>
         </section>
 
-
+<a name="events" class="anchor"></a>
 <section class="grid-container events cf hideme">
-            <a name="events"></a>
+            
           <div class="grid-column grid-fifth"></div>
           <div class="grid-column grid-three-fifth">
             <div class="feature-content center ">
@@ -344,9 +340,9 @@
           <div class="grid-column grid-fifth"></div>
         </section>
 
-
+<a name="contact" class="anchor"></a>
         <section class="grid-container contact cf">
-            <a name="contact"></a>
+            
           <div class="grid-column grid-fifth"></div>
           <div class="grid-column grid-three-fifth">
             <div class="feature-content center hideme">

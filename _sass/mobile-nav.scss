@@ -31,6 +31,10 @@ $desktop: "(min-width: 1250px)";
   }
 }
 
+input#burger {
+  visibility: hidden;
+}
+
 #burger span {
       text-transform: none;
       opacity: 1;
