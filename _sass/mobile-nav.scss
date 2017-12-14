@@ -26,9 +26,12 @@ $desktop: "(min-width: 1250px)";
   label[for=burger] {
     display: none;
   }
+  label[for=burger-a] {
+    display: none;
+  }
 }
 
-span {
+#burger span {
       text-transform: none;
       opacity: 1;
       font-weight: 300;
@@ -36,6 +39,7 @@ span {
     }
   
     input + label[for=burger] {
+      position: -webkit-sticky;
       position: sticky;
       top: 5vh;
       left: 40px;
@@ -47,7 +51,7 @@ span {
         position: absolute;
         width: 100%;
         height: 4px;
-        top: 50%;
+        top: 0.5rem;
         margin-top: -1px;
         right: 0;
         display: block;
@@ -58,7 +62,7 @@ span {
         top: 0px; 
       }
       span:last-child {
-        top: 100%; 
+        top: 1rem; 
       }      
     }
     label[for=burger]:hover {
@@ -79,7 +83,8 @@ span {
       }
     }
     input ~ nav {
-      background: rgba(48,48,48,1);
+      background: #303030;
+      position: -webkit-sticky;
       position: sticky;
       top: 0;
       right: 0;
@@ -117,7 +122,7 @@ span {
         }
       }
     }
-    input:checked ~ nav { 
+  input:checked + label[for=burger] ~ nav { 
       height: 300px;
       transition-delay: 0s;
       > ul {
@@ -128,33 +133,88 @@ span {
       }
     } 
 
-input:checked ~ nav > ul > li > a {
+input:checked + label[for=burger] ~ nav > ul > li > a {
   display: grid;
   transition-delay: 1s;
 }
 
-input:checked ~ nav > .mobile-logo {
+input:checked + label[for=burger] ~ nav > .mobile-logo {
   display: none;
   transition-delay: .5s;
 }
 
+/*
+TESTING MOBILE NAV CLOSING
+*/
 
+/*
+#burger-a span {
+      text-transform: none;
+      opacity: 1;
+      font-weight: 300;
+      font-size: 12px;
+    }
+*/
+  
     input + label[for=burger-a] {
-      height: 20px;
+      position: -webkit-sticky;
+      position: sticky;
+      width: 1.5em; 
       z-index: 5;
-      margin-top: -20px;
-      span {
+/*      span {
+        position: absolute;
+        width: 100%;
         height: 4px;
-        display: grid;
+        top: 0.5rem;
+        margin-top: -1px;
+        right: 0;
+        display: block;
         background: rgba(162,110,97,1);
         transition: .5s;
       }
 
-input:checked + label[for=burger-a] { 
+      span:first-child {
+        top: 0px; 
+      }
+      span:last-child {
+        top: 1rem; 
+      }      
+      */
+    }
+    label[for=burger-a]:hover {
+      cursor: pointer;
+    }
+    input:checked + label[for=burger-a] { 
+      #burger span {
+        opacity: 0;
+        top: 50%;
+      }
+      #burger span:first-child {
+        opacity: 1;
+        transform: rotate(405deg);
+      }
+      #burger span:last-child {
+        opacity: 1;
+        transform: rotate(-405deg);
+      }
+    }
+    
+  input:checked + label[for=burger-a] {
+    & #burger span {
+      height: 15vh;
+      transition-delay: 0s;
+      display: none;
+      }
+    } 
+
+input:checked + label[for=burger-a] ~ #burger > nav > ul > li > a {
+  display: grid;
+  transition-delay: 1s;
+}
+
+input:checked + label[for=burger-a] ~ #burger > nav > .mobile-logo {
   display: none;
-  span {
-    display: none;
-  }
+  transition-delay: .5s;
 }
-}
+
 

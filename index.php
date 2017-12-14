@@ -51,9 +51,14 @@
   <ul class="mobile-nav">
     <li><a href="#about">About us</a></li>
     <li><a href="#how-we-work">How we work</a></li>
-    <li><a href="#events">Events</a></li>
-    <li><a href="#contact">Contact us</a></li>
     <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#events">Events</a></li>
+    <li>
+    <input id="burger-a" type="checkbox" />
+        <label for="burger-a">
+            <span><a href="#contact">Contact us</a></span>
+        </label>
+    </li>
   </ul>
 </nav>
 
@@ -85,7 +90,7 @@
         </div>
 
 
-        <div class="grid-container cf">
+        <div class="grid-container hero2 cf">
             <div class="grid-column grid-whole">
                 <div id="hero-bg">
                     <div class="grid-column grid-whole glass">
@@ -127,9 +132,9 @@
 
         <section class="grid-container about cf hideme">
             <a name="about"></a>
-          <div class="grid-column grid-fifth"></div>
-          <div class="grid-column grid-three-fifth">
-            <div class="feature-content center">
+          <div class="grid-column grid-fifth cf"></div>
+          <div class="grid-column grid-three-fifth cf">
+            <div class="feature-content center cf">
                 <h3>ABOUT US</h3>
                 <img class="image-team hideme" src="https://media.licdn.com/media/AAIA_wDGAAAAAQAAAAAAAA2sAAAAJDYzMmY0NDVlLWFiM2YtNDc2NS05NzdlLTY2YjlhOGUxYWU0Mw.jpg">
                 <p><strong>Delphine Interiors</strong> offers you a complete design service, creating personalised interiors for your residential or commercial projects.
@@ -139,7 +144,7 @@
                 </p>
             </div>
           </div>
-          <div class="grid-column grid-fifth"></div>
+          <div class="grid-column grid-fifth cf"></div>
         </section>
 
         <section class="grid-container how-we-work cf">
@@ -215,17 +220,27 @@
           <div class="grid-column grid-three-fifth">
             <div class="feature-content center">
                 <h3>PORTFOLIO</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                </p>
+                <div class="portfolio-banner hideme">
+                    <div class="before-after">
+                        <h4>Before<br>After</h4>
+                    </div>
+                </div>
+               <div class="portfolio-banner hideme">
+                    <div class="mood-boards">
+                        <h4>Mood<br>Boards</h4>
+                    </div>
+                </div>       
+               <div class="portfolio-banner hideme">
+                    <div class="cgi">
+                        <h4>3D<br>CGI</h4>
+                    </div>
+                </div>   
+               <div class="portfolio-banner hideme">
+                    <div class="plans-sketches">
+                        <h4>Plans<br>Sketches</h4>
+                    </div>
+                </div>   
+                <!-- <img class="before-after hideme" src="https://media.licdn.com/media/AAIA_wDGAAAAAQAAAAAAAA2sAAAAJDYzMmY0NDVlLWFiM2YtNDc2NS05NzdlLTY2YjlhOGUxYWU0Mw.jpg"> -->
             </div>
           </div>
           <div class="grid-column grid-fifth"></div>
@@ -268,10 +283,13 @@
                 <p>Feel free to contact us with any queries via phone, email, or by using the contact form below and we'll get back to you as soon as possible.</p>
                     <div class="contacts">
                     <ul>
-                        <li><!-- <a href="tel:+447845474382"> </a>-->
-                            <img src="_img/phone.png"> +44 (0) 7845 474 382</li>
-                        <li><!-- <a href="mailto:info@delphineinteriors.com"></a>-->
-                            <img src="_img/email.png"> info@delphineinteriors.com</li>
+                        <li><a class="phone-mobile" href="tel:00447845474382">
+                            <img src="_img/phone.png">&nbsp;+44 (0) 7845 474 382</a>
+                            <span class="phone-nonmobile">+44 (0) 7845 474 382</span>
+                        </li>
+                        <li><a class="email" href="mailto:info@delphineinteriors.com">
+                            <img src="_img/email.png">&nbsp;info@delphineinteriors.com</a>
+                        </li>
                     </ul>
                 </div>
 
