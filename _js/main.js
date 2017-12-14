@@ -75,3 +75,57 @@ $(document).ready(function(){
     }); 
 });
 
+function RevealMore()
+{
+   /* Makes content div height automatic and removes the fade-out div and more link. */
+   /* Specify the ID values of the content div, the fade-out div, and the more link. */
+   document.getElementById("content-div").style.height = "auto";
+   document.getElementById("fade-out").style.display = "none";
+   document.getElementById("more-link").style.display = "none";
+   var el = document.getElementById("more-content");
+   el.classList.remove("fade");
+}
+
+function RevealMore2()
+{
+   /* Makes content div height automatic and removes the fade-out div and more link. */
+   /* Specify the ID values of the content div, the fade-out div, and the more link. */
+   document.getElementById("content-div2").style.height = "auto";
+   document.getElementById("fade-out2").style.display = "none";
+   document.getElementById("more-link2").style.display = "none";
+   var el = document.getElementById("more-content2");
+   el.classList.remove("fade2");
+}
+
+function RevealMore3()
+{
+   /* Makes content div height automatic and removes the fade-out div and more link. */
+   /* Specify the ID values of the content div, the fade-out div, and the more link. */
+   document.getElementById("content-div3").style.height = "auto";
+   document.getElementById("fade-out3").style.display = "none";
+   document.getElementById("more-link3").style.display = "none";
+   var el = document.getElementById("more-content3");
+   el.classList.remove("fade3");
+}
+
+function RevealMore4()
+{
+   /* Makes content div height automatic and removes the fade-out div and more link. */
+   /* Specify the ID values of the content div, the fade-out div, and the more link. */
+   document.getElementById("content-div4").style.height = "auto";
+   document.getElementById("fade-out4").style.display = "none";
+   document.getElementById("more-link4").style.display = "none";
+   var el = document.getElementById("more-content4");
+   el.classList.remove("fade4");
+}
+
+function RevealMore5()
+{
+   /* Makes content div height automatic and removes the fade-out div and more link. */
+   /* Specify the ID values of the content div, the fade-out div, and the more link. */
+   document.getElementById("content-div5").style.height = "auto";
+   document.getElementById("fade-out5").style.display = "none";
+   document.getElementById("more-link5").style.display = "none";
+   var el = document.getElementById("more-content5");
+   el.classList.remove("fade5");
+}
