@@ -129,3 +129,75 @@ function RevealMore5()
    var el = document.getElementById("more-content5");
    el.classList.remove("fade5");
 }
+
+
+var openPhotoSwipe = function() {
+    var pswpElement = document.querySelectorAll('.pswp')[0];
+
+    // build items array
+    var items = [
+        {
+            src: '_img/portfolio/moods/moods1.jpg',
+            w: 2400,
+            h: 1344,
+            title: 'Mood Board 1'
+        },
+        {
+            src: '_img/portfolio/moods/moods2.jpg',
+            w: 2400,
+            h: 1344
+        },
+        {
+            src: '_img/portfolio/moods/moods3.jpg',
+            w: 1992,
+            h: 1344
+        },
+        {
+            src: '_img/portfolio/moods/moods4.jpg',
+            w: 1968,
+            h: 1344
+        },        
+        {
+            src: '_img/portfolio/moods/moods5.jpg',
+            w: 2400,
+            h: 1344
+        },
+        {
+            src: '_img/portfolio/moods/moods6.jpg',
+            w: 2400,
+            h: 1344
+        },        
+        {
+            src: '_img/portfolio/moods/moods7.jpg',
+            w: 2400,
+            h: 1344
+        },
+        {
+            src: '_img/portfolio/moods/moods8.jpg',
+            w: 2400,
+            h: 1344
+        },
+        {
+            src: '_img/portfolio/moods/moods9.jpg',
+            w: 2400,
+            h: 1344
+        }        
+    ];
+    
+    // define options (if needed)
+    var options = {
+
+        showAnimationDuration: 333,
+        hideAnimationDuration: 333,
+        closeOnScroll: false,
+        closeOnVerticalDrag: false
+        
+    };
+    
+    var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+    gallery.init();
+};
+
+openPhotoSwipe();
+
+document.getElementById('gallery-mood').onclick = openPhotoSwipe;
