@@ -385,6 +385,10 @@ body {
         min-height: 0px; 
         background-attachment: scroll;
     }
+    .how-we-work {
+        min-height: 0px;
+        background-attachment: scroll;
+    }
 }
 
 .hero-content {
@@ -792,7 +796,7 @@ li {
     background-color: rgba(255,255,200,0.1);
     background: url("../_img/mood1.jpg");
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
     background-position: top;
 }
@@ -842,14 +846,14 @@ li {
     background: url("../_img/mood2.jpg");
 }
 
-.plans-sketches {
+.plans {
     background: url("../_img/mood6.jpg");
 }
 
 .before-after,
 .mood-boards,
 .cgi,
-.plans-sketches {
+.plans {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
@@ -910,11 +914,15 @@ li {
     transform: translateX(100%);
 }
 
-.mood-boards * {
+.mood-boards *,
+.cgi *,
+.plans * {
     position: relative;
 }
 
-#mood-gal h4 {
+#mood-gal h4,
+#cgi-gal h4,
+#plans-gal h4 {
     margin: 0;
     font-family: 'Lato', sans-serif;
     font-size: 3em;
@@ -932,11 +940,6 @@ li {
     padding: 20% 0;
     }
 }
-
-
-
-
-
 
 
 .help-us {

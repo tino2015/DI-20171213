@@ -131,7 +131,7 @@ function RevealMore5()
 }
 
 
-var openPhotoSwipe = function() {
+var openPhotoSwipeMood = function() {
     var pswpElement = document.querySelectorAll('.pswp')[0];
 
     // build items array
@@ -198,6 +198,130 @@ var openPhotoSwipe = function() {
     gallery.init();
 };
 
-openPhotoSwipe();
 
-document.getElementById('gallery-mood').onclick = openPhotoSwipe;
+
+
+var openPhotoSwipeCgi = function() {
+    var pswpElement = document.querySelectorAll('.pswp')[0];
+
+    // build items array
+    var items = [
+        {
+            src: '_img/portfolio/cgi/paris-living1.jpg',
+            w: 3360,
+            h: 1619,
+            title: '3D CGI 1'
+        },
+        {
+            src: '_img/portfolio/cgi/paris-living2.jpg',
+            w: 3315,
+            h: 1626
+        },
+        {
+            src: '_img/portfolio/cgi/paris-living3tv.jpg',
+            w: 1828,
+            h: 1556
+        },
+        {
+            src: '_img/portfolio/cgi/myleasing1.jpg',
+            w: 3360,
+            h: 1621
+        },        
+        {
+            src: '_img/portfolio/cgi/myleasing2.jpg',
+            w: 2903,
+            h: 1618
+        },
+        {
+            src: '_img/portfolio/cgi/myleasing3.jpg',
+            w: 3360,
+            h: 1615
+        },        
+        {
+            src: '_img/portfolio/cgi/flat-living1.jpg',
+            w: 3360,
+            h: 1617
+        },
+        {
+            src: '_img/portfolio/cgi/flat-living2.jpg',
+            w: 3360,
+            h: 1615
+        }       
+    ];
+    
+    // define options (if needed)
+    var options = {
+
+        showAnimationDuration: 333,
+        hideAnimationDuration: 333,
+        closeOnScroll: false,
+        closeOnVerticalDrag: false
+        
+    };
+    
+    var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+    gallery.init();
+};
+
+var openPhotoSwipePlans = function() {
+    var pswpElement = document.querySelectorAll('.pswp')[0];
+
+    // build items array
+    var items = [
+        {
+            src: '_img/portfolio/cgi/paris-living1.jpg',
+            w: 3360,
+            h: 1619,
+            title: 'Plans 1'
+        },
+        {
+            src: '_img/portfolio/cgi/paris-living2.jpg',
+            w: 3315,
+            h: 1626
+        },
+        {
+            src: '_img/portfolio/cgi/paris-living3tv.jpg',
+            w: 1828,
+            h: 1556
+        },
+        {
+            src: '_img/portfolio/cgi/myleasing1.jpg',
+            w: 3360,
+            h: 1621
+        },        
+        {
+            src: '_img/portfolio/cgi/myleasing2.jpg',
+            w: 2903,
+            h: 1618
+        },
+        {
+            src: '_img/portfolio/cgi/myleasing3.jpg',
+            w: 3360,
+            h: 1615
+        },        
+        {
+            src: '_img/portfolio/cgi/flat-living1.jpg',
+            w: 3360,
+            h: 1617
+        },
+        {
+            src: '_img/portfolio/cgi/flat-living2.jpg',
+            w: 3360,
+            h: 1615
+        }       
+    ];
+    
+    // define options (if needed)
+    var options = {
+
+        showAnimationDuration: 333,
+        hideAnimationDuration: 333,
+        closeOnScroll: false,
+        closeOnVerticalDrag: false
+        
+    };
+    
+    var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+    gallery.init();
+};
+
