@@ -23,6 +23,10 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
         <script src="_js/plugins.js"></script>
         <script src="_js/main.js"></script>
+        <link rel="stylesheet" href="_style/photoswipe.css">
+        <link rel="stylesheet" href="_style/default-skin/default-skin.css">
+        <script src="_js/photoswipe.min.js"></script>
+        <script src="_js/photoswipe-ui-default.min.js"></script>
     </head>
     <body>
         
@@ -289,26 +293,26 @@
             <div class="feature-content center">
                 <h3>PORTFOLIO</h3>
                 <div class="portfolio-banner hideme">
-                    <div class="before-after">
-                        <h4>Before<br>After</h4>
+                    <div class="mood-boards overlay rosegold">
+                        <a id="mood-gal" href="#" onclick="openPhotoSwipeMood();return false;"><h4>Mood<br>Boards</h4></a>
                     </div>
                 </div>
-               <div class="portfolio-banner hideme">
-                    <div class="mood-boards">
-                        <h4>Mood<br>Boards</h4>
+                <div class="portfolio-banner hideme">
+                    <div class="cgi overlay rosegold">
+                        <a id="cgi-gal" href="#" onclick="openPhotoSwipeCgi();return false;"><h4>3D<br>CGI</h4></a>
                     </div>
-                </div>       
-               <div class="portfolio-banner hideme">
-                    <div class="cgi">
-                        <h4>3D<br>CGI</h4>
+                </div>
+                <div class="portfolio-banner hideme">
+                    <div class="plans overlay rosegold">
+                        <a id="plans-gal" href="#" onclick="openPhotoSwipePlans();return false;"><h4>Plans &<br>Presentations</h4></a>
                     </div>
-                </div>   
-               <div class="portfolio-banner hideme">
-                    <div class="plans-sketches">
-                        <h4>Plans<br>Sketches</h4>
+                </div>
+                <div class="portfolio-banner hideme">
+                    <div class="before-after overlay rosegold">
+                        <a id="before-after-gal"><h4>Before & After</h4></a>
+                        <p>(photos coming soon - please bear with us)</p>
                     </div>
-                </div>   
-                <!-- <img class="before-after hideme" src="https://media.licdn.com/media/AAIA_wDGAAAAAQAAAAAAAA2sAAAAJDYzMmY0NDVlLWFiM2YtNDc2NS05NzdlLTY2YjlhOGUxYWU0Mw.jpg"> -->
+                </div>
             </div>
           </div>
           <div class="grid-column grid-fifth"></div>
@@ -445,8 +449,8 @@ form {
             <div class="grid-column grid-three-fifth">
                 <p>
                     <ul class="social-icons">
-                        <li><a href="https://www.facebook.com/DelphineInteriors"><img src="_img/facebook-gold.png" style="height: 64px;"></a></li>
-                        <li><a href="https://www.instagram.com/dinteriors.ltd"><img src="_img/instagram-gold.png" style="height: 64px;"></a></li>
+                        <li><a href="https://www.facebook.com/DelphineInteriors"><img src="_img/fb-grey.png" style="height: 64px;"></a></li>
+                        <li><a href="https://www.instagram.com/dinteriors.ltd"><img src="_img/ig-grey.png" style="height: 64px;"></a></li>
                     </ul>
                 </p>
                 <p>&copy; <script> document.write(new Date().getFullYear()) </script> Delphine Interiors
@@ -471,5 +475,74 @@ form {
         <!-- End Google Tag Manager (noscript) -->
 
           
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
     </body>
 </html>

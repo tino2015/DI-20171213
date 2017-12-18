@@ -137,30 +137,10 @@ var openPhotoSwipeMood = function() {
     // build items array
     var items = [
         {
-            src: '_img/portfolio/moods/moods1.jpg',
-            w: 2400,
-            h: 1344,
-            title: 'Mood Board 1'
-        },
-        {
-            src: '_img/portfolio/moods/moods2.jpg',
-            w: 2400,
-            h: 1344
-        },
-        {
             src: '_img/portfolio/moods/moods3.jpg',
             w: 1992,
-            h: 1344
-        },
-        {
-            src: '_img/portfolio/moods/moods4.jpg',
-            w: 1968,
-            h: 1344
-        },        
-        {
-            src: '_img/portfolio/moods/moods5.jpg',
-            w: 2400,
-            h: 1344
+            h: 1344,
+            title: 'Mood Board 1'
         },
         {
             src: '_img/portfolio/moods/moods6.jpg',
@@ -181,7 +161,47 @@ var openPhotoSwipeMood = function() {
             src: '_img/portfolio/moods/moods9.jpg',
             w: 2400,
             h: 1344
-        }        
+        },
+        {
+            src: '_img/portfolio/moods/newmoods1.jpg',
+            w: 2235,
+            h: 1344
+        },
+        {
+            src: '_img/portfolio/moods/newmoods2.jpg',
+            w: 3199,
+            h: 1995
+        },
+        {
+            src: '_img/portfolio/moods/newmoods3.jpg',
+            w: 1398,
+            h: 1343
+        },
+        {
+            src: '_img/portfolio/moods/newmoods4.jpg',
+            w: 1987,
+            h: 1281
+        },
+        {
+            src: '_img/portfolio/moods/newmoods5.jpg',
+            w: 2174,
+            h: 1086
+        },
+        {
+            src: '_img/portfolio/moods/newmoods6.jpg',
+            w: 1793,
+            h: 1344
+        },
+        {
+            src: '_img/portfolio/moods/newmoods7.jpg',
+            w: 1626,
+            h: 1344
+        },
+        {
+            src: '_img/portfolio/moods/newmoods8.jpg',
+            w: 2400,
+            h: 1310
+        }
     ];
     
     // define options (if needed)
@@ -207,20 +227,14 @@ var openPhotoSwipeCgi = function() {
     // build items array
     var items = [
         {
-            src: '_img/portfolio/cgi/paris-living1.jpg',
+            src: '_img/portfolio/cgi/flat-living1.jpg',
             w: 3360,
-            h: 1619,
-            title: '3D CGI 1'
+            h: 1617
         },
         {
-            src: '_img/portfolio/cgi/paris-living2.jpg',
-            w: 3315,
-            h: 1626
-        },
-        {
-            src: '_img/portfolio/cgi/paris-living3tv.jpg',
-            w: 1828,
-            h: 1556
+            src: '_img/portfolio/cgi/flat-living2.jpg',
+            w: 3360,
+            h: 1615
         },
         {
             src: '_img/portfolio/cgi/myleasing1.jpg',
@@ -236,17 +250,23 @@ var openPhotoSwipeCgi = function() {
             src: '_img/portfolio/cgi/myleasing3.jpg',
             w: 3360,
             h: 1615
-        },        
-        {
-            src: '_img/portfolio/cgi/flat-living1.jpg',
-            w: 3360,
-            h: 1617
         },
         {
-            src: '_img/portfolio/cgi/flat-living2.jpg',
+            src: '_img/portfolio/cgi/paris-living1.jpg',
             w: 3360,
-            h: 1615
-        }       
+            h: 1619,
+            title: '3D CGI 1'
+        },
+        {
+            src: '_img/portfolio/cgi/paris-living2.jpg',
+            w: 3315,
+            h: 1626
+        },
+        {
+            src: '_img/portfolio/cgi/paris-living3tv.jpg',
+            w: 1828,
+            h: 1556
+        }  
     ];
     
     // define options (if needed)
@@ -269,46 +289,46 @@ var openPhotoSwipePlans = function() {
     // build items array
     var items = [
         {
-            src: '_img/portfolio/cgi/paris-living1.jpg',
-            w: 3360,
-            h: 1619,
+            src: '_img/portfolio/plans/plans4.jpg',
+            w: 1076,
+            h: 853,
             title: 'Plans 1'
+        }, 
+        {
+            src: '_img/portfolio/plans/plans6.jpg',
+            w: 1073,
+            h: 848
+        },     
+        {
+            src: '_img/portfolio/plans/plans5.jpg',
+            w: 1071,
+            h: 845
+        },   
+        {
+            src: '_img/portfolio/plans/plans2.jpg',
+            w: 1082,
+            h: 853
+        },             
+        {
+            src: '_img/portfolio/plans/plans1.jpg',
+            w: 1075,
+            h: 841,
         },
         {
-            src: '_img/portfolio/cgi/paris-living2.jpg',
-            w: 3315,
-            h: 1626
+            src: '_img/portfolio/plans/plans3.jpg',
+            w: 1074,
+            h: 844
+        },   
+        {
+            src: '_img/portfolio/plans/pres2.jpg',
+            w: 1225,
+            h: 912
         },
         {
-            src: '_img/portfolio/cgi/paris-living3tv.jpg',
-            w: 1828,
-            h: 1556
-        },
-        {
-            src: '_img/portfolio/cgi/myleasing1.jpg',
-            w: 3360,
-            h: 1621
-        },        
-        {
-            src: '_img/portfolio/cgi/myleasing2.jpg',
-            w: 2903,
-            h: 1618
-        },
-        {
-            src: '_img/portfolio/cgi/myleasing3.jpg',
-            w: 3360,
-            h: 1615
-        },        
-        {
-            src: '_img/portfolio/cgi/flat-living1.jpg',
-            w: 3360,
-            h: 1617
-        },
-        {
-            src: '_img/portfolio/cgi/flat-living2.jpg',
-            w: 3360,
-            h: 1615
-        }       
+            src: '_img/portfolio/plans/pres1.jpg',
+            w: 1231,
+            h: 920
+        },           
     ];
     
     // define options (if needed)

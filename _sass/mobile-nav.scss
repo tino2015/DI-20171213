@@ -33,6 +33,7 @@ $desktop: "(min-width: 1250px)";
 
 input#burger {
   visibility: hidden;
+  position: fixed;
 }
 
 #burger span {
@@ -44,8 +45,8 @@ input#burger {
   
     input + label[for=burger] {
       position: -webkit-sticky;
-      position: sticky;
-      top: 5vh;
+      position: fixed;
+      top: 8vh;
       left: 40px;
       height: 20px;
       width: 1.5em; 
@@ -89,21 +90,20 @@ input#burger {
     input ~ nav {
       background: #303030;
       position: -webkit-sticky;
-      position: sticky;
-      top: 0;
+      position: fixed;
+      top: -19px;
       right: 0;
       width: 100%;
-      min-height: 15vh;
+      height: 15vh;
       z-index: 3;
       transition: .5s;
       transition-delay: .5s;
       overflow: hidden;
-      margin-top: -20px;
       border-bottom: solid 3px rgba(162,110,97,1);
       > ul {
         text-align: center;
         position: absolute;
-        top: 10%;
+        top: 10vh;
         right: 20%;
         left: 20%;
         display: grid;
@@ -120,14 +120,13 @@ input#burger {
             font-weight: 700;
             font-family: 'Quicksand', sans-serif;
             font-size: 1.5em;
-            padding: 10px;
             display: none;
           }
         }
       }
     }
   input:checked + label[for=burger] ~ nav { 
-      height: 300px;
+      height: 40vh;
       transition-delay: 0s;
       > ul {
         > li {
