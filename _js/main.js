@@ -158,11 +158,6 @@ var openPhotoSwipeMood = function() {
             h: 1344
         },
         {
-            src: '_img/portfolio/moods/moods9.jpg',
-            w: 2400,
-            h: 1344
-        },
-        {
             src: '_img/portfolio/moods/newmoods1.jpg',
             w: 2235,
             h: 1344
@@ -201,6 +196,11 @@ var openPhotoSwipeMood = function() {
             src: '_img/portfolio/moods/newmoods8.jpg',
             w: 2400,
             h: 1310
+        },
+        {
+            src: '_img/portfolio/moods/newmoods9.jpg',
+            w: 2400,
+            h: 1344
         }
     ];
     

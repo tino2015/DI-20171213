@@ -252,6 +252,7 @@ body {
     max-height: 90px;
     display: inline;
     transition-delay: .5s;
+    padding-top: 1vh;
 }
 
 /*
@@ -408,9 +409,14 @@ body {
 }
 
 .hero-strapline {
-    padding-top: 10vh;
+    padding-top: 20vh;
 }
 
+@media screen and (max-width:640px) {
+    .hero-strapline {
+        margin-right: 5vw;
+    }
+}
 
 
 .h2 {
@@ -598,10 +604,10 @@ li {
 
 .mobile-logo {
     text-align: center;
-    padding-top: 2vh;
+    padding-top: 5vh;
     position: sticky;
     margin: 0 auto;
-    top: 3vh;
+    top: 0vh;
 }
 
 .anchor {
@@ -620,7 +626,7 @@ li {
 }
 
 .our-plans {
-    background-color: rrgba(255,255,200,0.8);
+    background-color: rgba(255,255,200,0.8);
 }
 
 .about {
@@ -641,8 +647,35 @@ li {
 }
 
 .stage {
-    background-color: rgba(48,48,48,1);
+    /*background-color: rgba(48,48,48,1);*/
     color: rgba(255,255,255,0.8);
+    font-family: 'Kalam', cursive;
+    font-size: 1.5rem;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+/*.process1 .stage,
+.process3 .stage,
+.process5 .stage {
+    margin-left: 1rem;
+}
+
+.process2 .stage,
+.process4 .stage {
+    margin-right: 1rem;
+}*/
+
+.margin-left {
+    margin-left: 1rem;
+    font-size: 4em;
+    color: rgba(162,110,97,1);
+}
+
+.margin-right {
+    margin-right: 1rem;
+    font-size: 4em;
+    color: rgba(162,110,97,1);
 }
 
 @media screen and (max-width:640px) {
@@ -651,8 +684,13 @@ li {
     }
 }
 
+.stage-mobile {
+    visibility: hidden;
+}
+
 @media screen and (max-width:640px) {
     .stage-mobile {
+        visibility: visible;
         font-size: 2em;
         text-align: center;
         border-bottom:0.15em dotted rgba(162,110,97,1);
@@ -667,10 +705,11 @@ li {
     min-height: 150px;
     display: inline-flex;
     border-top: solid 4px rgba(162,110,97,1);
-    border-bottom: solid 4px rgba(162,110,97,1);
-    border-left: solid 4px rgba(162,110,97,1);
+    /*border-bottom: solid 4px rgba(162,110,97,1);*/
+    /*border-left: solid 4px rgba(162,110,97,1);*/
     margin: auto;
     float: none;
+    border-radius: 5% 5% 5% / 3em 3em 3em;
 }
 
 .process2,
@@ -679,7 +718,8 @@ li {
     min-height: 150px;
     display: inline-flex;
     margin: auto;
-    border-right: solid 4px rgba(162,110,97,1);
+    border-top: solid 4px rgba(162,110,97,1);
+    border-radius: 5% 5% 5% / 3em 3em 3em;
     float: none;
 }
 
@@ -856,7 +896,7 @@ li {
 }
 
 .plans {
-    background: url("../_img/mood6.jpg");
+    background: url("../_img/portfolio/plans/plansbg.jpg");
 }
 
 .before-after,
@@ -1041,7 +1081,7 @@ h3.black {
 .hww-content {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0px 20px 20px 20px;
+    padding: 0px 3em 0px 3em;
     color: rgba(255,255,255,0.7);
 }
 
