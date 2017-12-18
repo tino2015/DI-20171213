@@ -153,7 +153,7 @@ var openPhotoSwipeMood = function() {
             h: 1344
         },
         {
-            src: '_img/portfolio/moods/moods8.jpg',
+            src: '_img/portfolio/moods/moods9.jpg',
             w: 2400,
             h: 1344
         },
@@ -173,16 +173,6 @@ var openPhotoSwipeMood = function() {
             h: 1343
         },
         {
-            src: '_img/portfolio/moods/newmoods4.jpg',
-            w: 1987,
-            h: 1281
-        },
-        {
-            src: '_img/portfolio/moods/newmoods5.jpg',
-            w: 2174,
-            h: 1086
-        },
-        {
             src: '_img/portfolio/moods/newmoods6.jpg',
             w: 1793,
             h: 1344
@@ -196,11 +186,6 @@ var openPhotoSwipeMood = function() {
             src: '_img/portfolio/moods/newmoods8.jpg',
             w: 2400,
             h: 1310
-        },
-        {
-            src: '_img/portfolio/moods/newmoods9.jpg',
-            w: 2400,
-            h: 1344
         }
     ];
     
