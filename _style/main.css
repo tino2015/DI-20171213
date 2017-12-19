@@ -631,8 +631,16 @@ li {
 
 .about {
     background-color: rgba(48,48,48,1);
-    
+}
 
+.about-us-content {
+    padding: 0 5rem;
+}
+
+@media screen and (max-width:640px) {
+    .about-us-content {
+        padding: 0 1rem;
+    }
 }
 
 /*
@@ -1097,7 +1105,7 @@ h3.black {
 }
 
  .how-we-work .feature-content {
-    background-color: rgba(34,34,34,0.9);
+    background-color: rgba(34,34,34,0.95);
     text-shadow: 1px 1px 10px black;
     margin: 40px 0 40px 0;
     border: 1px solid #FAFAF8;
@@ -1105,7 +1113,7 @@ h3.black {
 
  .contact .feature-content {
     color: rgba(255,255,255,0.7);
-    background-color: rgba(34,34,34,0.9);
+    background-color: rgba(34,34,34,0.95);
     text-shadow: 1px 1px 10px black;
     margin: 40px 0 40px 0;
     padding: 0px 20px 20px 20px;
@@ -1143,6 +1151,12 @@ h3.black {
 .email {
     font-size: 1.2rem;
     color: rgba(255,255,255,0.7);
+}
+
+@media screen and (max-width: 640px) {
+    .email {
+        font-size: 1rem;
+    }
 }
 
 /* Change behaviour of footer phone link on MOBILE */
