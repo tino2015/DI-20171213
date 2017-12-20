@@ -137,11 +137,13 @@
             <div class="feature-content center cf">
                 <h3>ABOUT US</h3>
                 <img class="image-team hideme" src="https://media.licdn.com/media/AAIA_wDGAAAAAQAAAAAAAA2sAAAAJDYzMmY0NDVlLWFiM2YtNDc2NS05NzdlLTY2YjlhOGUxYWU0Mw.jpg">
+                <div class="about-us-content">
                 <p>Delphine Interiors offers you a complete design service, creating personalised interiors for your residential or commercial projects.
                 <p>Located in London with a French touch, Delphine has developed her skills and gained experience through interior design companies over 7 years between Bordeaux, Paris and London.
                 <p>With a real passion for space planning, textures, colours, lighting; Delphine Interiors will design your home to be beautiful, functional and to answer the needs of each client. 
                 <p>Each project big or small will be a different adventure and a different result, but with the same commitment and quality.
                 <p>The location of your project can be in France, the UK or further abroad, Delphine Interiors can travel to you and always delighted to discover new areas.
+                </div>
             </div>
           </div>
           <div class="grid-column grid-fifth cf"></div>
@@ -156,10 +158,10 @@
                 <h3>HOW WE WORK</h3>
 
                     <div class="grid-column grid-whole process1 hideme">
-                        <div class="grid-column grid-fifth stage margin-left">1. <p class="stage">Initial Consultation</div>
-                        <div class="grid-column grid-four-fifth hww-content justify">
-                            <p class="stage-mobile">Initial Consultation</p>
-                            <p>The initial consultation is to learn about you, your project, and to feel comfortable with your future interior designer.
+                        <div class="grid-column grid-fifth stage margin-left"><img class="stage-name" src="_img/process1.png"></div>
+                            <div class="grid-column grid-four-fifth hww-content justify">
+                            <p class="stage-mobile"><img class="stage-name" src="_img/process1.png"></p>
+                            <p class="no-margin-top">The initial consultation is to learn about you, your project, and to feel comfortable with your future interior designer.
                             <div id="content-div">
                             <div id="more-content" class="fade">
                             It's important for us to understand your personal tastes, lifestyle, expectations, and inspirations. This helps to create the right design for your daily life.
@@ -185,8 +187,8 @@
 
                     <div class="grid-column grid-whole process2 hideme">
                         <div class="grid-column grid-four-fifth hww-content justify">
-                            <p class="stage-mobile">Concept Design</p>
-                            <p>Following this first meeting, Delphine Interiors will send you the complete scope of works established together beforehand as well with the fee proposal.
+                            <p class="stage-mobile"><img class="stage-name" src="_img/process2.png"></p>
+                            <p class="no-margin-top">Following this first meeting, Delphine Interiors will send you the complete scope of works established together beforehand as well with the fee proposal.
                             <div id="content-div2">
                             <div id="more-content2" class="fade2">
                             At this stage, it will be possible for you to add or edit any points in this document. Once agreed and paid for, the designer will start to work on the concept design for your project.
@@ -207,21 +209,22 @@
                         <a id="more-link2" href="#" onclick="RevealMore2();return false;"> + Read more </a>
                         </p>
                         </div>
-                        <div class="grid-column grid-fifth stage margin-right">2. <p class="stage">Concept Design</div>
+                        <div class="grid-column grid-fifth stage margin-right"><img class="stage-name" src="_img/process2.png"></div>
                     </div>
 
 
                     <div class="grid-column grid-whole process3 hideme">
-                        <div class="grid-column grid-fifth stage margin-left">3. <p class="stage">Estimate and Detailed Plans</div>
+                        <div class="grid-column grid-fifth stage margin-left"><img class="stage-name" src="_img/process3.png"></div>
                         <div class="grid-column grid-four-fifth hww-content justify">
-                            <p class="stage-mobile">Estimate and Detailed Plans</p>
-                            <p>Once the concept design has been approved, we will start to develop the design into detailed drawings.
+                            <p class="stage-mobile"><img class="stage-name" src="_img/process3.png"></p>
+                            <p class="no-margin-top">Once the concept design has been approved, we will start to develop the design into detailed drawings.
                             <div id="content-div3">
                             <div id="more-content3" class="fade3">
                             We will also present you with the full itemised estimate conforming with your original budget. We will then start finalising the choices of finishes, colours, dimensions, etc.
                             </div>
                             <p>
                             All goods within the design scheme can be purchased directly through Delphine Interiors. For this stage, a 50% deposit of the estimate will be required prior to the placement of any orders.
+                            </p>
                             <p style="margin-bottom:0;">
                             The 50% balance payment will be required 10 days before the delivery of the goods on site.</p>
 
@@ -237,14 +240,15 @@
 
                     <div class="grid-column grid-whole process4 hideme">
                         <div class="grid-column grid-four-fifth hww-content justify">
-                            <p class="stage-mobile">Technical Package</p>
-                            <p>Once the detailed design and estimates have been approved and signed for, it is possible for Delphine Interiors to realise a technical package to give to your contractors on site.
+                            <p class="stage-mobile"><img class="stage-name" src="_img/process4.png"></p>
+                            <p class="no-margin-top">Once the detailed design and estimates have been approved and signed for, it is possible for Delphine Interiors to realise a technical package to give to your contractors on site.
                             <div id="content-div4">
                             <div id="more-content4" class="fade4">
                             This can include an indicative lighting plan for the electrician, a decorative schedule for the decorator, some ceiling details for the builder, or the tiles elevations for the tiler. In France or in the UK, Delphine Interiors has worked with trusted contractors that we would be able to recommend for you.
                             </div>
                             <p>
                             If you have your own contractors, we will happily meet them and work with them closely to project completion.
+                            </p>
                             <p style="margin-bottom:0;">
                             The fee for this package is £80.00 per hour including VAT.</p>
 
@@ -255,15 +259,15 @@
                         <a id="more-link4" href="#" onclick="RevealMore4();return false;"> + Read more </a>
                         </p>
                         </div>
-                        <div class="grid-column grid-fifth stage margin-right">4. <p class="stage">Technical Package</div>
+                        <div class="grid-column grid-fifth stage margin-right"><img class="stage-name" src="_img/process4.png"></div>
                     </div>
 
 
                     <div class="grid-column grid-whole process5 hideme">
-                        <div class="grid-column grid-fifth stage margin-left">5. <p class="stage">Realisation</div>
+                        <div class="grid-column grid-fifth stage margin-left"><img class="stage-name" src="_img/process5.png"></div>
                         <div class="grid-column grid-four-fifth hww-content justify">
-                            <p class="stage-mobile">Realisation</p>
-                            <p>We will be in constant contact with your contractor to make sure that the work is progressing well as per our expectations and matches the designer's plans.
+                            <p class="stage-mobile"><img class="stage-name" src="_img/process5.png"></p>
+                            <p class="no-margin-top">We will be in constant contact with your contractor to make sure that the work is progressing well as per our expectations and matches the designer's plans.
                             <div id="content-div5">
                             <div id="more-content5" class="fade5">
                             This will include a follow-up site visit when needed, and weekly communication with the contractors and yourself. We will also monitor the progress of the delivery of all of the items on site when these are required. You will always be kept fully up to date with progress during this stage through to completion. Please note that any additional design requests at this stage may be chargeable.
@@ -310,8 +314,8 @@
                     </div>
                 </div>
                 <div class="portfolio-banner hideme">
-                    <div class="before-after overlay rosegold">
-                        <a id="before-after-gal"><h4>Before & After<span class="soon"><br>(photos coming soon - please bear with us!)</span></h4></a>
+                    <div class="projects overlay rosegold">
+                        <a id="projects-gal" href="#" onclick="openPhotoSwipeProjects();return false;"><h4>Projects<br></h4></a>
                     </div>
                 </div>
             </div>
