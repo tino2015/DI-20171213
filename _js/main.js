@@ -149,52 +149,61 @@ var openPhotoSwipeMood = function() {
             src: '_img/portfolio/moods/moods3.jpg',
             w: 1992,
             h: 1344,
-            title: 'Mood Board 1'
+            title: 'Residential project - Kitchen/living area'
         },
         {
             src: '_img/portfolio/moods/moods6.jpg',
             w: 2400,
-            h: 1344
+            h: 1344,
+            title: 'Residential project - Kitchen/living area'
         },        
         {
             src: '_img/portfolio/moods/moods7.jpg',
             w: 2400,
-            h: 1344
+            h: 1344,
+            title: 'Residential project - Living room colour scheme'
         },
         {
             src: '_img/portfolio/moods/moods9.jpg',
             w: 2400,
-            h: 1344
+            h: 1344,
+            title: 'Residential project - Hand sketch of Kitchen concept'
         },
         {
             src: '_img/portfolio/moods/newmoods1.jpg',
             w: 2235,
-            h: 1344
+            h: 1344,
+            title: '"Planche tendance" - Navy & mustard'
         },
         {
             src: '_img/portfolio/moods/newmoods2.jpg',
             w: 3199,
-            h: 1995
-        },
-        {
-            src: '_img/portfolio/moods/newmoods3.jpg',
-            w: 1398,
-            h: 1343
-        },
-        {
-            src: '_img/portfolio/moods/newmoods6.jpg',
-            w: 1793,
-            h: 1344
-        },
-        {
-            src: '_img/portfolio/moods/newmoods7.jpg',
-            w: 1626,
-            h: 1344
+            h: 1995,
+            title: '"Planche tendance" - Navy & mustard'
         },
         {
             src: '_img/portfolio/moods/newmoods8.jpg',
             w: 2400,
-            h: 1310
+            h: 1310,
+            title: 'Winter mood and inspiration'
+        },
+        {
+            src: '_img/portfolio/moods/newmoods3.jpg',
+            w: 1398,
+            h: 1343,
+            title: 'Residential project - Bedroom aqua'
+        },
+        {
+            src: '_img/portfolio/moods/newmoods6.jpg',
+            w: 1793,
+            h: 1344,
+            title: 'Wallpaper stripes'
+        },
+        {
+            src: '_img/portfolio/moods/newmoods7.jpg',
+            w: 1626,
+            h: 1344,
+            title: 'White dots Wallpaper'
         }
     ];
     
@@ -221,46 +230,47 @@ var openPhotoSwipeCgi = function() {
     // build items array
     var items = [
         {
+            src: '_img/portfolio/cgi/paris-living1.jpg',
+            w: 3360,
+            h: 1619,
+            title: 'Residential project - Living room layout'
+        },       
+        {
+            src: '_img/portfolio/cgi/paris-living3tv.jpg',
+            w: 1828,
+            h: 1556,
+            title: 'Residential project - TV unit composition'
+        },        
+        {
             src: '_img/portfolio/cgi/flat-living1.jpg',
             w: 3360,
-            h: 1617
+            h: 1617,
+            title: 'Residential project - Living room layout'
         },
         {
             src: '_img/portfolio/cgi/flat-living2.jpg',
             w: 3360,
-            h: 1615
+            h: 1615,
+            title: 'Residential project - Desk/furniture composition'
         },
         {
             src: '_img/portfolio/cgi/myleasing1.jpg',
             w: 3360,
-            h: 1621
+            h: 1621,
+            title: 'Commercial project - Office'
         },        
-        {
-            src: '_img/portfolio/cgi/myleasing2.jpg',
-            w: 2903,
-            h: 1618
-        },
         {
             src: '_img/portfolio/cgi/myleasing3.jpg',
             w: 3360,
-            h: 1615
+            h: 1615,
+            title: 'Commercial project - Meeting room concept'
         },
         {
-            src: '_img/portfolio/cgi/paris-living1.jpg',
-            w: 3360,
-            h: 1619,
-            title: '3D CGI 1'
-        },
-        {
-            src: '_img/portfolio/cgi/paris-living2.jpg',
-            w: 3315,
-            h: 1626
-        },
-        {
-            src: '_img/portfolio/cgi/paris-living3tv.jpg',
-            w: 1828,
-            h: 1556
-        }  
+            src: '_img/portfolio/cgi/myleasing2.jpg',
+            w: 2903,
+            h: 1618,
+            title: 'Commercial project - Entrance/reception area composition'
+        }
     ];
     
     // define options (if needed)
@@ -286,42 +296,49 @@ var openPhotoSwipePlans = function() {
             src: '_img/portfolio/plans/plans4.jpg',
             w: 1076,
             h: 853,
-            title: 'Plans 1'
+            title: 'Commercial project - Layout for offices'
         }, 
         {
             src: '_img/portfolio/plans/plans6.jpg',
             w: 1073,
-            h: 848
+            h: 848,
+            title: 'Commercial project - Lighting plan for offices concept'
         },     
         {
             src: '_img/portfolio/plans/plans5.jpg',
             w: 1071,
-            h: 845
+            h: 845,
+            title: 'Residential project - Layout for ground floor Kitchen/living'
         },   
         {
             src: '_img/portfolio/plans/plans2.jpg',
             w: 1082,
-            h: 853
+            h: 853,
+            title: 'Residential project - Layout for living/dining room'
         },             
         {
             src: '_img/portfolio/plans/plans1.jpg',
             w: 1075,
             h: 841,
+            title: 'Residential project - Wardrobe elevation'
         },
         {
             src: '_img/portfolio/plans/plans3.jpg',
             w: 1074,
-            h: 844
+            h: 844,
+            title: 'Commercial project - Meeting room elevation concept'
         },   
         {
             src: '_img/portfolio/plans/pres2.jpg',
             w: 1225,
-            h: 912
+            h: 912,
+            title: 'Residential project - Products presentation'
         },
         {
             src: '_img/portfolio/plans/pres1.jpg',
             w: 1231,
-            h: 920
+            h: 920,
+            title: 'Residential project - Products presentation'
         }           
     ];
     
