@@ -313,7 +313,104 @@ var openPhotoSwipePlans = function() {
             src: '_img/portfolio/plans/pres1.jpg',
             w: 1231,
             h: 920
-        },           
+        }           
+    ];
+    
+    // define options (if needed)
+    var options = {
+
+        showAnimationDuration: 333,
+        hideAnimationDuration: 333,
+        closeOnScroll: false,
+        closeOnVerticalDrag: false
+        
+    };
+    
+    var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+    gallery.init();
+};
+
+var openPhotoSwipeProjects = function() {
+    var pswpElement = document.querySelectorAll('.pswp')[0];
+
+    // build items array
+    var items = [
+        {
+            src: '_img/portfolio/projects/myl/myl-after-1.png',
+            w: 1331,
+            h: 1997,
+            title: 'Projects 1'
+        }, 
+        {
+            src: '_img/portfolio/projects/myl/myl-after-2.png',
+            w: 1560,
+            h: 1040
+        },     
+        {
+            src: '_img/portfolio/projects/myl/myl-after-3.jpg',
+            w: 6237,
+            h: 4158
+        },   
+        {
+            src: '_img/portfolio/projects/myl/myl-after-4.jpg',
+            w: 6240,
+            h: 4160
+        },             
+        {
+            src: '_img/portfolio/projects/myl/myl-after-5.jpg',
+            w: 6240,
+            h: 4160,
+        },
+        {
+            src: '_img/portfolio/projects/myl/myl-after-6.jpg',
+            w: 3599,
+            h: 5399
+        },   
+        {
+            src: '_img/portfolio/projects/myl/myl-after-7.jpg',
+            w: 6240,
+            h: 4160
+        },
+        {
+            src: '_img/portfolio/projects/myl/myl-after-8.jpg',
+            w: 6240,
+            h: 4160
+        },  
+        {
+            src: '_img/portfolio/projects/myl/myl-after-9.jpg',
+            w: 6231,
+            h: 4154
+        },   
+        {
+            src: '_img/portfolio/projects/myl/myl-after-10.jpg',
+            w: 6161,
+            h: 4108
+        },   
+        {
+            src: '_img/portfolio/projects/myl/myl-after-11.jpg',
+            w: 6240,
+            h: 4160
+        },   
+        {
+            src: '_img/portfolio/projects/myl/myl-after-12.jpg',
+            w: 3436,
+            h: 4932
+        },   
+        {
+            src: '_img/portfolio/projects/myl/myl-after-13.jpg',
+            w: 6240,
+            h: 4160
+        },   
+        {
+            src: '_img/portfolio/projects/myl/myl-after-14.jpg',
+            w: 4160,
+            h: 6240
+        },   
+        {
+            src: '_img/portfolio/projects/myl/myl-after-15.jpg',
+            w: 3595,
+            h: 5392
+        }                                                                                          
     ];
     
     // define options (if needed)
