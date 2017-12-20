@@ -22,7 +22,6 @@
         <script src="_js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-        <script src="_js/plugins.js"></script>
         <script src="_js/main.js"></script>
         <link rel="stylesheet" href="_style/photoswipe.css">
         <link rel="stylesheet" href="_style/default-skin/default-skin.css">
@@ -92,7 +91,8 @@
 
         <div class="grid-container hero2 cf">
             <div class="grid-column grid-whole">
-                <div id="hero-bg">
+                <div id="hero-bg" class="scroll-down">
+                    <a href="#about"><span></span></a>
                     <div class="grid-column grid-whole glass">
                     </div>
                     <div class="hero-content">
@@ -160,7 +160,7 @@
                     <div class="grid-column grid-whole process1 hideme">
                         <div class="grid-column grid-fifth stage margin-left"><img class="stage-name" src="_img/process1.png"></div>
                             <div class="grid-column grid-four-fifth hww-content justify">
-                            <p class="stage-mobile"><img class="stage-name" src="_img/process1.png"></p>
+                            <p class="stage-mobile"><img class="stage-name no-margin-top no-margin-bottom" src="_img/process1.png"></p>
                             <p class="no-margin-top">The initial consultation is to learn about you, your project, and to feel comfortable with your future interior designer.
                             <div id="content-div">
                             <div id="more-content" class="fade">
@@ -171,7 +171,7 @@
                             <p>
                             It’s also the perfect time for you to ask any questions about the design process and learn more about similar past projects and experience.
                             </p>
-                            <p style="margin-bottom:0;">
+                            <p>
                             The fee for this consultation is a pre-agreed fee to only cover travel expenses if applicable.
                             <br>Please note that London zones 1 to 4 are free of charge.</p>
 
@@ -187,7 +187,7 @@
 
                     <div class="grid-column grid-whole process2 hideme">
                         <div class="grid-column grid-four-fifth hww-content justify">
-                            <p class="stage-mobile"><img class="stage-name" src="_img/process2.png"></p>
+                            <p class="stage-mobile"><img class="stage-name no-margin-top no-margin-bottom" src="_img/process2.png"></p>
                             <p class="no-margin-top">Following this first meeting, Delphine Interiors will send you the complete scope of works established together beforehand as well with the fee proposal.
                             <div id="content-div2">
                             <div id="more-content2" class="fade2">
@@ -198,10 +198,8 @@
                             <p>
                             Please note that if the site doesn’t allow a survey, it would be possible to work on architect’s plan or any measurements given by the client to the designer.
                             </p>
-                            <p style="margin-bottom:0;">
-                            This stage is one of the most important during the process as it will determine your future interior.
-                            <br>The fee for this stage is £80.00 per hour including VAT.</p>
-
+                            <p>
+                            This stage is one of the most important during the process as it will determine your future interior. The fee for this stage is £80.00 per hour including VAT.</p>
                         <div id="fade-out2">
                         </div>
                         </div>
@@ -216,7 +214,7 @@
                     <div class="grid-column grid-whole process3 hideme">
                         <div class="grid-column grid-fifth stage margin-left"><img class="stage-name" src="_img/process3.png"></div>
                         <div class="grid-column grid-four-fifth hww-content justify">
-                            <p class="stage-mobile"><img class="stage-name" src="_img/process3.png"></p>
+                            <p class="stage-mobile"><img class="stage-name no-margin-top no-margin-bottom" src="_img/process3.png"></p>
                             <p class="no-margin-top">Once the concept design has been approved, we will start to develop the design into detailed drawings.
                             <div id="content-div3">
                             <div id="more-content3" class="fade3">
@@ -225,7 +223,7 @@
                             <p>
                             All goods within the design scheme can be purchased directly through Delphine Interiors. For this stage, a 50% deposit of the estimate will be required prior to the placement of any orders.
                             </p>
-                            <p style="margin-bottom:0;">
+                            <p>
                             The 50% balance payment will be required 10 days before the delivery of the goods on site.</p>
 
                         <div id="fade-out3">
@@ -240,7 +238,7 @@
 
                     <div class="grid-column grid-whole process4 hideme">
                         <div class="grid-column grid-four-fifth hww-content justify">
-                            <p class="stage-mobile"><img class="stage-name" src="_img/process4.png"></p>
+                            <p class="stage-mobile"><img class="stage-name no-margin-top no-margin-bottom" src="_img/process4.png"></p>
                             <p class="no-margin-top">Once the detailed design and estimates have been approved and signed for, it is possible for Delphine Interiors to realise a technical package to give to your contractors on site.
                             <div id="content-div4">
                             <div id="more-content4" class="fade4">
@@ -249,7 +247,7 @@
                             <p>
                             If you have your own contractors, we will happily meet them and work with them closely to project completion.
                             </p>
-                            <p style="margin-bottom:0;">
+                            <p>
                             The fee for this package is £80.00 per hour including VAT.</p>
 
                         <div id="fade-out4">
@@ -266,13 +264,13 @@
                     <div class="grid-column grid-whole process5 hideme">
                         <div class="grid-column grid-fifth stage margin-left"><img class="stage-name" src="_img/process5.png"></div>
                         <div class="grid-column grid-four-fifth hww-content justify">
-                            <p class="stage-mobile"><img class="stage-name" src="_img/process5.png"></p>
+                            <p class="stage-mobile"><img class="stage-name no-margin-top no-margin-bottom" src="_img/process5.png"></p>
                             <p class="no-margin-top">We will be in constant contact with your contractor to make sure that the work is progressing well as per our expectations and matches the designer's plans.
                             <div id="content-div5">
                             <div id="more-content5" class="fade5">
                             This will include a follow-up site visit when needed, and weekly communication with the contractors and yourself. We will also monitor the progress of the delivery of all of the items on site when these are required. You will always be kept fully up to date with progress during this stage through to completion. Please note that any additional design requests at this stage may be chargeable.
                             </div>
-                            <p style="margin-bottom:0;">
+                            <p>
                             It is important to us that we offer a turnkey service for you to feel completely relaxed during the full design process.
                             <p><strong>Now it’s time to sit back, relax, and enjoy your new home!</strong>
                             </p>
@@ -362,7 +360,7 @@
                     <ul>
                         <li><a class="phone-mobile" href="tel:00447845474382">
                             <img src="_img/phone.png">&nbsp;+44 (0) 7845 474 382</a>
-                            <span class="phone-nonmobile">+44 (0) 7845 474 382</span>
+                            <span class="phone-nonmobile"><img src="_img/phone.png">&nbsp;+44 (0) 7845 474 382</span>
                         </li>
                         <li><a class="email" href="mailto:info@delphineinteriors.com">
                             <img src="_img/email.png">&nbsp;info@delphineinteriors.com</a>
@@ -446,7 +444,7 @@ form {
           <div class="grid-column grid-fifth"></div>
         </section>
 
-<a href="#" id="scroll" style="display: none;"><span></span></a>
+<!-- <a href="#" id="scroll" style="display: none;"><span></span></a> -->
 
 
         <div class="grid-container footer cf">
@@ -470,7 +468,6 @@ form {
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="_js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
-        <script src="_js/vendor/plugins.js"></script>
         <script src="_js/main.js"></script>
         <script src="_js/nav.js"></script>
 

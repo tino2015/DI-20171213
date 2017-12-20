@@ -340,7 +340,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-position: center center;
-    height: 75vh;
+    height: 70vh;
     overflow: hidden;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -1234,13 +1234,16 @@ h3.black {
     padding-left: 0;
 }
 
-.email {
+.email,
+.phone-mobile,
+.phone-nonmobile {
     font-size: 1.2rem;
     color: rgba(255,255,255,0.7);
 }
 
 @media screen and (max-width: 640px) {
-    .email {
+    .email,
+    .phone-mobile {
         font-size: 1rem;
     }
 }
