@@ -53,9 +53,9 @@
     <img class="logo-mobile center" src="_img/logo-icon.png">
   </div>  
   <ul class="mobile-nav">
-    <li><a href="#about">About us</a></li>
-    <li><a href="#how-we-work">How we work</a></li>
+    <li><a href="#about">About</a></li>
     <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#how-we-work">How we work</a></li>
     <li><a href="#events">Events</a></li>
     <li><a href="#contact">Contact us</a></li>
   </ul>
@@ -78,9 +78,9 @@
           <div class="grid-column grid-fifth"></div>
             <div class="grid-column grid-three-fifth">
                 <ul class="text-uppercase">
-                    <li><a href="#about">About us</a></li>
-                    <li><a href="#how-we-work">How we work</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#how-we-work">How we work</a></li>
                     <li><a href="#events">Events</a></li>
                     <li><a href="#contact">Contact us</a></li>
                 </ul>
@@ -116,9 +116,9 @@
                                 <div class="grid-column grid-fifth"></div>
                                 <div class="grid-column grid-three-fifth">
                                     <ul class="text-uppercase">
-                                        <li><a href="#about">About us</a></li>
-                                        <li><a href="#how-we-work">How we work</a></li>
+                                        <li><a href="#about">About</a></li>
                                         <li><a href="#portfolio">Portfolio</a></li>
+                                        <li><a href="#how-we-work">How we work</a></li>         
                                         <li><a href="#events">Events</a></li>
                                         <li><a href="#contact">Contact us</a></li>
                                     </ul>
@@ -135,7 +135,7 @@
           <div class="grid-column grid-fifth cf"></div>
           <div class="grid-column grid-three-fifth cf">
             <div class="feature-content center cf">
-                <h3>ABOUT US</h3>
+                <h3 class="black">ABOUT DELPHINE</h3>
                 <img class="image-team hideme" src="https://media.licdn.com/media/AAIA_wDGAAAAAQAAAAAAAA2sAAAAJDYzMmY0NDVlLWFiM2YtNDc2NS05NzdlLTY2YjlhOGUxYWU0Mw.jpg">
                 <div class="about-us-content">
                 <p>Delphine Interiors offers you a complete design service, creating personalised interiors for your residential or commercial projects.
@@ -149,6 +149,42 @@
           <div class="grid-column grid-fifth cf"></div>
         </section>
         
+
+<a name="portfolio" class="anchor"></a>
+        <section class="grid-container portfolio cf hideme">
+            
+          <div class="grid-column grid-fifth"></div>
+          <div class="grid-column grid-three-fifth">
+            <div class="feature-content center">
+                <h3>PORTFOLIO</h3>
+                <div class="portfolio-banner hideme">
+                    <div class="projects overlay rosegold">
+                        <a id="projects-gal" href="#" onclick="openPhotoSwipeProjects();return false;"><h4>Projects<br></h4></a>
+                    </div>
+                </div>                
+                <div class="portfolio-banner hideme">
+                    <div class="mood-boards overlay rosegold">
+                        <a id="mood-gal" href="#" onclick="openPhotoSwipeMood();return false;"><h4>Mood Boards</h4></a>
+                    </div>
+                </div>
+                <div class="portfolio-banner hideme">
+                    <div class="cgi overlay rosegold">
+                        <a id="cgi-gal" href="#" onclick="openPhotoSwipeCgi();return false;"><h4>3D CGI</h4></a>
+                    </div>
+                </div>
+                <div class="portfolio-banner hideme">
+                    <div class="plans overlay rosegold">
+                        <a id="plans-gal" href="#" onclick="openPhotoSwipePlans();return false;"><h4>Plans &<br>Presentations</h4></a>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="grid-column grid-fifth"></div>
+        </section>
+
+
+
+
             <a name="how-we-work" class="anchor"></a>
         <section class="grid-container how-we-work cf">
 
@@ -185,6 +221,9 @@
                     </div>
 
 
+
+
+
                     <div class="grid-column grid-whole process2 hideme">
                         <div class="grid-column grid-four-fifth hww-content justify">
                             <p class="stage-mobile"><img class="stage-name no-margin-top no-margin-bottom" src="_img/process2.png"></p>
@@ -199,7 +238,7 @@
                             Please note that if the site doesn’t allow a survey, it would be possible to work on architect’s plan or any measurements given by the client to the designer.
                             </p>
                             <p>
-                            This stage is one of the most important during the process as it will determine your future interior. The fee for this stage is £80.00 per hour including VAT.</p>
+                            This stage is one of the most important during the process as it will determine your future interior.</p>
                         <div id="fade-out2">
                         </div>
                         </div>
@@ -247,8 +286,6 @@
                             <p>
                             If you have your own contractors, we will happily meet them and work with them closely to project completion.
                             </p>
-                            <p>
-                            The fee for this package is £80.00 per hour including VAT.</p>
 
                         <div id="fade-out4">
                         </div>
@@ -289,37 +326,7 @@
           <div class="grid-column grid-fifth"></div>
         </section>
 
-<a name="portfolio" class="anchor"></a>
-        <section class="grid-container portfolio cf hideme">
-            
-          <div class="grid-column grid-fifth"></div>
-          <div class="grid-column grid-three-fifth">
-            <div class="feature-content center">
-                <h3>PORTFOLIO</h3>
-                <div class="portfolio-banner hideme">
-                    <div class="mood-boards overlay rosegold">
-                        <a id="mood-gal" href="#" onclick="openPhotoSwipeMood();return false;"><h4>Mood<br>Boards</h4></a>
-                    </div>
-                </div>
-                <div class="portfolio-banner hideme">
-                    <div class="cgi overlay rosegold">
-                        <a id="cgi-gal" href="#" onclick="openPhotoSwipeCgi();return false;"><h4>3D<br>CGI</h4></a>
-                    </div>
-                </div>
-                <div class="portfolio-banner hideme">
-                    <div class="plans overlay rosegold">
-                        <a id="plans-gal" href="#" onclick="openPhotoSwipePlans();return false;"><h4>Plans &<br>Presentations</h4></a>
-                    </div>
-                </div>
-                <div class="portfolio-banner hideme">
-                    <div class="projects overlay rosegold">
-                        <a id="projects-gal" href="#" onclick="openPhotoSwipeProjects();return false;"><h4>Projects<br></h4></a>
-                    </div>
-                </div>
-            </div>
-          </div>
-          <div class="grid-column grid-fifth"></div>
-        </section>
+
 
 <a name="events" class="anchor"></a>
 <section class="grid-container events cf hideme">
