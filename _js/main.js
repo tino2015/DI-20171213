@@ -209,16 +209,21 @@ var openPhotoSwipeMood = function() {
     
     // define options (if needed)
     var options = {
-
-        showAnimationDuration: 333,
-        hideAnimationDuration: 333,
+        shareEl: false,
+        zoomEl: false,
         closeOnScroll: false,
-        closeOnVerticalDrag: false
-        
+        closeOnVerticalDrag: false,
+        showAnimationDuration: 333,
+        hideAnimationDuration: 333        
     };
     
     var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
     gallery.init();
+
+    gallery.options.maxSpreadZoom = gallery.getZoomLevel();
+    gallery.options.getDoubleTapZoom = function(isMouseClick, item) {
+    return item.initialZoomLevel;
+    }
 };
 
 
@@ -275,16 +280,21 @@ var openPhotoSwipeCgi = function() {
     
     // define options (if needed)
     var options = {
-
-        showAnimationDuration: 333,
-        hideAnimationDuration: 333,
+        shareEl: false,
+        zoomEl: false,
         closeOnScroll: false,
-        closeOnVerticalDrag: false
-        
+        closeOnVerticalDrag: false,
+        showAnimationDuration: 333,
+        hideAnimationDuration: 333        
     };
     
     var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
     gallery.init();
+
+    gallery.options.maxSpreadZoom = gallery.getZoomLevel();
+    gallery.options.getDoubleTapZoom = function(isMouseClick, item) {
+    return item.initialZoomLevel;
+    }
 };
 
 var openPhotoSwipePlans = function() {
@@ -344,16 +354,21 @@ var openPhotoSwipePlans = function() {
     
     // define options (if needed)
     var options = {
-
-        showAnimationDuration: 333,
-        hideAnimationDuration: 333,
+        shareEl: false,
+        zoomEl: false,
         closeOnScroll: false,
-        closeOnVerticalDrag: false
-        
+        closeOnVerticalDrag: false,
+        showAnimationDuration: 333,
+        hideAnimationDuration: 333        
     };
     
     var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
     gallery.init();
+
+    gallery.options.maxSpreadZoom = gallery.getZoomLevel();
+    gallery.options.getDoubleTapZoom = function(isMouseClick, item) {
+    return item.initialZoomLevel;
+    }
 };
 
 var openPhotoSwipeProjects = function() {
@@ -365,91 +380,105 @@ var openPhotoSwipeProjects = function() {
             src: '_img/portfolio/projects/myl/myl-after-10.jpg',
             w: 6161,
             h: 4108,
-            title: 'Projects 1'
+            title: 'Commercial project - Meeting room'
         },      
         {
             src: '_img/portfolio/projects/myl/myl-after-7.jpg',
             w: 6240,
-            h: 4160
+            h: 4160,
+            title: 'Commercial project - Meeting room'
         },    
         {
             src: '_img/portfolio/projects/myl/myl-after-2.png',
             w: 1560,
-            h: 1040
+            h: 1040,
+            title: 'Commercial project - Meeting room'
         },         
         {
             src: '_img/portfolio/projects/myl/myl-after-11.jpg',
             w: 6240,
-            h: 4160
+            h: 4160,
+            title: 'Commercial project - Office 1'
         },   
         {
             src: '_img/portfolio/projects/myl/myl-after-9.jpg',
             w: 6231,
-            h: 4154
+            h: 4154,
+            title: 'Commercial project - Office 1'
         },    
         {
             src: '_img/portfolio/projects/myl/myl-after-12.jpg',
             w: 3436,
-            h: 4932
+            h: 4932,
+            title: 'Commercial project - Meeting room'
         }, 
         {
             src: '_img/portfolio/projects/myl/myl-after-3.jpg',
             w: 6237,
-            h: 4158
+            h: 4158,
+            title: 'Commercial project - Bathroom'
         }, 
         {
             src: '_img/portfolio/projects/myl/myl-after-6.jpg',
             w: 3599,
-            h: 5399
+            h: 5399,
+            title: 'Commercial project - Kitchen'
         }, 
         {
             src: '_img/portfolio/projects/myl/myl-after-15.jpg',
             w: 3595,
-            h: 5392
+            h: 5392,
+            title: 'Commercial project - Kitchen/Bathroom'
         },
         {
             src: '_img/portfolio/projects/myl/myl-after-14.jpg',
             w: 4160,
-            h: 6240
+            h: 6240,
+            title: 'Commercial project - Reception'
         }, 
-        {
-            src: '_img/portfolio/projects/myl/myl-after-13.jpg',
-            w: 6240,
-            h: 4160
-        },  
         {
             src: '_img/portfolio/projects/myl/myl-after-5.jpg',
             w: 6240,
             h: 4160,
+            title: 'Commercial project - Reception'
         },  
         {
             src: '_img/portfolio/projects/myl/myl-after-4.jpg',
             w: 6240,
-            h: 4160
+            h: 4160,
+            title: 'Commercial project - Wallpaper'
         },  
         {
             src: '_img/portfolio/projects/myl/myl-after-8.jpg',
             w: 6240,
-            h: 4160
+            h: 4160,
+            title: 'Commercial project - Wallpaper'
         },                                                         
         {
             src: '_img/portfolio/projects/myl/myl-after-1.png',
             w: 1331,
-            h: 1997
+            h: 1997,
+            title: 'Commercial project - Flooring'
         }                                                                                         
     ];
     
     // define options (if needed)
     var options = {
-
-        showAnimationDuration: 333,
-        hideAnimationDuration: 333,
+        shareEl: false,
+        zoomEl: false,
         closeOnScroll: false,
-        closeOnVerticalDrag: false
-        
+        closeOnVerticalDrag: false,
+        showAnimationDuration: 333,
+        hideAnimationDuration: 333        
     };
     
     var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
     gallery.init();
+
+    gallery.options.maxSpreadZoom = gallery.getZoomLevel();
+    gallery.options.getDoubleTapZoom = function(isMouseClick, item) {
+    return item.initialZoomLevel;
+    }
+
 };
 
