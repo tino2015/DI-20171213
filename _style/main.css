@@ -1090,10 +1090,11 @@ li {
     font-family: 'Lato', sans-serif;
     font-size: 3em;
     text-align: -webkit-center;
-    padding: 10% 0;
+    padding: 10% 0 0 0;
     color: white;
     opacity: 1;
     text-shadow: 1px 1px 10px black;
+    min-height: 4em;
 }
 
 .soon {
@@ -1118,9 +1119,9 @@ li {
     #cgi-gal h4,
     #plans-gal h4,
     #projects-gal h4 {
-        font-size: 1.7em;
-        padding-top: 20%;
-        padding-bottom: 20%;
+        font-size: 3rem;
+/*        padding-top: 20%;
+        padding-bottom: 20%;*/
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -1131,13 +1132,19 @@ li {
 }
 
 .events,
-.about {
+.portfolio {
     background-color: rgba(255,255,255,1);
     margin: 0 auto;
 }
 
-.about p {
+.portfolio p {
     color: black;
+}
+
+p.view-gal {
+    font-family: 'Kalam', cursive;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 20px rgba(255,255,255,0.5);
 }
 
 .events p {
@@ -1146,14 +1153,14 @@ li {
 }
 
 .events h4,
-.about h4 {
+.portfolio h4 {
     color: rgba(162,110,97,1);
     margin: 0;
     font-family: 'Lato', sans-serif;
 }
 
 .events span,
-.about span {
+.portfolio span {
     color: black;
     margin: 0;
     font-size: 1em;
@@ -1186,7 +1193,7 @@ h3.black {
     color: black;
 }
 
-.portfolio {
+.about {
     background-color: rgba(48,48,48,1);
 }
 
