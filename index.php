@@ -156,7 +156,7 @@
           <div class="grid-column grid-fifth"></div>
           <div class="grid-column grid-three-fifth">
             <div class="feature-content center">
-                <h3 class="black">PORTFOLIO</h3>
+                <h3>PORTFOLIO</h3>
                 <div class="portfolio-banner hideme">
                     <div class="projects overlay rosegold">
                         <a id="projects-gal" href="#" onclick="openPhotoSwipeProjects();return false;"><h4>Projects</h4>

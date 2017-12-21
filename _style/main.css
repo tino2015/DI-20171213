@@ -1131,9 +1131,13 @@ li {
     background-color: rgba(258,171,122,1);
 }
 
-.events,
-.portfolio {
+.events {
     background-color: rgba(255,255,255,1);
+    margin: 0 auto;
+}
+
+.portfolio {
+    background-color: rgba(48,48,48,1);
     margin: 0 auto;
 }
 
@@ -1142,9 +1146,8 @@ li {
 }
 
 p.view-gal {
-    font-family: 'Kalam', cursive;
     font-size: 1.5rem;
-    text-shadow: 1px 1px 20px rgba(255,255,255,0.5);
+    text-shadow: 1px 1px 25px rgba(255,255,255,0.5);
 }
 
 .events p {
@@ -1194,7 +1197,7 @@ h3.black {
 }
 
 .about {
-    background-color: rgba(48,48,48,1);
+    background-color: rgba(162,110,97,1);
 }
 
 .feature-content {
