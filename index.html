@@ -134,10 +134,19 @@
             
           <div class="grid-column grid-fifth cf"></div>
           <div class="grid-column grid-three-fifth cf">
+
             <div class="feature-content center cf">
                 <h3>ABOUT DELPHINE</h3>
-                <img class="image-team hideme" src="https://media.licdn.com/media/AAIA_wDGAAAAAQAAAAAAAA2sAAAAJDYzMmY0NDVlLWFiM2YtNDc2NS05NzdlLTY2YjlhOGUxYWU0Mw.jpg">
-                <div class="about-us-content">
+                <div class="grid-column grid-half about-left cf"><img class="image-team hideme"></div>
+                <div class="grid-column grid-half about-right cf"><div class="about-us-content">
+                <p>Delphine Interiors offers you a complete design service, creating personalised interiors for your residential or commercial projects.
+                <p>Located in London with a French touch, Delphine has developed her skills and gained experience through interior design companies over 7 years between Bordeaux, Paris and London.
+                <p>With a real passion for space planning, textures, colours, lighting; Delphine Interiors will design your home to be beautiful, functional and to answer the needs of each client. 
+                <p>Each project big or small will be a different adventure and a different result, but with the same commitment and quality.
+                <p>The location of your project can be in France, the UK or further abroad, Delphine Interiors can travel to you and always delighted to discover new areas.
+                </div></div>
+                <img class="image-team hideme about-mobile" src="_img/about.jpg">
+                <div class="about-us-content about-mobile">
                 <p>Delphine Interiors offers you a complete design service, creating personalised interiors for your residential or commercial projects.
                 <p>Located in London with a French touch, Delphine has developed her skills and gained experience through interior design companies over 7 years between Bordeaux, Paris and London.
                 <p>With a real passion for space planning, textures, colours, lighting; Delphine Interiors will design your home to be beautiful, functional and to answer the needs of each client. 
@@ -198,7 +207,7 @@
                         <div class="grid-column grid-fifth stage margin-left"><img class="stage-name" src="_img/process1.png"></div>
                             <div class="grid-column grid-four-fifth hww-content justify">
                             <p class="stage-mobile"><img class="stage-name no-margin-top no-margin-bottom" src="_img/process1.png"></p>
-                            <p class="no-margin-top">The initial consultation is to learn about you, your project, and to feel comfortable with your future interior designer.
+                            <p class="no-margin-top">The initial consultation is to learn about you, your project, and for you to feel comfortable with your future interior designer.
                             <div id="content-div">
                             <div id="more-content" class="fade">
                             It's important for us to understand your personal tastes, lifestyle, expectations, and inspirations. This helps to create the right design for your daily life.
@@ -228,15 +237,15 @@
                     <div class="grid-column grid-whole process2 hideme">
                         <div class="grid-column grid-four-fifth hww-content justify">
                             <p class="stage-mobile"><img class="stage-name no-margin-top no-margin-bottom" src="_img/process2.png"></p>
-                            <p class="no-margin-top">Following this first meeting, Delphine Interiors will send you the complete scope of works established together beforehand as well with the fee proposal.
+                            <p class="no-margin-top">Following this first meeting, we will send you the complete scope of work established together beforehand as well as costings.
                             <div id="content-div2">
                             <div id="more-content2" class="fade2">
-                            At this stage, it will be possible for you to add or edit any points in this document. Once agreed and paid for, the designer will start to work on the concept design for your project.
+                            At this stage, it will be possible for you to add or edit any points in this document. Once agreed and paid for, we will start to work on the concept design for your project.
                             </div>
                             <p>
-                            This stage will include a site survey, floor plans illustrating the new furniture, and concept layout. Also presented if applicable may be hand sketches, 3D images, new products proposed by the designer, as well as mood boards with samples of textures, colours and finishes.
+                            This stage will include a site survey, floor plans illustrating the new furniture, and concept layout. Also presented if applicable may be hand sketches, 3D images, new products proposed, as well as mood boards with samples of textures, colours and finishes.
                             <p>
-                            Please note that if the site doesn’t allow a survey, it would be possible to work on architect’s plan or any measurements given by the client to the designer.
+                            Please note that if the site doesn’t allow a survey, it would still be possible to work from an architect’s plan or any measurements provided.
                             </p>
                             <p>
                             This stage is one of the most important during the process as it will determine your future interior.</p>
@@ -282,7 +291,7 @@
                             <p class="no-margin-top">Once the detailed design and estimates have been approved and signed for, it is possible for Delphine Interiors to realise a technical package to give to your contractors on site.
                             <div id="content-div4">
                             <div id="more-content4" class="fade4">
-                            This can include an indicative lighting plan for the electrician, a decorative schedule for the decorator, some ceiling details for the builder, or the tiles elevations for the tiler. In France or in the UK, Delphine Interiors has worked with trusted contractors that we would be able to recommend for you.
+                            This can include an indicative lighting plan for your electrician, a decorative schedule for your decorator, some ceiling details for your builder, or the tiles elevations for your tiler. In France and in the UK, Delphine Interiors has worked with trusted contractors that we would be able to recommend for you.
                             </div>
                             <p>
                             If you have your own contractors, we will happily meet them and work with them closely to project completion.
@@ -303,10 +312,10 @@
                         <div class="grid-column grid-fifth stage margin-left"><img class="stage-name" src="_img/process5.png"></div>
                         <div class="grid-column grid-four-fifth hww-content justify">
                             <p class="stage-mobile"><img class="stage-name no-margin-top no-margin-bottom" src="_img/process5.png"></p>
-                            <p class="no-margin-top">We will be in constant contact with your contractor to make sure that the work is progressing well as per our expectations and matches the designer's plans.
+                            <p class="no-margin-top">We will be in constant contact with your contractor to make sure that the work is progressing well as per our expectations and matches Delphine Interiors plans.
                             <div id="content-div5">
                             <div id="more-content5" class="fade5">
-                            This will include a follow-up site visit when needed, and weekly communication with the contractors and yourself. We will also monitor the progress of the delivery of all of the items on site when these are required. You will always be kept fully up to date with progress during this stage through to completion. Please note that any additional design requests at this stage may be chargeable.
+                            This will include a follow-up site visit when needed, and weekly communication with your contractors and yourself. We will also monitor the progress of the delivery of all of the items on site when these are required. You will always be kept fully up to date with progress during this stage through to completion. Please note that any additional design requests at this stage may be chargeable.
                             </div>
                             <p>
                             It is important to us that we offer a turnkey service for you to feel completely relaxed during the full design process.
