@@ -702,13 +702,22 @@ li {
 
 .about-us-content {
     padding: 0.5rem;
+    padding-top: 0;
     /*background-color: rgba(255,255,255,0.7);*/
     color: rgba(255,255,255,0.7);
+}
+
+.about-us-content p {
+    padding-top: 0;
+    margin-top: 0;
 }
 
 @media screen and (max-width: 768px) {
     .about-us-content {
         padding: 0 0rem;
+    }
+    .about-us-content p {
+        margin-top: 1rem;
     }
 }
 
@@ -827,6 +836,7 @@ li {
     .process5 {
         border-bottom: 0px;
         border-left: 0px;
+        border-top: 0px;
     }
 }
 
@@ -1159,6 +1169,7 @@ li {
 p.view-gal {
     font-size: 1.5rem;
     text-shadow: 1px 1px 5px rgba(255,255,255,1);
+    margin-top: -1rem;
 }
 
 .events p {
@@ -1226,7 +1237,7 @@ h3.black {
     background-attachment: scroll;
     border: solid 3px rgba(162,110,97,1);
     border-radius: 40px;
-    height: 60vh;
+    height: 100vh;
     width: 45%;
 }
 
@@ -1245,7 +1256,6 @@ h3.black {
     background-attachment: fixed;
     /*border: solid 3px rgba(162,110,97,1);*/
     border-radius: 40px;
-    height: 60vh;
     width: 55%;
 }
 

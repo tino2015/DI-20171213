@@ -1,3 +1,6 @@
+//
+//SLIDESHOW
+//
 //Array of images which you want to show: Use path you want.
 var images=new Array();
 images[0]='img/bg-hero-mood-test1.jpg';
@@ -14,8 +17,9 @@ function doSlideshow(){
     });
 }
 
-
-
+//
+//FADE IN
+//
 $(document).ready(function() {
 
 $(function(){  // $(document).ready shorthand
@@ -44,7 +48,9 @@ $(function(){  // $(document).ready shorthand
     
 });
 
-
+//
+//BACK TO TOP SCROLL
+//
 $(function() {
   $('a[href*=#]').on('click', function(e) {
     e.preventDefault();
@@ -84,6 +90,10 @@ $(document).ready(function(){
     }); 
 });
 
+
+//
+//READ MORE
+//
 function RevealMore()
 {
    /* Makes content div height automatic and removes the fade-out div and more link. */
@@ -139,7 +149,9 @@ function RevealMore5()
    el.classList.remove("fade5");
 }
 
-
+//
+//PHOTO GALLERY
+//
 var openPhotoSwipeMood = function() {
     var pswpElement = document.querySelectorAll('.pswp')[0];
 
