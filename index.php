@@ -139,11 +139,11 @@
                 <h3>ABOUT DELPHINE</h3>
                 <div class="grid-column grid-half about-left cf"><img class="image-team hideme"></div>
                 <div class="grid-column grid-half about-right cf"><div class="about-us-content">
-                <p>Delphine Interiors was created by Delphine Michaudet after developing her skills and experience with interior design companies in Bordeaux, Paris, and London since 2010.
+                <p>Delphine Interiors was created by Delphine after developing her skills and experience with interior design companies in Bordeaux, Paris, and London since 2010.
                 <p>Now primarily based in London, Delphine Interiors offers a complete design service, creating personalised interiors for your residential or commercial projects, with a touch of French influence and inspiration.
                 <p>With a real passion for space planning, textures, colours, and lighting, Delphine Interiors will design your home to be beautiful, yet functional for your personal needs and lifestyle. 
                 <p>No one project is ever the same and while projects may vary in size and scope, the same commitment and quality is ensured to achieve the best results.
-                <p>Having worked extensively on both sides of the channel, Delpine Interiors is happy to discuss your project whether in the UK, France, or even further afield.
+                <p>Having worked extensively on both sides of the channel, Delphine Interiors is happy to discuss your project whether in the UK, France, or even further afield.
                 </div></div>
                 <img class="image-team hideme about-mobile" src="_img/about.jpg">
                 <div class="about-us-content about-mobile">
