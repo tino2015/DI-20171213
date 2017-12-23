@@ -476,12 +476,12 @@ body {
 
 
 .hero-strapline {
-    padding-top: 20vh;
+    padding-top: 15vh;
 }
 
 @media screen and (max-width: 768px) {
     .hero-strapline {
-        margin-right: 5vw;
+        margin-right: 6vw;
     }
 }
 
@@ -708,7 +708,7 @@ li {
 
 @media screen and (max-width: 768px) {
     .about-us-content {
-        padding: 0 1rem;
+        padding: 0 0rem;
     }
 }
 

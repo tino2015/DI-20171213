@@ -389,7 +389,7 @@ var openPhotoSwipeProjects = function() {
             title: 'Commercial project - Meeting room'
         },    
         {
-            src: '_img/portfolio/projects/myl/myl-after-2.png',
+            src: '_img/portfolio/projects/myl/myl-after-2.jpg',
             w: 1560,
             h: 1040,
             title: 'Commercial project - Meeting room'
@@ -455,7 +455,7 @@ var openPhotoSwipeProjects = function() {
             title: 'Commercial project - Wallpaper'
         },                                                         
         {
-            src: '_img/portfolio/projects/myl/myl-after-1.png',
+            src: '_img/portfolio/projects/myl/myl-after-1.jpg',
             w: 1331,
             h: 1997,
             title: 'Commercial project - Flooring'
