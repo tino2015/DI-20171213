@@ -139,19 +139,19 @@
                 <h3>ABOUT DELPHINE</h3>
                 <div class="grid-column grid-half about-left cf"><img class="image-team hideme"></div>
                 <div class="grid-column grid-half about-right cf"><div class="about-us-content">
-                <p>Delphine Interiors offers you a complete design service, creating personalised interiors for your residential or commercial projects.
-                <p>Located in London with a French touch, Delphine has developed her skills and gained experience through interior design companies over 7 years between Bordeaux, Paris and London.
-                <p>With a real passion for space planning, textures, colours, lighting; Delphine Interiors will design your home to be beautiful, functional and to answer the needs of each client. 
-                <p>Each project big or small will be a different adventure and a different result, but with the same commitment and quality.
-                <p>The location of your project can be in France, the UK or further abroad, Delphine Interiors can travel to you and always delighted to discover new areas.
+                <p>Delphine Interiors was created by Delphine Michaudet after developing her skills and experience with interior design companies in Bordeaux, Paris, and London since 2010.
+                <p>Now primarily based in London, Delphine Interiors offers a complete design service, creating personalised interiors for your residential or commercial projects, with a touch of French influence and inspiration.
+                <p>With a real passion for space planning, textures, colours, and lighting, Delphine Interiors will design your home to be beautiful, yet functional for your personal needs and lifestyle. 
+                <p>No one project is ever the same and while projects may vary in size and scope, the same commitment and quality is ensured to achieve the best results.
+                <p>Having worked extensively on both sides of the channel, Delpine Interiors is happy to discuss your project whether in the UK, France, or even further afield.
                 </div></div>
                 <img class="image-team hideme about-mobile" src="_img/about.jpg">
                 <div class="about-us-content about-mobile">
-                <p>Delphine Interiors offers you a complete design service, creating personalised interiors for your residential or commercial projects.
-                <p>Located in London with a French touch, Delphine has developed her skills and gained experience through interior design companies over 7 years between Bordeaux, Paris and London.
-                <p>With a real passion for space planning, textures, colours, lighting; Delphine Interiors will design your home to be beautiful, functional and to answer the needs of each client. 
-                <p>Each project big or small will be a different adventure and a different result, but with the same commitment and quality.
-                <p>The location of your project can be in France, the UK or further abroad, Delphine Interiors can travel to you and always delighted to discover new areas.
+                <p>Delphine Interiors was created by Delphine Michaudet after developing her skills and experience with interior design companies in Bordeaux, Paris, and London since 2010.
+                <p>Now primarily based in London, Delphine Interiors offers a complete design service, creating personalised interiors for your residential or commercial projects, with a touch of French influence and inspiration.
+                <p>With a real passion for space planning, textures, colours, and lighting, Delphine Interiors will design your home to be beautiful, yet functional for your personal needs and lifestyle. 
+                <p>No one project is ever the same and while projects may vary in size and scope, the same commitment and quality is ensured to achieve the best results.
+                <p>Having worked extensively on both sides of the channel, Delpine Interiors is happy to discuss your project whether in the UK, France, or even further afield.
                 </div>
             </div>
           </div>
@@ -207,7 +207,7 @@
                         <div class="grid-column grid-fifth stage margin-left"><img class="stage-name" src="_img/process1.png"></div>
                             <div class="grid-column grid-four-fifth hww-content justify">
                             <p class="stage-mobile"><img class="stage-name no-margin-top no-margin-bottom" src="_img/process1.png"></p>
-                            <p class="no-margin-top">The initial consultation is to learn about you, your project, and for you to feel comfortable with your future interior designer.
+                            <p class="no-margin-top">The initial consultation is to learn about you, your project, and for you to feel comfortable with your future designer.
                             <div id="content-div">
                             <div id="more-content" class="fade">
                             It's important for us to understand your personal tastes, lifestyle, expectations, and inspirations. This helps to create the right design for your daily life.
@@ -217,10 +217,6 @@
                             <p>
                             It’s also the perfect time for you to ask any questions about the design process and learn more about similar past projects and experience.
                             </p>
-                            <p>
-                            The fee for this consultation is a pre-agreed fee to only cover travel expenses if applicable.
-                            <br>Please note that London zones 1 to 4 are free of charge.</p>
-
                         <div id="fade-out">
                         </div>
                         </div>
@@ -237,18 +233,16 @@
                     <div class="grid-column grid-whole process2 hideme">
                         <div class="grid-column grid-four-fifth hww-content justify">
                             <p class="stage-mobile"><img class="stage-name no-margin-top no-margin-bottom" src="_img/process2.png"></p>
-                            <p class="no-margin-top">Following this first meeting, we will send you the complete scope of work established together beforehand as well as costings.
+                            <p class="no-margin-top">Following the consultation, we will provide a complete scope of the work established together along with initial estimates.
                             <div id="content-div2">
                             <div id="more-content2" class="fade2">
-                            At this stage, it will be possible for you to add or edit any points in this document. Once agreed and paid for, we will start to work on the concept design for your project.
+                            This stage is one of the most important during the process as it will determine your future interior. We'll discuss, review, and update the scope as needed until you are fully happy with the plans. Once agreed, we will start to work on the concept design for your project.
                             </div>
                             <p>
-                            This stage will include a site survey, floor plans illustrating the new furniture, and concept layout. Also presented if applicable may be hand sketches, 3D images, new products proposed, as well as mood boards with samples of textures, colours and finishes.
+                            This stage will include a site survey, floor plans illustrating the new setup, and concept layout. Also presented if applicable may be hand sketches, 3D mockups, new products, and mood boards with samples of possible textures, colours and finishes.
                             <p>
-                            Please note that if the site doesn’t allow a survey, it would still be possible to work from an architect’s plan or any measurements provided.
+                            If the site doesn’t allow a survey, we'll still be able to work from an architect’s plan or any measurements provided from the site.
                             </p>
-                            <p>
-                            This stage is one of the most important during the process as it will determine your future interior.</p>
                         <div id="fade-out2">
                         </div>
                         </div>
@@ -264,17 +258,14 @@
                         <div class="grid-column grid-fifth stage margin-left"><img class="stage-name" src="_img/process3.png"></div>
                         <div class="grid-column grid-four-fifth hww-content justify">
                             <p class="stage-mobile"><img class="stage-name no-margin-top no-margin-bottom" src="_img/process3.png"></p>
-                            <p class="no-margin-top">Once the concept design has been approved, we will start to develop the design into detailed drawings.
+                            <p class="no-margin-top">Once the concept design has been approved, we will start to develop the design into detailed drawings and plans.
                             <div id="content-div3">
                             <div id="more-content3" class="fade3">
-                            We will also present you with the full itemised estimate conforming with your original budget. We will then start finalising the choices of finishes, colours, dimensions, etc.
+                            We will also present you with the full itemised estimate based on your budget. We will then start finalising the choices of finishes, colours, dimensions, etc.
                             </div>
                             <p>
-                            All goods within the design scheme can be purchased directly through Delphine Interiors. For this stage, a 50% deposit of the estimate will be required prior to the placement of any orders.
+                            All goods within the design scheme can be purchased directly through Delphine Interiors.
                             </p>
-                            <p>
-                            The 50% balance payment will be required 10 days before the delivery of the goods on site.</p>
-
                         <div id="fade-out3">
                         </div>
                         </div>
@@ -288,15 +279,14 @@
                     <div class="grid-column grid-whole process4 hideme">
                         <div class="grid-column grid-four-fifth hww-content justify">
                             <p class="stage-mobile"><img class="stage-name no-margin-top no-margin-bottom" src="_img/process4.png"></p>
-                            <p class="no-margin-top">Once the detailed design and estimates have been approved and signed for, it is possible for Delphine Interiors to realise a technical package to give to your contractors on site.
+                            <p class="no-margin-top">Once the detailed design and estimates have been approved and signed for, we will develop the technical package for your contractors on site if applicable.
                             <div id="content-div4">
                             <div id="more-content4" class="fade4">
-                            This can include an indicative lighting plan for your electrician, a decorative schedule for your decorator, some ceiling details for your builder, or the tiles elevations for your tiler. In France and in the UK, Delphine Interiors has worked with trusted contractors that we would be able to recommend for you.
+                            This may include an indicative lighting plan for your electrician, a decorative schedule for your decorator, ceiling details for your builder, or tile elevations for your tiler. In France and in the UK, we have worked with trusted contractors that we would be able to recommend for you.
                             </div>
                             <p>
                             If you have your own contractors, we will happily meet them and work with them closely to project completion.
                             </p>
-
                         <div id="fade-out4">
                         </div>
                         </div>
@@ -312,10 +302,10 @@
                         <div class="grid-column grid-fifth stage margin-left"><img class="stage-name" src="_img/process5.png"></div>
                         <div class="grid-column grid-four-fifth hww-content justify">
                             <p class="stage-mobile"><img class="stage-name no-margin-top no-margin-bottom" src="_img/process5.png"></p>
-                            <p class="no-margin-top">We will be in constant contact with your contractor to make sure that the work is progressing well as per our expectations and matches Delphine Interiors plans.
+                            <p class="no-margin-top">We will be in constant contact with your contractor to make sure that the work is progressing well as per our expectations and plans.
                             <div id="content-div5">
                             <div id="more-content5" class="fade5">
-                            This will include a follow-up site visit when needed, and weekly communication with your contractors and yourself. We will also monitor the progress of the delivery of all of the items on site when these are required. You will always be kept fully up to date with progress during this stage through to completion. Please note that any additional design requests at this stage may be chargeable.
+                            This may include follow-up site visits when needed, and regular communication with your contractors and yourself. We will also monitor the progress of the delivery of goods on site when required. You will always be kept fully up to date with progress during this stage right through to completion.
                             </div>
                             <p>
                             It is important to us that we offer a turnkey service for you to feel completely relaxed during the full design process.
@@ -345,7 +335,7 @@
           <div class="grid-column grid-three-fifth">
             <div class="feature-content center ">
                 <h3 class="black">EVENTS</h3>
-                <p>We'll be attending the following events and happy to see you there!
+                <p>We'll be attending the following upcoming events and would be happy to see you there!
                 <div class="event-logos">
                     <div class="event hideme">
                         <h4>Maison&Objet</h4>
@@ -474,7 +464,7 @@ form {
                     </ul>
                 </p>
                 <p>&copy; <script> document.write(new Date().getFullYear()) </script> Delphine Interiors
-                <br>Registered address: Delphine Interiors Ltd., Office 7, 35-37 Ludgate Hill, London, EC4M 7JN
+                <br>Registered address: Office 7, 35-37 Ludgate Hill, London, EC4M 7JN
                 <br>Registered in England and Wales with company number 10924894 and VAT number 278081578
                 </p>
             </div>

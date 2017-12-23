@@ -1065,7 +1065,7 @@ li {
 }
 
 .rosegold:before {
-    background-color: rgba(162,110,97,1);
+    background-color: rgba(162,110,97,0.6);
     -webkit-transition: all 3s ease;
     -moz-transition: all 3s ease;
     -ms-transition: all 3s ease;
@@ -1127,6 +1127,14 @@ li {
         padding-bottom: 20%;*/
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .rosegold:before {
+    background-color: rgba(162,110,97,0);
+    -webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    -ms-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    transition: all 3s ease;
     }
 }
 
