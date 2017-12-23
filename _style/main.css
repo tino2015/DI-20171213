@@ -332,7 +332,7 @@ body {
 
 
 #hero-bg {
-    background: url("../_img/xmas3.jpg");
+    background: url("../_img/xmas-bg.jpg");
     /*-webkit-filter: blur(5px);
     filter: blur(50px);*/
     background-size: cover;
@@ -347,7 +347,23 @@ body {
     border-bottom: solid 3px rgba(162,110,97,1);
 }
 
+@media screen and (max-width:1250px) {
+    #hero-bg {
+        height: 100vh;
+    }
+}
 
+@media screen and (min-width:1024px) {
+    #hero-bg {
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width:1250px) {
+    #hero-bg {
+        height: 70vh;
+    }
+}
 
 /*hero-bg:after {
     content:"";
@@ -482,6 +498,12 @@ body {
 @media screen and (max-width: 768px) {
     .hero-strapline {
         margin-right: 6vw;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    .hero-strapline {
+        padding-top: 0vh;
     }
 }
 
