@@ -397,203 +397,302 @@ var openPhotoSwipePlans = function() {
     }
 };
 
-var openPhotoSwipeProjects = function() {
+var openPhotoSwipeProjects1 = function() {
     var pswpElement = document.querySelectorAll('.pswp')[0];
 
     // build items array
     var items = [
-       {
+        {
             src: '_img/portfolio/projects/paris/paris1.jpg',
             w: 3000,
             h: 2000,
-            title: 'Paris Residential - Living Room'
+            title: 'Paris 1st Arrondissement - Living Room'
         },     
-       {
+        {
             src: '_img/portfolio/projects/paris/paris2.jpg',
             w: 2000,
             h: 3000,
-            title: 'Paris Residential - Living Room'
+            title: 'Paris 1st Arrondissement - Living Room'
         },       
-       {
+        {
             src: '_img/portfolio/projects/paris/paris3.jpg',
             w: 2000,
             h: 3000,
-            title: 'Paris Residential - Living Room'
+            title: 'Paris 1st Arrondissement - Living Room'
         },      
-       {
+        {
             src: '_img/portfolio/projects/paris/paris4.jpg',
             w: 3000,
             h: 2000,
-            title: 'Paris Residential - Living Room'
+            title: 'Paris 1st Arrondissement - Living Room'
         },     
-       {
+        {
             src: '_img/portfolio/projects/paris/paris5.jpg',
             w: 2000,
             h: 3000,
-            title: 'Paris Residential - Living Room'
+            title: 'Paris 1st Arrondissement - Living Room'
         },          
-       {
+        {
             src: '_img/portfolio/projects/paris/paris6.jpg',
             w: 3000,
             h: 2000,
-            title: 'Paris Residential - Living Room'
+            title: 'Paris 1st Arrondissement - Living Room'
         },       
-       {
+        {
             src: '_img/portfolio/projects/paris/paris7.jpg',
             w: 3000,
             h: 2000,
-            title: 'Paris Residential - Living Room'
+            title: 'Paris 1st Arrondissement - Living Room'
         },         
-       {
+        {
             src: '_img/portfolio/projects/paris/paris8.jpg',
             w: 2000,
             h: 3000,
-            title: 'Paris Residential - Bedroom'
+            title: 'Paris 1st Arrondissement - Bedroom'
         },       
-       {
+        {
             src: '_img/portfolio/projects/paris/paris9.jpg',
             w: 2000,
             h: 3000,
-            title: 'Paris Residential - Bathroom'
+            title: 'Paris 1st Arrondissement - Bathroom'
         },        
-       {
+        {
             src: '_img/portfolio/projects/paris/paris10.jpg',
             w: 2000,
             h: 3000,
-            title: 'Paris Residential - Bathroom'
+            title: 'Paris 1st Arrondissement - Bathroom'
         },         
-       {
+        {
             src: '_img/portfolio/projects/paris/paris11.jpg',
             w: 3000,
             h: 2000,
-            title: 'Paris Residential - Kitchen'
+            title: 'Paris 1st Arrondissement - Kitchen'
         },        
-       {
+        {
             src: '_img/portfolio/projects/paris/paris12.jpg',
             w: 2000,
             h: 3000,
-            title: 'Paris Residential - Kitchen'
+            title: 'Paris 1st Arrondissement - Kitchen'
         },         
-       {
+        {
             src: '_img/portfolio/projects/paris/paris13.jpg',
             w: 2000,
             h: 3000,
-            title: 'Paris Residential - Living Room'
+            title: 'Paris 1st Arrondissement - Living Room'
         },         
-       {
+        {
             src: '_img/portfolio/projects/paris/paris14.jpg',
             w: 2000,
             h: 3000,
-            title: 'Paris Residential - Kitchen'
+            title: 'Paris 1st Arrondissement - Kitchen'
         },        
-       {
+        {
             src: '_img/portfolio/projects/paris/paris15.jpg',
             w: 2000,
             h: 3000,
-            title: 'Paris Residential - Living Room'
+            title: 'Paris 1st Arrondissement - Living Room'
         },        
-       {
+        {
             src: '_img/portfolio/projects/paris/paris16.jpg',
             w: 2000,
             h: 3000,
-            title: 'Paris Residential - Living Room'
+            title: 'Paris 1st Arrondissement - Living Room'
         },        
-       {
+        {
             src: '_img/portfolio/projects/paris/paris17.jpg',
             w: 2000,
             h: 3000,
-            title: 'Paris Residential - Living Room'
+            title: 'Paris 1st Arrondissement - Living Room'
         },        
-       {
+        {
             src: '_img/portfolio/projects/paris/paris18.jpg',
             w: 2000,
             h: 3000,
-            title: 'Paris Residential - Bedroom'
+            title: 'Paris 1st Arrondissement - Bedroom'
         },       
-       {
+        {
             src: '_img/portfolio/projects/paris/paris19.jpg',
             w: 2000,
             h: 3000,
-            title: 'Paris Residential - Hallway'
+            title: 'Paris 1st Arrondissement - Hallway'
         },       
-       {
+        {
             src: '_img/portfolio/projects/paris/paris20.jpg',
             w: 2000,
             h: 3000,
-            title: 'Paris Residential - Bedroom'
+            title: 'Paris 1st Arrondissement - Bedroom'
         },         
-       {
+        {
             src: '_img/portfolio/projects/paris/paris21.jpg',
             w: 3000,
             h: 2000,
-            title: 'Paris Residential - Living Room'
-        },         
-        {
-            src: '_img/portfolio/projects/courbevoie/courbevoie1.jpg',
-            w: 2596,
-            h: 3462,
-            title: 'Courbevoie Residential - Bedroom'
+            title: 'Paris 1st Arrondissement - Living Room'
         },
         {
-            src: '_img/portfolio/projects/courbevoie/courbevoie2.jpg',
-            w: 4032,
-            h: 3024,
-            title: 'Courbevoie Residential - Bedroom'
-        },
-        {
-            src: '_img/portfolio/projects/courbevoie/courbevoie3.jpg',
-            w: 3072,
-            h: 5472,
-            title: 'Courbevoie Residential - Bedroom'
-        },
-        {
-            src: '_img/portfolio/projects/courbevoie/courbevoie4.jpg',
-            w: 3072,
-            h: 5472,
-            title: 'Courbevoie Residential - Bedroom'
-        },     
+            src: '_img/portfolio/projects/paris/paris22.jpg',
+            w: 1620,
+            h: 1080,
+            title: 'Paris 1st Arrondissement - Bedroom'
+        }                                                                                                   
+    ];
+    
+    // define options (if needed)
+    var options = {
+        shareEl: false,
+        zoomEl: false,
+        closeOnScroll: false,
+        closeOnVerticalDrag: false,
+        showAnimationDuration: 333,
+        hideAnimationDuration: 333        
+    };
+    
+    var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+    gallery.init();
+
+    gallery.options.maxSpreadZoom = gallery.getZoomLevel();
+    gallery.options.getDoubleTapZoom = function(isMouseClick, item) {
+    return item.initialZoomLevel;
+    }
+
+};
+
+var openPhotoSwipeProjects2 = function() {
+    var pswpElement = document.querySelectorAll('.pswp')[0];
+
+    // build items array
+    var items = [     
         {
             src: '_img/portfolio/projects/wandsworth/ww1.jpg',
             w: 1204,
             h: 1769,
-            title: 'London Residential - Living room'
+            title: 'Wandsworth, London - Living room'
         },     
         {
             src: '_img/portfolio/projects/wandsworth/ww2.jpg',
             w: 1334,
             h: 2400,
-            title: 'London Residential - Living room'
+            title: 'Wandsworth, London - Living room'
         },     
         {
             src: '_img/portfolio/projects/wandsworth/ww3.jpg',
             w: 1058,
             h: 1890,
-            title: 'London Residential - Living room'
+            title: 'Wandsworth, London - Living room'
         },     
         {
             src: '_img/portfolio/projects/wandsworth/ww4.jpg',
             w: 1336,
             h: 2386,
-            title: 'London Residential - Living room'
+            title: 'Wandsworth, London - Living room'
         },     
         {
             src: '_img/portfolio/projects/wandsworth/ww5.jpg',
             w: 2023,
             h: 1344,
-            title: 'London Residential - Living room'
+            title: 'Wandsworth, London - Living room'
         },     
         {
             src: '_img/portfolio/projects/wandsworth/ww6.jpg',
             w: 1328,
             h: 2371,
-            title: 'London Residential - Living room'
+            title: 'Wandsworth, London - Living room'
         },     
         {
             src: '_img/portfolio/projects/wandsworth/ww7.jpg',
             w: 1207,
             h: 2156,
-            title: 'London Residential - Living room'
-        },             
+            title: 'Wandsworth, London - Living room'
+        }, 
+        {
+            src: '_img/portfolio/projects/wandsworth/ww8.jpg',
+            w: 2400,
+            h: 1344,
+            title: 'Wandsworth, London - Living room'
+        }, 
+        {
+            src: '_img/portfolio/projects/wandsworth/ww9.jpg',
+            w: 2400,
+            h: 1344,
+            title: 'Wandsworth, London - Living room'
+        }                                                                                    
+    ];
+    
+    // define options (if needed)
+    var options = {
+        shareEl: false,
+        zoomEl: false,
+        closeOnScroll: false,
+        closeOnVerticalDrag: false,
+        showAnimationDuration: 333,
+        hideAnimationDuration: 333        
+    };
+    
+    var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+    gallery.init();
+
+    gallery.options.maxSpreadZoom = gallery.getZoomLevel();
+    gallery.options.getDoubleTapZoom = function(isMouseClick, item) {
+    return item.initialZoomLevel;
+    }
+
+};
+
+var openPhotoSwipeProjects3 = function() {
+    var pswpElement = document.querySelectorAll('.pswp')[0];
+
+    // build items array
+    var items = [
+        {
+            src: '_img/portfolio/projects/courbevoie/courbevoie1.jpg',
+            w: 2596,
+            h: 3462,
+            title: 'Paris Courbevoie - Bedroom'
+        },
+        {
+            src: '_img/portfolio/projects/courbevoie/courbevoie2.jpg',
+            w: 4032,
+            h: 3024,
+            title: 'Paris Courbevoie - Bedroom'
+        },
+        {
+            src: '_img/portfolio/projects/courbevoie/courbevoie3.jpg',
+            w: 3072,
+            h: 5472,
+            title: 'Paris Courbevoie - Bedroom'
+        },
+        {
+            src: '_img/portfolio/projects/courbevoie/courbevoie4.jpg',
+            w: 3072,
+            h: 5472,
+            title: 'Paris Courbevoie - Bedroom'
+        }                                                                                        
+    ];
+    
+    // define options (if needed)
+    var options = {
+        shareEl: false,
+        zoomEl: false,
+        closeOnScroll: false,
+        closeOnVerticalDrag: false,
+        showAnimationDuration: 333,
+        hideAnimationDuration: 333        
+    };
+    
+    var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+    gallery.init();
+
+    gallery.options.maxSpreadZoom = gallery.getZoomLevel();
+    gallery.options.getDoubleTapZoom = function(isMouseClick, item) {
+    return item.initialZoomLevel;
+    }
+
+};
+
+var openPhotoSwipeProjects4 = function() {
+    var pswpElement = document.querySelectorAll('.pswp')[0];
+
+    // build items array
+    var items = [
         {
             src: '_img/portfolio/projects/myl/myl-after-10.jpg',
             w: 6161,
@@ -699,4 +798,3 @@ var openPhotoSwipeProjects = function() {
     }
 
 };
-

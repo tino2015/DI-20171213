@@ -1075,8 +1075,23 @@ li {
     padding: 10% 0;
 }
 
-.projects {
+.projects1 {
     background: url("../_img/portfolio/projects/paris/paris1.jpg");
+    background-position: center;
+}
+
+.projects2 {
+    background: url("../_img/portfolio/projects/wandsworth/ww4.jpg");
+    background-position: center;
+}
+
+.projects3 {
+    background: url("../_img/portfolio/projects/courbevoie/courbevoie1.jpg");
+    background-position: center;
+}
+
+.projects4 {
+    background: url("../_img/portfolio/projects/myl/myl-after-10.jpg");
     background-position: center;
 }
 
@@ -1097,7 +1112,10 @@ li {
     background-position: top;   
 }
 
-.projects,
+.projects1,
+.projects2,
+.projects3,
+.projects4,
 .mood-boards,
 .cgi,
 .plans {
@@ -1163,14 +1181,20 @@ li {
 .mood-boards *,
 .cgi *,
 .plans *,
-.projects * {
+.projects1 *, 
+.projects2 *,
+.projects3 *, 
+.projects4 * {
     position: relative;
 }
 
 #mood-gal h4,
 #cgi-gal h4,
 #plans-gal h4,
-#projects-gal h4 {
+#projects1-gal h4, 
+#projects2-gal h4,
+#projects3-gal h4,
+#projects4-gal h4 {
     margin: 0;
     font-family: 'Lato', sans-serif;
     font-size: 3em;
