@@ -12,7 +12,7 @@
 </script>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Delphine Interiors | Luxury Interior Design | New York | London | Paris |</title>
+        <title>Delphine Interiors | Luxury Interior Design | New York | London | Paris</title>
         <meta name="description" content="Luxury interior design in London and France">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#303030">
@@ -64,7 +64,7 @@
   </div>  
   <ul class="mobile-nav">
     <li><a href="#about">About</a></li>
-    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#portfolio">Projects</a></li>
     <li><a href="#how-we-work">How we work</a></li>
     <li><a href="#reviews">Reviews</a></li>
     <li><a href="#contact">Contact us</a></li>
@@ -90,7 +90,7 @@
             <div class="grid-column grid-three-fifth">
                 <ul class="text-uppercase">
                     <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
                     <li><a href="#how-we-work">How we work</a></li>
                     <li><a href="#reviews">Reviews</a></li>
                     <li><a href="#contact">Contact us</a></li>
@@ -132,7 +132,7 @@
                                 <div class="grid-column grid-three-fifth">
                                     <ul class="text-uppercase">
                                         <li><a href="#about">About</a></li>
-                                        <li><a href="#portfolio">Portfolio</a></li>
+                                        <li><a href="#portfolio">Projects</a></li>
                                         <li><a href="#how-we-work">How we work</a></li>
                                         <li><a href="#reviews">Reviews</a></li>         
                                         <li><a href="#contact">Contact us</a></li>
@@ -158,7 +158,7 @@
                 <div class="grid-column grid-half about-right cf">
                 <div class="about-us-content">
                 <p>Delphine Interiors was created by Delphine after developing her skills and experience with interior design companies in Bordeaux, Paris, and London since 2010.
-                <p class="hideme">Now primarily based in New York, Delphine Interiors offers a complete design service, creating personalised interiors for your residential or commercial projects, with a touch of French influence and inspiration.
+                <p class="hideme">Now primarily based in New York, Delphine Interiors offers a complete design service, creating personalised interiors for your residential projects, with a touch of French influence and inspiration.
                 <p class="hideme">With a real passion for space planning, textures, colours, and lighting, Delphine Interiors will design your home to be beautiful, yet functional for your personal needs and lifestyle. 
                 <p class="hideme">No one project is ever the same and while projects may vary in size and scope, the same commitment and quality is ensured to achieve the best results.
                 <p class="hideme">Having worked extensively on both sides of the channel, Delphine Interiors is happy to discuss your project whether in the US, UK, France, or even further afield.
@@ -166,7 +166,7 @@
                 <img class="image-team hideme about-mobile" src="_img/about2s.jpg">
                 <div class="about-us-content about-mobile">
                 <p>Delphine Interiors was created by Delphine after developing her skills and experience with interior design companies in Bordeaux, Paris, and London since 2010.
-                <p class="hideme">Now primarily based in New York, Delphine Interiors offers a complete design service, creating personalised interiors for your residential or commercial projects, with a touch of French influence and inspiration.
+                <p class="hideme">Now primarily based in New York, Delphine Interiors offers a complete design service, creating personalised interiors for your residential projects, with a touch of French influence and inspiration.
                 <p class="hideme">With a real passion for space planning, textures, colours, and lighting, Delphine Interiors will design your home to be beautiful, yet functional for your personal needs and lifestyle. 
                 <p class="hideme">No one project is ever the same and while projects may vary in size and scope, the same commitment and quality is ensured to achieve the best results.
                 <p class="hideme">Having worked extensively on both sides of the channel, Delphine Interiors is happy to discuss your project whether in the US, UK, France, or even further afield.
@@ -183,20 +183,25 @@
           <div class="grid-column grid-fifth"></div>
           <div class="grid-column grid-three-fifth">
             <div class="feature-content center">
-                <h3>PORTFOLIO</h3>
+                <h3>LATEST PROJECTS</h3>
                 <div class="portfolio-banner hideme">
-                    <div class="projects overlay rosegold">
-                        <a id="projects-gal" href="#" onclick="openPhotoSwipeProjects();return false;"><h4>Projects</h4><p class="view-gal">View gallery</p></a>
+                    <div class="projects1 overlay rosegold">
+                        <a id="projects1-gal" href="#" onclick="openPhotoSwipeProjects1();return false;"><h4>Paris 1 Arr - Apartment</h4><p class="view-gal">View gallery</p></a>
                     </div>
                 </div>                
                 <div class="portfolio-banner hideme">
-                    <div class="mood-boards overlay rosegold">
-                        <a id="mood-gal" href="#" onclick="openPhotoSwipeMood();return false;"><h4>Mood Board Examples</h4><p class="view-gal">View gallery</p></a>
+                    <div class="projects2 overlay rosegold">
+                        <a id="projects2-gal" href="#" onclick="openPhotoSwipeProjects2();return false;"><h4>Wandsworth, London - Living Area</h4><p class="view-gal">View gallery</p></a>
                     </div>
                 </div>
                 <div class="portfolio-banner hideme">
-                    <div class="cgi overlay rosegold">
-                        <a id="cgi-gal" href="#" onclick="openPhotoSwipeCgi();return false;"><h4>3D Examples</h4><p class="view-gal">View gallery</p></a>
+                    <div class="projects3 overlay rosegold">
+                        <a id="projects3-gal" href="#" onclick="openPhotoSwipeProjects3();return false;"><h4>Paris Courbevoie - Bedroom</h4><p class="view-gal">View gallery</p></a>
+                    </div>
+                </div>
+                <div class="portfolio-banner hideme">
+                    <div class="projects4 overlay rosegold">
+                        <a id="projects4-gal" href="#" onclick="openPhotoSwipeProjects4();return false;"><h4>Paris - Office</h4><p class="view-gal">View gallery</p></a>
                     </div>
                 </div>
             </div>
@@ -417,11 +422,11 @@
                     <ul>
                        <li><a class="phone-mobile" href="tel:012676849989">
                             <img src="_img/phone.png">&nbsp;&nbsp;US: +1 267-684-9989</a>
-                            <span class="phone-nonmobile"><img src="_img/phone.png">&nbsp;&nbsp;+1 267-684-9989</span>
+                            <span class="phone-nonmobile"><img src="_img/phone.png">&nbsp;&nbsp;US: +1 267-684-9989</span>
                         </li>
                         <li><a class="phone-mobile" href="tel:00447845474382">
                             <img src="_img/phone.png">&nbsp;&nbsp;UK: +44 (0) 7845 474 382</a>
-                            <span class="phone-nonmobile"><img src="_img/phone.png">&nbsp;&nbsp;+44 (0) 7845 474 382</span>
+                            <span class="phone-nonmobile"><img src="_img/phone.png">&nbsp;&nbsp;UK: +44 (0) 7845 474 382</span>
                         </li>
                         <li><a class="email" href="mailto:info@delphineinteriors.com">
                             <img src="_img/email.png">&nbsp;&nbsp;info@delphineinteriors.com</a>
