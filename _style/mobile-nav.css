@@ -148,7 +148,7 @@ input ~ nav > ul > li > a {
 
 /* line 128, C:/Users/arthumar/Documents/PERSO/FEWD/DI/_sass/mobile-nav.scss */
 input:checked + label[for=burger] ~ nav {
-  height: 40vh;
+  height: 50vh;
   transition-delay: 0s;
 }
 

@@ -126,7 +126,7 @@ input#burger {
       }
     }
   input:checked + label[for=burger] ~ nav { 
-      height: 40vh;
+      height: 50vh;
       transition-delay: 0s;
       > ul {
         > li {

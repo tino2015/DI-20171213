@@ -36,7 +36,21 @@ $(function(){  // $(document).ready shorthand
         var bottom_of_window = $(window).scrollTop() + $(window).height();
             
             /* If the object is completely visible in the window, fade it it */
-            if( bottom_of_window > ( bottom_of_object + -100 )  ){
+            if( bottom_of_window > ( bottom_of_object + -00 )  ){
+                
+                $(this).animate({'opacity':'1'},1250);
+                    
+            }
+            
+        }); 
+
+                $('.hideme-events').each( function(i){
+            
+        var bottom_of_object = $(this).position().top + $(this).outerHeight() / 4; /*here is the change*/
+        var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > ( bottom_of_object + -900 )  ){
                 
                 $(this).animate({'opacity':'1'},1250);
                     
@@ -388,89 +402,281 @@ var openPhotoSwipeProjects = function() {
 
     // build items array
     var items = [
+       {
+            src: '_img/portfolio/projects/paris/paris1.jpg',
+            w: 3000,
+            h: 2000,
+            title: 'Paris Residential - Living Room'
+        },     
+       {
+            src: '_img/portfolio/projects/paris/paris2.jpg',
+            w: 2000,
+            h: 3000,
+            title: 'Paris Residential - Living Room'
+        },       
+       {
+            src: '_img/portfolio/projects/paris/paris3.jpg',
+            w: 2000,
+            h: 3000,
+            title: 'Paris Residential - Living Room'
+        },      
+       {
+            src: '_img/portfolio/projects/paris/paris4.jpg',
+            w: 3000,
+            h: 2000,
+            title: 'Paris Residential - Living Room'
+        },     
+       {
+            src: '_img/portfolio/projects/paris/paris5.jpg',
+            w: 2000,
+            h: 3000,
+            title: 'Paris Residential - Living Room'
+        },          
+       {
+            src: '_img/portfolio/projects/paris/paris6.jpg',
+            w: 3000,
+            h: 2000,
+            title: 'Paris Residential - Living Room'
+        },       
+       {
+            src: '_img/portfolio/projects/paris/paris7.jpg',
+            w: 3000,
+            h: 2000,
+            title: 'Paris Residential - Living Room'
+        },         
+       {
+            src: '_img/portfolio/projects/paris/paris8.jpg',
+            w: 2000,
+            h: 3000,
+            title: 'Paris Residential - Bedroom'
+        },       
+       {
+            src: '_img/portfolio/projects/paris/paris9.jpg',
+            w: 2000,
+            h: 3000,
+            title: 'Paris Residential - Bathroom'
+        },        
+       {
+            src: '_img/portfolio/projects/paris/paris10.jpg',
+            w: 2000,
+            h: 3000,
+            title: 'Paris Residential - Bathroom'
+        },         
+       {
+            src: '_img/portfolio/projects/paris/paris11.jpg',
+            w: 3000,
+            h: 2000,
+            title: 'Paris Residential - Kitchen'
+        },        
+       {
+            src: '_img/portfolio/projects/paris/paris12.jpg',
+            w: 2000,
+            h: 3000,
+            title: 'Paris Residential - Kitchen'
+        },         
+       {
+            src: '_img/portfolio/projects/paris/paris13.jpg',
+            w: 2000,
+            h: 3000,
+            title: 'Paris Residential - Living Room'
+        },         
+       {
+            src: '_img/portfolio/projects/paris/paris14.jpg',
+            w: 2000,
+            h: 3000,
+            title: 'Paris Residential - Kitchen'
+        },        
+       {
+            src: '_img/portfolio/projects/paris/paris15.jpg',
+            w: 2000,
+            h: 3000,
+            title: 'Paris Residential - Living Room'
+        },        
+       {
+            src: '_img/portfolio/projects/paris/paris16.jpg',
+            w: 2000,
+            h: 3000,
+            title: 'Paris Residential - Living Room'
+        },        
+       {
+            src: '_img/portfolio/projects/paris/paris17.jpg',
+            w: 2000,
+            h: 3000,
+            title: 'Paris Residential - Living Room'
+        },        
+       {
+            src: '_img/portfolio/projects/paris/paris18.jpg',
+            w: 2000,
+            h: 3000,
+            title: 'Paris Residential - Bedroom'
+        },       
+       {
+            src: '_img/portfolio/projects/paris/paris19.jpg',
+            w: 2000,
+            h: 3000,
+            title: 'Paris Residential - Hallway'
+        },       
+       {
+            src: '_img/portfolio/projects/paris/paris20.jpg',
+            w: 2000,
+            h: 3000,
+            title: 'Paris Residential - Bedroom'
+        },         
+       {
+            src: '_img/portfolio/projects/paris/paris21.jpg',
+            w: 3000,
+            h: 2000,
+            title: 'Paris Residential - Living Room'
+        },         
+        {
+            src: '_img/portfolio/projects/courbevoie/courbevoie1.jpg',
+            w: 2596,
+            h: 3462,
+            title: 'Courbevoie Residential - Bedroom'
+        },
+        {
+            src: '_img/portfolio/projects/courbevoie/courbevoie2.jpg',
+            w: 4032,
+            h: 3024,
+            title: 'Courbevoie Residential - Bedroom'
+        },
+        {
+            src: '_img/portfolio/projects/courbevoie/courbevoie3.jpg',
+            w: 3072,
+            h: 5472,
+            title: 'Courbevoie Residential - Bedroom'
+        },
+        {
+            src: '_img/portfolio/projects/courbevoie/courbevoie4.jpg',
+            w: 3072,
+            h: 5472,
+            title: 'Courbevoie Residential - Bedroom'
+        },     
+        {
+            src: '_img/portfolio/projects/wandsworth/ww1.jpg',
+            w: 1204,
+            h: 1769,
+            title: 'London Residential - Living room'
+        },     
+        {
+            src: '_img/portfolio/projects/wandsworth/ww2.jpg',
+            w: 1334,
+            h: 2400,
+            title: 'London Residential - Living room'
+        },     
+        {
+            src: '_img/portfolio/projects/wandsworth/ww3.jpg',
+            w: 1058,
+            h: 1890,
+            title: 'London Residential - Living room'
+        },     
+        {
+            src: '_img/portfolio/projects/wandsworth/ww4.jpg',
+            w: 1336,
+            h: 2386,
+            title: 'London Residential - Living room'
+        },     
+        {
+            src: '_img/portfolio/projects/wandsworth/ww5.jpg',
+            w: 2023,
+            h: 1344,
+            title: 'London Residential - Living room'
+        },     
+        {
+            src: '_img/portfolio/projects/wandsworth/ww6.jpg',
+            w: 1328,
+            h: 2371,
+            title: 'London Residential - Living room'
+        },     
+        {
+            src: '_img/portfolio/projects/wandsworth/ww7.jpg',
+            w: 1207,
+            h: 2156,
+            title: 'London Residential - Living room'
+        },             
         {
             src: '_img/portfolio/projects/myl/myl-after-10.jpg',
             w: 6161,
             h: 4108,
-            title: 'Commercial project - Meeting room'
+            title: 'Paris Office - Meeting room'
         },      
         {
             src: '_img/portfolio/projects/myl/myl-after-7.jpg',
             w: 6240,
             h: 4160,
-            title: 'Commercial project - Meeting room'
+            title: 'Paris Office - Meeting room'
         },    
         {
             src: '_img/portfolio/projects/myl/myl-after-2.jpg',
             w: 1560,
             h: 1040,
-            title: 'Commercial project - Meeting room'
+            title: 'Paris Office - Meeting room'
         },         
         {
             src: '_img/portfolio/projects/myl/myl-after-11.jpg',
             w: 6240,
             h: 4160,
-            title: 'Commercial project - Office 1'
+            title: 'Paris Office - Office 1'
         },   
         {
             src: '_img/portfolio/projects/myl/myl-after-9.jpg',
             w: 6231,
             h: 4154,
-            title: 'Commercial project - Office 1'
+            title: 'Paris Office - Office 1'
         },    
         {
             src: '_img/portfolio/projects/myl/myl-after-12.jpg',
             w: 3436,
             h: 4932,
-            title: 'Commercial project - Meeting room'
+            title: 'Paris Office - Meeting room'
         }, 
         {
             src: '_img/portfolio/projects/myl/myl-after-3.jpg',
             w: 6237,
             h: 4158,
-            title: 'Commercial project - Bathroom'
+            title: 'Paris Office - Bathroom'
         }, 
         {
             src: '_img/portfolio/projects/myl/myl-after-6.jpg',
             w: 3599,
             h: 5399,
-            title: 'Commercial project - Kitchen'
+            title: 'Paris Office - Kitchen'
         }, 
         {
             src: '_img/portfolio/projects/myl/myl-after-15.jpg',
             w: 3595,
             h: 5392,
-            title: 'Commercial project - Kitchen/Bathroom'
+            title: 'Paris Office - Kitchen/Bathroom'
         },
         {
             src: '_img/portfolio/projects/myl/myl-after-14.jpg',
             w: 4160,
             h: 6240,
-            title: 'Commercial project - Reception'
+            title: 'Paris Office - Reception'
         }, 
         {
             src: '_img/portfolio/projects/myl/myl-after-5.jpg',
             w: 6240,
             h: 4160,
-            title: 'Commercial project - Reception'
+            title: 'Paris Office - Reception'
         },  
         {
             src: '_img/portfolio/projects/myl/myl-after-4.jpg',
             w: 6240,
             h: 4160,
-            title: 'Commercial project - Wallpaper'
+            title: 'Paris Office - Wallpaper'
         },  
         {
             src: '_img/portfolio/projects/myl/myl-after-8.jpg',
             w: 6240,
             h: 4160,
-            title: 'Commercial project - Wallpaper'
+            title: 'Paris Office - Wallpaper'
         },                                                         
         {
             src: '_img/portfolio/projects/myl/myl-after-1.jpg',
             w: 1331,
             h: 1997,
-            title: 'Commercial project - Flooring'
+            title: 'Paris Office - Flooring'
         }                                                                                         
     ];
     
