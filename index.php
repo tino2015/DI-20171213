@@ -1,11 +1,21 @@
 <!doctype html>
 <html class="no-js" lang="en-us">
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106620512-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-106620512-1');
+</script>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Delphine Interiors</title>
+        <title>Delphine Interiors | Luxury Interior Design | New York | London | Paris</title>
         <meta name="description" content="Luxury interior design in London and France">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#303030">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
@@ -17,7 +27,7 @@
         <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
-        <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet'>
         <script src="_js/main.js"></script>
         <script src="_js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
@@ -54,10 +64,11 @@
   </div>  
   <ul class="mobile-nav">
     <li><a href="#about">About</a></li>
-    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#portfolio">Projects</a></li>
     <li><a href="#how-we-work">How we work</a></li>
-    <li><a href="#events">Events</a></li>
+    <li><a href="#reviews">Reviews</a></li>
     <li><a href="#contact">Contact us</a></li>
+    <li><a href="#instagram">Instagram</a></li>
   </ul>
 </nav>
 
@@ -79,13 +90,16 @@
             <div class="grid-column grid-three-fifth">
                 <ul class="text-uppercase">
                     <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
                     <li><a href="#how-we-work">How we work</a></li>
-                    <li><a href="#events">Events</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
                     <li><a href="#contact">Contact us</a></li>
+                    <li><a href="#instagram">Instagram</a></li>
                 </ul>
             </div>
-          <div class="grid-column grid-fifth"></div>
+          <div class="grid-column grid-fifth">
+              <img class="biid-logo" src="_img/biid/biid.png">
+          </div>
         </div>
 
 
@@ -97,7 +111,8 @@
                     </div>
                     <div class="hero-content">
                         <div class="hero-strapline">
-                            <h4>Joyeux Noël <br> from Delphine Interiors!</h4>
+<!--                            <h4>Season's Greetings<br> from Delphine Interiors!</h4>
+-->
                         </div>
                     </div>
                 </div>
@@ -117,10 +132,11 @@
                                 <div class="grid-column grid-three-fifth">
                                     <ul class="text-uppercase">
                                         <li><a href="#about">About</a></li>
-                                        <li><a href="#portfolio">Portfolio</a></li>
-                                        <li><a href="#how-we-work">How we work</a></li>         
-                                        <li><a href="#events">Events</a></li>
+                                        <li><a href="#portfolio">Projects</a></li>
+                                        <li><a href="#how-we-work">How we work</a></li>
+                                        <li><a href="#reviews">Reviews</a></li>         
                                         <li><a href="#contact">Contact us</a></li>
+                                        <li><a href="#instagram">Instagram</a></li>
                                     </ul>
                                   </div>
                                 <div class="grid-column grid-fifth"></div>
@@ -137,21 +153,23 @@
 
             <div class="feature-content center cf">
                 <h3>ABOUT DELPHINE</h3>
+                <div class="about-container">
                 <div class="grid-column grid-half about-left cf"><img class="image-team hideme"></div>
-                <div class="grid-column grid-half about-right cf"><div class="about-us-content">
+                <div class="grid-column grid-half about-right cf">
+                <div class="about-us-content">
                 <p>Delphine Interiors was created by Delphine after developing her skills and experience with interior design companies in Bordeaux, Paris, and London since 2010.
-                <p class="hideme">Now primarily based in London, Delphine Interiors offers a complete design service, creating personalised interiors for your residential or commercial projects, with a touch of French influence and inspiration.
+                <p class="hideme">Now primarily based in New York, Delphine Interiors offers a complete design service, creating personalised interiors for your residential projects, with a touch of French influence and inspiration.
                 <p class="hideme">With a real passion for space planning, textures, colours, and lighting, Delphine Interiors will design your home to be beautiful, yet functional for your personal needs and lifestyle. 
                 <p class="hideme">No one project is ever the same and while projects may vary in size and scope, the same commitment and quality is ensured to achieve the best results.
-                <p class="hideme">Having worked extensively on both sides of the channel, Delphine Interiors is happy to discuss your project whether in the UK, France, or even further afield.
-                </div></div>
-                <img class="image-team hideme about-mobile" src="_img/about.jpg">
+                <p class="hideme">Having worked extensively on both sides of the channel, Delphine Interiors is happy to discuss your project whether in the US, UK, France, or even further afield.
+                </div></div></div>
+                <img class="image-team hideme about-mobile" src="_img/about2s.jpg">
                 <div class="about-us-content about-mobile">
-                <p>Delphine Interiors was created by Delphine Michaudet after developing her skills and experience with interior design companies in Bordeaux, Paris, and London since 2010.
-                <p>Now primarily based in London, Delphine Interiors offers a complete design service, creating personalised interiors for your residential or commercial projects, with a touch of French influence and inspiration.
-                <p>With a real passion for space planning, textures, colours, and lighting, Delphine Interiors will design your home to be beautiful, yet functional for your personal needs and lifestyle. 
-                <p>No one project is ever the same and while projects may vary in size and scope, the same commitment and quality is ensured to achieve the best results.
-                <p>Having worked extensively on both sides of the channel, Delpine Interiors is happy to discuss your project whether in the UK, France, or even further afield.
+                <p>Delphine Interiors was created by Delphine after developing her skills and experience with interior design companies in Bordeaux, Paris, and London since 2010.
+                <p class="hideme">Now primarily based in New York, Delphine Interiors offers a complete design service, creating personalised interiors for your residential projects, with a touch of French influence and inspiration.
+                <p class="hideme">With a real passion for space planning, textures, colours, and lighting, Delphine Interiors will design your home to be beautiful, yet functional for your personal needs and lifestyle. 
+                <p class="hideme">No one project is ever the same and while projects may vary in size and scope, the same commitment and quality is ensured to achieve the best results.
+                <p class="hideme">Having worked extensively on both sides of the channel, Delphine Interiors is happy to discuss your project whether in the US, UK, France, or even further afield.
                 </div>
             </div>
           </div>
@@ -165,26 +183,25 @@
           <div class="grid-column grid-fifth"></div>
           <div class="grid-column grid-three-fifth">
             <div class="feature-content center">
-                <h3>PORTFOLIO</h3>
+                <h3>LATEST PROJECTS</h3>
                 <div class="portfolio-banner hideme">
-                    <div class="projects overlay rosegold">
-                        <a id="projects-gal" href="#" onclick="openPhotoSwipeProjects();return false;"><h4>Projects</h4>
-                            <p class="view-gal">View gallery</p></a>
+                    <div class="projects1 overlay rosegold">
+                        <a id="projects1-gal" href="#" onclick="openPhotoSwipeProjects1();return false;"><h4>Paris 1 Arr - Apartment</h4><p class="view-gal">View gallery</p></a>
                     </div>
                 </div>                
                 <div class="portfolio-banner hideme">
-                    <div class="mood-boards overlay rosegold">
-                        <a id="mood-gal" href="#" onclick="openPhotoSwipeMood();return false;"><h4>Mood Boards</h4><p class="view-gal">View gallery</p></a>
+                    <div class="projects2 overlay rosegold">
+                        <a id="projects2-gal" href="#" onclick="openPhotoSwipeProjects2();return false;"><h4>Wandsworth, London - Living Area</h4><p class="view-gal">View gallery</p></a>
                     </div>
                 </div>
                 <div class="portfolio-banner hideme">
-                    <div class="cgi overlay rosegold">
-                        <a id="cgi-gal" href="#" onclick="openPhotoSwipeCgi();return false;"><h4>3D CGI</h4><p class="view-gal">View gallery</p></a>
+                    <div class="projects3 overlay rosegold">
+                        <a id="projects3-gal" href="#" onclick="openPhotoSwipeProjects3();return false;"><h4>Paris Courbevoie - Bedroom</h4><p class="view-gal">View gallery</p></a>
                     </div>
                 </div>
                 <div class="portfolio-banner hideme">
-                    <div class="plans overlay rosegold">
-                        <a id="plans-gal" href="#" onclick="openPhotoSwipePlans();return false;"><h4>Plans &<br>Presentations</h4><p class="view-gal">View gallery</p></a>
+                    <div class="projects4 overlay rosegold">
+                        <a id="projects4-gal" href="#" onclick="openPhotoSwipeProjects4();return false;"><h4>Paris - Office</h4><p class="view-gal">View gallery</p></a>
                     </div>
                 </div>
             </div>
@@ -233,10 +250,10 @@
                     <div class="grid-column grid-whole process2 hideme">
                         <div class="grid-column grid-four-fifth hww-content justify">
                             <p class="stage-mobile"><img class="stage-name no-margin-top no-margin-bottom" src="_img/process2.png"></p>
-                            <p class="no-margin-top">Following the consultation, we will provide a complete scope of the work established together along with initial estimates.
+                            <p class="no-margin-top">Following the consultation, we will provide a complete scope of the work established together along with the design fees.
                             <div id="content-div2">
                             <div id="more-content2" class="fade2">
-                            This stage is one of the most important during the process as it will determine your future interior. We'll discuss, review, and update the scope as needed until you are fully happy with the plans. Once agreed, we will start to work on the concept design for your project.
+                            This stage is one of the most important during the process as it will determine your future interior. We'll discuss, review, and update the scope as needed until you are fully happy. Once agreed, we will start to work on the concept design for your project.
                             </div>
                             <p>
                             This stage will include a site survey, floor plans illustrating the new setup, and concept layout. Also presented if applicable may be hand sketches, 3D mockups, new products, and mood boards with samples of possible textures, colours and finishes.
@@ -327,29 +344,67 @@
         </section>
 
 
+<a name="reviews" class="anchor"></a>
+        <section class="grid-container about cf">
+            
+          <div class="grid-column grid-fifth cf"></div>
+          <div class="grid-column grid-three-fifth cf">
 
-<a name="events" class="anchor"></a>
-<section class="grid-container events cf hideme">
+            <div class="feature-content center cf">
+                <h3>REVIEWS</h3>
+                <div class="about-container">
+                <div class="grid-column grid-half reviews-left cf">
+                <div id="bark-icons">
+                <a href='https://www.bark.com/en/company/delphine-interiors-ltd/VqV4z/' target='_blank' class='bark-widget bark-icons' data-type='coe' data-id='VqV4z' data-image='medium-gold' data-version='2.0'>Delphine Interiors Ltd</a><script type='text/javascript' src='https://www.bark.com/js/widgets.min.js' defer></script>
+                <a href='https://www.bark.com/en/company/delphine-interiors-ltd/VqV4z/' target='_blank' class='bark-widget bark-icons2' data-type='reviews' data-id='VqV4z' data-image='medium-gold' data-version='2.0'>Delphine Interiors Ltd</a><script type='text/javascript' src='https://www.bark.com/js/widgets.min.js' defer></script></div>
+                </div>
+                <div class="grid-column grid-half about-right cf">
+                <div class="reviews-content">
+                <p>"Delphine helped me tremendously with a new project - a Restaurant and Function room renovation. Delphine had great ideas and helped me source some beautiful items that I wouldn’t have come across otherwise. Delphine worked with my budget and came on site to help more than once which was invaluable. I’d highly recommend Delphine Interiors."
+                <br><span class="reviews-summary">Restaurant project, London - Dec 2018</span></p>
+                <p class="hideme">"We had a very urgent refurbishment job on our two bed flat in Putney/Wandsworth. Delphine was immediately able to articulate what could be delivered in the time frame, and those items for which we would have to wait a little. Her ideas, taste and design feel for the project was 'spot on' and we handed the whole project over to her. It was delivered on time, and on budget. The finished product has transformed our apartment! She was delightful to work with, reliable and very energetic. We will definitely use her again and recommend her without hesitation!"
+                <br><span class="reviews-summary">Apartment project, London - Nov 2018</span></p>
+                <p class="hideme">"I have recently bought a flat in London and out of all the professionals I have been working with, Delphine definitely stood out for being extremely proactive and helpful in advising us on how to furnish and decorate our new home. I don’t know much in this field and she patiently answered all my questions and helped me understand which of my ideas were practically feasible and which weren’t. She is exceptionally talented and creative so she came up with solutions I would never have thought of myself, and she talked to contractors on my behalf to give me rough quotes for each little project. Her drawings and plans are very clear and they are very helpful when trying to understand space in a new home and picturing how and where the furniture you have in mind would fit. She also adds notes and comments here and there to explain things that may not be obvious at a first glance. I would definitely recommend her and hope to be able to work with her again in the future."
+                <br><span class="reviews-summary">Apartment project, London - Aug 2018</span></p>
+                <p class="hideme">"We hired Delphine to help us design our new master bedroom and kid’s bedroom. She had a great vision and a lot of creative ideas, paid attention to details. She delivered drawings, 3D visuals reflecting her new layouts, samples of the new finishes and found the perfect furniture suiting our budget and taste! I would recommend Delphine Interiors to all my friends and family without any hesitation."
+                <br><span class="reviews-summary">Apartment project, Paris - Aug 2018</span></p>
+                <p class="hideme">"I have asked Delphine to work on the refurbishment of an existing shop to install my new company offices for my employees and myself. She presented the complete concept design for the project including layouts, 3D visuals, sketches and mood boards. She had worked closely with the contractors and make sure that the project was running smoothly from the start to the completion. I am really happy of the result, received a lot of compliments from my clients and partners. I would highly recommend her services."
+                <br><span class="reviews-summary">Office project, Paris - May 2018</span></p>
+                </div></div></div>
+
+                <img class="hideme reviews-content">
+                <div class="reviews-content about-mobile">
+                <div id="bark-icons">
+                <a href='https://www.bark.com/en/company/delphine-interiors-ltd/VqV4z/' target='_blank' class='bark-widget bark-icons' data-type='coe' data-id='VqV4z' data-image='medium-gold' data-version='2.0'>Delphine Interiors Ltd</a><script type='text/javascript' src='https://www.bark.com/js/widgets.min.js' defer></script>
+                <a href='https://www.bark.com/en/company/delphine-interiors-ltd/VqV4z/' target='_blank' class='bark-widget bark-icons2' data-type='reviews' data-id='VqV4z' data-image='medium-gold' data-version='2.0'>Delphine Interiors Ltd</a><script type='text/javascript' src='https://www.bark.com/js/widgets.min.js' defer></script></div>
+                <p>"Delphine helped me tremendously with a new project - a Restaurant and Function room renovation. Delphine had great ideas and helped me source some beautiful items that I wouldn’t have come across otherwise. Delphine worked with my budget and came on site to help more than once which was invaluable. I’d highly recommend Delphine Interiors."
+                <br><span class="reviews-summary">Restaurant project, London - Dec 2018</span></p>
+                <p class="hideme">"We had a very urgent refurbishment job on our two bed flat in Putney/Wandsworth. Delphine was immediately able to articulate what could be delivered in the time frame, and those items for which we would have to wait a little. Her ideas, taste and design feel for the project was 'spot on' and we handed the whole project over to her. It was delivered on time, and on budget. The finished product has transformed our apartment! She was delightful to work with, reliable and very energetic. We will definitely use her again and recommend her without hesitation!"
+                <br><span class="reviews-summary">Apartment project, London - Nov 2018</span></p>
+                <p class="hideme">"I have recently bought a flat in London and out of all the professionals I have been working with, Delphine definitely stood out for being extremely proactive and helpful in advising us on how to furnish and decorate our new home. I don’t know much in this field and she patiently answered all my questions and helped me understand which of my ideas were practically feasible and which weren’t. She is exceptionally talented and creative so she came up with solutions I would never have thought of myself, and she talked to contractors on my behalf to give me rough quotes for each little project. Her drawings and plans are very clear and they are very helpful when trying to understand space in a new home and picturing how and where the furniture you have in mind would fit. She also adds notes and comments here and there to explain things that may not be obvious at a first glance. I would definitely recommend her and hope to be able to work with her again in the future."
+                <br><span class="reviews-summary">Apartment project, London - Aug 2018</span></p>
+                <p class="hideme">"We hired Delphine to help us design our new master bedroom and kid’s bedroom. She had a great vision and a lot of creative ideas, paid attention to details. She delivered drawings, 3D visuals reflecting her new layouts, samples of the new finishes and found the perfect furniture suiting our budget and taste! I would recommend Delphine Interiors to all my friends and family without any hesitation."
+                <br><span class="reviews-summary">Apartment project, Paris - Aug 2018</span></p>
+                <p class="hideme">"I have asked Delphine to work on the refurbishment of an existing shop to install my new company offices for my employees and myself. She presented the complete concept design for the project including layouts, 3D visuals, sketches and mood boards. She had worked closely with the contractors and make sure that the project was running smoothly from the start to the completion. I am really happy of the result, received a lot of compliments from my clients and partners. I would highly recommend her services."
+                <br><span class="reviews-summary">Office project, Paris - May 2018</span></p>
+                </div>
+            </div>
+          </div>
+          <div class="grid-column grid-fifth cf"></div>
+        </section>
+
+<a name="instagram" class="anchor"></a>
+<section class="grid-container events cf hideme-instagram">
             
           <div class="grid-column grid-fifth"></div>
           <div class="grid-column grid-three-fifth">
             <div class="feature-content center ">
-                <h3 class="black">EVENTS</h3>
-                <p>We'll be attending the following upcoming events and would be happy to see you there!
-                <div class="event-logos">
-                    <div class="event hideme">
-                        <h4>Maison&Objet</h4>
-                        <span>19-23 January 2018, Paris</span>
-                        <br><img src="_img/mo18/logo_MO_white.jpg">
-                    </div>
-                    <p>&nbsp;</p>
-                    <div class="event hideme">
-                        <h4>Salone Internazionale del Mobile</h4>
-                        <span>17-22 April 2018, Milan</span>
-                        <br><img src="_img/Salone-del-Mobile-Milano.png">
-                    </div>
+                <p>&nbsp;</p>
+                <p>See our latest news, inspirations, and goings on from our <a href="https://www.instagram.com/delphine_interiors/"><img alt="Delphine Interiors Instagram" src="_img/instagram_logo.png" style="height:3ex"></a>
+                <p>&nbsp;</p>
+                <div class="hideme-instagram"> 
+                <div id="pixlee_container"></div><script type="text/javascript">window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'D6E5Jzc1Coy9cvnTCk7'});Pixlee.addSimpleWidget({widgetId:'9062'});};</script><script src="//instafeed.assets.pixlee.com/assets/pixlee_widget_1_0_0.js"></script>
                 </div>
-            </div>
           </div>
           <div class="grid-column grid-fifth"></div>
         </section>
@@ -365,12 +420,16 @@
                 <p>Feel free to contact us with any queries via phone, email, or by using the contact form below and we'll get back to you as soon as possible.</p>
                     <div class="contacts">
                     <ul>
+                       <li><a class="phone-mobile" href="tel:012676849989">
+                            <img src="_img/phone.png">&nbsp;&nbsp;US: +1 267-684-9989</a>
+                            <span class="phone-nonmobile"><img src="_img/phone.png">&nbsp;&nbsp;US: +1 267-684-9989</span>
+                        </li>
                         <li><a class="phone-mobile" href="tel:00447845474382">
-                            <img src="_img/phone.png">&nbsp;+44 (0) 7845 474 382</a>
-                            <span class="phone-nonmobile"><img src="_img/phone.png">&nbsp;+44 (0) 7845 474 382</span>
+                            <img src="_img/phone.png">&nbsp;&nbsp;UK: +44 (0) 7845 474 382</a>
+                            <span class="phone-nonmobile"><img src="_img/phone.png">&nbsp;&nbsp;UK: +44 (0) 7845 474 382</span>
                         </li>
                         <li><a class="email" href="mailto:info@delphineinteriors.com">
-                            <img src="_img/email.png">&nbsp;info@delphineinteriors.com</a>
+                            <img src="_img/email.png">&nbsp;&nbsp;info@delphineinteriors.com</a>
                         </li>
                     </ul>
                 </div>
@@ -460,9 +519,10 @@ form {
                 <p>
                     <ul class="social-icons">
                         <li><a href="https://www.facebook.com/DelphineInteriors"><img src="_img/facebook-gold.png" style="height: 48px;"></a></li>
-                        <li><a href="https://www.instagram.com/dinteriors.ltd"><img src="_img/instagram-gold.png" style="height: 48px;"></a></li>
+                        <li><a href="https://www.instagram.com/delphine_interiors"><img src="_img/instagram-gold.png" style="height: 48px;"></a></li>
                     </ul>
                 </p>
+                <p><img src="_img/biid/biid.png" style="max-width: 250px;"></p>
                 <p>&copy; <script> document.write(new Date().getFullYear()) </script> Delphine Interiors
                 <br>Registered address: Office 7, 35-37 Ludgate Hill, London, EC4M 7JN
                 <br>Registered in England and Wales with company number 10924894 and VAT number 278081578
@@ -477,12 +537,6 @@ form {
         <script>window.jQuery || document.write('<script src="_js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
         <script src="_js/main.js"></script>
         <script src="_js/nav.js"></script>
-
-
-        <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N9XGMHH"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <!-- End Google Tag Manager (noscript) -->
 
           
 <!-- Root element of PhotoSwipe. Must have class pswp. -->
