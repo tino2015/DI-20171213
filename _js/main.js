@@ -1,21 +1,4 @@
-//
-//SLIDESHOW
-//
-//Array of images which you want to show: Use path you want.
-var images=new Array();
-images[0]='img/bg-hero-mood-test1.jpg';
-images[1]='img/bg-hero-mood-test2.jpg';
-images[2]='img/bg-hero-mood-test3.jpg';
-var nextimage=0;
-doSlideshow();
-function doSlideshow(){
-    if(nextimage>=images.length){nextimage=0;}
-    $('.hero')
-    .css('background-image','url("'+images[nextimage++]+'")')
-    .fadeIn(800,function(){
-        setTimeout(doSlideshow,1000);
-    });
-}
+
 
 //
 //FADE IN

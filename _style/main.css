@@ -242,7 +242,7 @@ body {
 .logo-full {
     width: 50%;
     height: 50%;
-    max-width: 250px;
+    max-width: 200px;
     max-height: 225px;
 }
 
@@ -338,8 +338,8 @@ body {
 }
 
 
-#hero-bg {
-    background: url("../_img/portfolio/projects/paris/paris7.jpg");
+#slider {
+    /*background: url("../_img/portfolio/projects/paris/paris7.jpg");*/
     /*-webkit-filter: blur(5px);
     filter: blur(50px);*/
     background-size: cover;
@@ -355,9 +355,9 @@ body {
 }
 
 @media screen and (max-width:1250px) {
-    #hero-bg {
+    #slider {
         height: 100vh;
-        background: url("../_img/portfolio/projects/paris/paris16.jpg");
+        /*background: url("../_img/portfolio/projects/paris/paris16.jpg");*/
         background-size: contain;
         -webkit-background-size: contain;
         -moz-background-size: contain;
@@ -371,31 +371,66 @@ body {
 }
 
 @media screen and (min-width:1024px) {
-    #hero-bg {
+    #slider {
         height: 100vh;
     }
 }
 
 @media screen and (min-width:1250px) {
-    #hero-bg {
+    #slider {
         height: 70vh;
     }
 }
 
-/*hero-bg:after {
-    content:"";
-    position:fixed; /* stretch a fixed position to the whole screen */
-    top:0;
-    height:100vh; /* fix for mobile browser address bar appearing disappearing */
-    left:0;
-    right:0;
-    z-index:-1; /* needed to keep in the background */
-    background: url("../_img/bg2019.jpg") center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}*/
+
+
+
+.slide1,.slide2,.slide3,.slide4,.slide5 {
+  position: absolute;
+  width: 100%;
+  height: inherit;
+}
+.slide1 {
+  background: url("../_img/portfolio/projects/paris/paris7.jpg")no-repeat center;
+      background-size: cover;
+    animation:fade 8s infinite;
+-webkit-animation:fade 8s infinite;
+
+} 
+.slide2 {
+  background: url("../_img/portfolio/projects/paris/paris1.jpg")no-repeat center;
+      background-size: cover;
+    animation:fade2 8s infinite;
+-webkit-animation:fade2 8s infinite;
+}
+.slide3 {
+    background: url("../_img/portfolio/projects/paris/paris6.jpg")no-repeat center;
+      background-size: cover;
+    animation:fade3 8s infinite;
+-webkit-animation:fade3 8s infinite;
+}
+@keyframes fade
+{
+  0%   {opacity:1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade2
+{
+  0%   {opacity:0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0 }
+  100% { opacity: 0}
+}
+@keyframes fade3
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
+}
+
 
 .grid-whole .glass {
     position: fixed;
@@ -416,7 +451,7 @@ body {
 
 
 @media screen and (max-width: 1024px) {
-    #hero-bg { 
+    #slider { 
         min-height: 0px; 
         background-attachment: scroll;
         height: 85vh;
@@ -462,10 +497,11 @@ body {
   opacity: .5;
 }
 
-#hero-bg a {
+
+#slider a {
   padding-top: 70px;
 }
-#hero-bg a span {
+#slider a span {
   position: absolute;
   top: 0;
   left: 50%;
@@ -506,6 +542,7 @@ body {
     opacity: 0;
   }
 }
+
 
 
 .hero-strapline {

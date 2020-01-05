@@ -63,9 +63,9 @@
     <img class="logo-mobile center" src="_img/logo-icon.png">
   </div>  
   <ul class="mobile-nav">
-    <li><a href="#about">About</a></li>
     <li><a href="#portfolio">Projects</a></li>
-    <li><a href="#how-we-work">How we work</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#how-we-work">What we do</a></li>
     <li><a href="#reviews">Reviews</a></li>
     <li><a href="#contact">Contact us</a></li>
     <li><a href="#instagram">Instagram</a></li>
@@ -89,9 +89,9 @@
           <div class="grid-column grid-fifth"></div>
             <div class="grid-column grid-three-fifth">
                 <ul class="text-uppercase">
-                    <li><a href="#about">About</a></li>
                     <li><a href="#portfolio">Projects</a></li>
-                    <li><a href="#how-we-work">How we work</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#how-we-work">What we do</a></li>
                     <li><a href="#reviews">Reviews</a></li>
                     <li><a href="#contact">Contact us</a></li>
                     <li><a href="#instagram">Instagram</a></li>
@@ -105,8 +105,8 @@
 
         <div class="grid-container hero2 cf">
             <div class="grid-column grid-whole">
-                <div id="hero-bg" class="scroll-down">
-                    <a href="#about"><span></span></a>
+                <div id="hero" class="scroll-down">
+                    <a href="#projects"><span></span></a>
                     <div class="grid-column grid-whole glass">
                     </div>
                     <div class="hero-content">
@@ -131,9 +131,9 @@
                                 <div class="grid-column grid-fifth"></div>
                                 <div class="grid-column grid-three-fifth">
                                     <ul class="text-uppercase">
-                                        <li><a href="#about">About</a></li>
                                         <li><a href="#portfolio">Projects</a></li>
-                                        <li><a href="#how-we-work">How we work</a></li>
+                                        <li><a href="#about">About</a></li>
+                                        <li><a href="#how-we-work">What we do</a></li>
                                         <li><a href="#reviews">Reviews</a></li>         
                                         <li><a href="#contact">Contact us</a></li>
                                         <li><a href="#instagram">Instagram</a></li>
@@ -144,38 +144,6 @@
                         </div>
                     </div>
 
-
-<a name="about" class="anchor"></a>
-        <section class="grid-container about cf hideme">
-            
-          <div class="grid-column grid-fifth cf"></div>
-          <div class="grid-column grid-three-fifth cf">
-
-            <div class="feature-content center cf">
-                <h3>ABOUT DELPHINE</h3>
-                <div class="about-container">
-                <div class="grid-column grid-half about-left cf"><img class="image-team hideme"></div>
-                <div class="grid-column grid-half about-right cf">
-                <div class="about-us-content">
-                <p>Delphine Interiors was created by Delphine after developing her skills and experience with interior design companies in Bordeaux, Paris, and London since 2010.
-                <p class="hideme">Now primarily based in New York, Delphine Interiors offers a complete design service, creating personalised interiors for your residential projects, with a touch of French influence and inspiration.
-                <p class="hideme">With a real passion for space planning, textures, colours, and lighting, Delphine Interiors will design your home to be beautiful, yet functional for your personal needs and lifestyle. 
-                <p class="hideme">No one project is ever the same and while projects may vary in size and scope, the same commitment and quality is ensured to achieve the best results.
-                <p class="hideme">Having worked extensively on both sides of the channel, Delphine Interiors is happy to discuss your project whether in the US, UK, France, or even further afield.
-                </div></div></div>
-                <img class="image-team hideme about-mobile" src="_img/about2s.jpg">
-                <div class="about-us-content about-mobile">
-                <p>Delphine Interiors was created by Delphine after developing her skills and experience with interior design companies in Bordeaux, Paris, and London since 2010.
-                <p class="hideme">Now primarily based in New York, Delphine Interiors offers a complete design service, creating personalised interiors for your residential projects, with a touch of French influence and inspiration.
-                <p class="hideme">With a real passion for space planning, textures, colours, and lighting, Delphine Interiors will design your home to be beautiful, yet functional for your personal needs and lifestyle. 
-                <p class="hideme">No one project is ever the same and while projects may vary in size and scope, the same commitment and quality is ensured to achieve the best results.
-                <p class="hideme">Having worked extensively on both sides of the channel, Delphine Interiors is happy to discuss your project whether in the US, UK, France, or even further afield.
-                </div>
-            </div>
-          </div>
-          <div class="grid-column grid-fifth cf"></div>
-        </section>
-        
 
 <a name="portfolio" class="anchor"></a>
         <section class="grid-container portfolio cf hideme">
@@ -211,6 +179,38 @@
 
 
 
+<a name="about" class="anchor"></a>
+        <section class="grid-container about cf hideme">
+            
+          <div class="grid-column grid-fifth cf"></div>
+          <div class="grid-column grid-three-fifth cf">
+
+            <div class="feature-content center cf">
+                <h3>ABOUT DELPHINE INTERIORS</h3>
+                <div class="about-container">
+                <div class="grid-column grid-half about-left cf"><img class="image-team hideme"></div>
+                <div class="grid-column grid-half about-right cf">
+                <div class="about-us-content">
+                <p>Delphine Interiors was created by Delphine after developing her skills and experience with interior design companies in Bordeaux, Paris, and London since 2010.
+                <p class="hideme">Now primarily based in New York, Delphine Interiors offers a complete design service, creating personalised interiors for your residential projects, with a touch of French influence and inspiration.
+                <p class="hideme">With a real passion for space planning, textures, colours, and lighting, Delphine Interiors will design your home to be beautiful, yet functional for your personal needs and lifestyle. 
+                <p class="hideme">No one project is ever the same and while projects may vary in size and scope, the same commitment and quality is ensured to achieve the best results.
+                <p class="hideme">Having worked extensively on both sides of the channel, Delphine Interiors is happy to discuss your project whether in the US, UK, France, or even further afield.
+                </div></div></div>
+                <img class="image-team hideme about-mobile" src="_img/about2s.jpg">
+                <div class="about-us-content about-mobile">
+                <p>Delphine Interiors was created by Delphine after developing her skills and experience with interior design companies in Bordeaux, Paris, and London since 2010.
+                <p class="hideme">Now primarily based in New York, Delphine Interiors offers a complete design service, creating personalised interiors for your residential projects, with a touch of French influence and inspiration.
+                <p class="hideme">With a real passion for space planning, textures, colours, and lighting, Delphine Interiors will design your home to be beautiful, yet functional for your personal needs and lifestyle. 
+                <p class="hideme">No one project is ever the same and while projects may vary in size and scope, the same commitment and quality is ensured to achieve the best results.
+                <p class="hideme">Having worked extensively on both sides of the channel, Delphine Interiors is happy to discuss your project whether in the US, UK, France, or even further afield.
+                </div>
+            </div>
+          </div>
+          <div class="grid-column grid-fifth cf"></div>
+        </section>
+        
+
 
             <a name="how-we-work" class="anchor"></a>
         <section class="grid-container how-we-work cf">
@@ -218,7 +218,7 @@
           <div class="grid-column grid-fifth"></div>
           <div class="grid-column grid-three-fifth">
             <div class="feature-content center">
-                <h3>HOW WE WORK</h3>
+                <h3>WHAT WE DO</h3>
 
                     <div class="grid-column grid-whole process1 hideme">
                         <div class="grid-column grid-fifth stage margin-left"><img class="stage-name" src="_img/process1.png"></div>
