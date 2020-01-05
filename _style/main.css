@@ -393,21 +393,21 @@ body {
 .slide1 {
   background: url("../_img/portfolio/projects/paris/paris7.jpg")no-repeat center;
       background-size: cover;
-    animation:fade 8s infinite;
--webkit-animation:fade 8s infinite;
+    animation:fade 10s infinite;
+-webkit-animation:fade 10s infinite;
 
 } 
 .slide2 {
   background: url("../_img/portfolio/projects/paris/paris1.jpg")no-repeat center;
       background-size: cover;
-    animation:fade2 8s infinite;
--webkit-animation:fade2 8s infinite;
+    animation:fade2 10s infinite;
+-webkit-animation:fade2 10s infinite;
 }
 .slide3 {
     background: url("../_img/portfolio/projects/paris/paris6.jpg")no-repeat center;
       background-size: cover;
-    animation:fade3 8s infinite;
--webkit-animation:fade3 8s infinite;
+    animation:fade3 10s infinite;
+-webkit-animation:fade3 10s infinite;
 }
 @keyframes fade
 {

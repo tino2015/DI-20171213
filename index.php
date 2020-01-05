@@ -105,21 +105,22 @@
 
         <div class="grid-container hero2 cf">
             <div class="grid-column grid-whole">
-                <div id="hero" class="scroll-down">
-                    <a href="#projects"><span></span></a>
-                    <div class="grid-column grid-whole glass">
-                    </div>
-                    <div class="hero-content">
-                        <div class="hero-strapline">
-<!--                            <h4>Season's Greetings<br> from Delphine Interiors!</h4>
--->
+                <div id="slider">
+                        <div class="slide1 scroll-down">
+                            <a href="#projects"><span></span></a>
+                            <div class="grid-column grid-whole glass"></div>
                         </div>
-                    </div>
+                        <div class="slide2 scroll-down">
+                            <a href="#projects"><span></span></a>
+                            <div class="grid-column grid-whole glass"></div>
+                        </div>
+                        <div class="slide3 scroll-down">
+                            <a href="#projects"><span></span></a>
+                            <div class="grid-column grid-whole glass"></div>
+                        </div>
                 </div>
             </div>
         </div>
-
-</div>
 
 <!--
     Scroll Nav
@@ -197,7 +198,7 @@
                 <p class="hideme">No one project is ever the same and while projects may vary in size and scope, the same commitment and quality is ensured to achieve the best results.
                 <p class="hideme">Having worked extensively on both sides of the channel, Delphine Interiors is happy to discuss your project whether in the US, UK, France, or even further afield.
                 </div></div></div>
-                <img class="image-team hideme about-mobile" src="_img/about2s.jpg">
+                <img class="image-team hideme about-mobile" src="_img/about2.jpg">
                 <div class="about-us-content about-mobile">
                 <p>Delphine Interiors was created by Delphine after developing her skills and experience with interior design companies in Bordeaux, Paris, and London since 2010.
                 <p class="hideme">Now primarily based in New York, Delphine Interiors offers a complete design service, creating personalised interiors for your residential projects, with a touch of French influence and inspiration.
