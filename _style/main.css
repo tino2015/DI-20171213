@@ -97,6 +97,16 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+@font-face {
+font-family: "onesignature";
+src: url("../_fonts/onesignature-webfont.woff") format("woff"),
+url("../_fonts/OneSignature.ttf") format("truetype");
+}
+
+
+
+
+
 * {
     box-sizing: border-box;
 }
@@ -575,8 +585,10 @@ h4 { font-size: 2em; }
 }
 
 h3 {
-    font-size: 2em;
-    font-family: 'Quicksand', sans-serif;
+    font-size: 6em;
+    font-family: 'onesignature', sans-serif;
+    font-weight: normal;
+    margin: 0 auto;
 }
 
 p {
@@ -1236,7 +1248,7 @@ li {
     font-family: 'Lato', sans-serif;
     font-size: 3em;
     text-align: -webkit-center;
-    padding: 10% 0 0 0;
+    /*padding: 10% 0 0 0;*/
     color: white;
     opacity: 1;
     text-shadow: 1px 1px 10px black;
