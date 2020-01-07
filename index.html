@@ -33,7 +33,7 @@
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
         <script src="_js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="_js/main.js"></script>
+        
         <script src="_js/jquery.fancybox.js"></script>
     </head>
     <body>
@@ -565,7 +565,7 @@
                 <p>See our latest news, inspirations, and goings on from our <a href="https://www.instagram.com/delphine_interiors/"><img alt="Delphine Interiors Instagram" src="_img/instagram_logo.png" style="height:3ex"></a>
                 <p>&nbsp;</p>
                 <div class="hideme-instagram"> 
-                <div id="pixlee_container"></div><script type="text/javascript">window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'D6E5Jzc1Coy9cvnTCk7'});Pixlee.addSimpleWidget({widgetId:'9062'});};</script><script src="//instafeed.assets.pixlee.com/assets/pixlee_widget_1_0_0.js"></script>
+                <div id="pixlee_container"></div>
                 </div>
           </div>
           <div class="grid-column grid-fifth"></div>
@@ -693,82 +693,12 @@ form {
           <div class="grid-column grid-fifth"></div>
         </div>
 
-
-
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="_js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
         <script src="_js/main.js"></script>
         <script src="_js/nav.js"></script>
-
-          
-<!-- Root element of PhotoSwipe. Must have class pswp. -->
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-    <!-- Background of PhotoSwipe. 
-         It's a separate element as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-
-        <!-- Container that holds slides. 
-            PhotoSwipe keeps only 3 of them in the DOM to save memory.
-            Don't modify these 3 pswp__item elements, data is added later on. -->
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-        </div>
-
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-        <div class="pswp__ui pswp__ui--hidden">
-
-            <div class="pswp__top-bar">
-
-                <!--  Controls are self-explanatory. Order can be changed. -->
-
-                <div class="pswp__counter"></div>
-
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-                <button class="pswp__button pswp__button--share" title="Share"></button>
-
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                <!-- element will get class pswp__preloader--active when preloader is running -->
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                      <div class="pswp__preloader__cut">
-                        <div class="pswp__preloader__donut"></div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div> 
-            </div>
-
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-            </button>
-
-            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-            </button>
-
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-
+        <script type="text/javascript">window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'D6E5Jzc1Coy9cvnTCk7'});Pixlee.addSimpleWidget({widgetId:'9062'});};</script>
+        <script src="https://instafeed.assets.pixlee.com/assets/pixlee_widget_1_0_0.js"></script>
 
     </body>
 </html>
