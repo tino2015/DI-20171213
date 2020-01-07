@@ -156,22 +156,22 @@
                 <h3>Latest Projects</h3>
                 <div class="portfolio-banner hideme">
                     <div class="projects1 overlay rosegold">
-                        <a id="projects1-gal" href="_img/portfolio/projects/paris/paris1.jpg" data-fancybox="paris1"><h4>Paris - Full Apartment</h4></a>
+                        <a id="projects1-gal" href="_img/portfolio/projects/paris/paris1.jpg" data-fancybox="paris1"><h4>Paris Apartment</h4></a>
                     </div>
                 </div>                
                 <div class="portfolio-banner hideme">
                     <div class="projects2 overlay rosegold">
-                        <a id="projects2-gal" href="_img/portfolio/projects/wandsworth/ww1.jpg" data-fancybox="wandsworth"><h4>London Wandsworth - Living Area</h4></a>
+                        <a id="projects2-gal" href="_img/portfolio/projects/wandsworth/ww1.jpg" data-fancybox="wandsworth"><h4>London Wandsworth Living Area</h4></a>
                     </div>
                 </div>
                 <div class="portfolio-banner hideme">
                     <div class="projects3 overlay rosegold">
-                        <a id="projects3-gal" href="_img/portfolio/projects/courbevoie/courbevoie1.jpg" data-fancybox="courbevoie"><h4>Paris Courbevoie - Bedroom</h4></a>
+                        <a id="projects3-gal" href="_img/portfolio/projects/courbevoie/courbevoie1.jpg" data-fancybox="courbevoie"><h4>Paris Courbevoie Bedroom</h4></a>
                     </div>
                 </div>
                 <div class="portfolio-banner hideme">
                     <div class="projects4 overlay rosegold">
-                        <a id="projects4-gal" href="_img/portfolio/projects/myl/myl-after-10.jpg" data-fancybox="myl"><h4>Paris - Offices</h4></a>
+                        <a id="projects4-gal" href="_img/portfolio/projects/myl/myl-after-10.jpg" data-fancybox="myl"><h4>Paris Offices</h4></a>
                     </div>
                 </div>
 

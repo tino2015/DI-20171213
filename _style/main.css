@@ -1250,8 +1250,9 @@ li {
 #projects3-gal h4,
 #projects4-gal h4 {
     margin: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'onesignature', sans-serif;
     font-size: 3em;
+    font-weight: 100;
     text-align: -webkit-center;
     /*padding: 10% 0 0 0;*/
     color: white;
