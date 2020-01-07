@@ -29,14 +29,11 @@
         <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet'>
         <link rel="stylesheet" type="text/css" href="_style/jquery.fancybox.min.css">
-        <link rel="stylesheet" href="_style/photoswipe.css">
         <link rel="stylesheet" href="_style/default-skin/default-skin.css">
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
         <script src="_js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="_js/main.js"></script>
-        <script src="_js/photoswipe.min.js"></script>
-        <script src="_js/photoswipe-ui-default.min.js"></script>
         <script src="_js/jquery.fancybox.js"></script>
     </head>
     <body>
