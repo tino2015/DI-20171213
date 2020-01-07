@@ -27,6 +27,7 @@
         <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Livvic&display=swap' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet'>
         <script src="_js/main.js"></script>
         <script src="_js/vendor/modernizr-3.5.0.min.js"></script>
@@ -146,37 +147,7 @@
                     </div>
 
 
-<a name="portfolio" class="anchor"></a>
-        <section class="grid-container portfolio cf hideme">
-            
-          <div class="grid-column grid-fifth"></div>
-          <div class="grid-column grid-three-fifth">
-            <div class="feature-content center">
-                <h3>LATEST PROJECTS</h3>
-                <div class="portfolio-banner hideme">
-                    <div class="projects1 overlay rosegold">
-                        <a id="projects1-gal" href="#" onclick="openPhotoSwipeProjects1();return false;"><h4>Paris 1 Arr - Apartment</h4><p class="view-gal">View gallery</p></a>
-                    </div>
-                </div>                
-                <div class="portfolio-banner hideme">
-                    <div class="projects2 overlay rosegold">
-                        <a id="projects2-gal" href="#" onclick="openPhotoSwipeProjects2();return false;"><h4>Wandsworth, London - Living Area</h4><p class="view-gal">View gallery</p></a>
-                    </div>
-                </div>
-                <div class="portfolio-banner hideme">
-                    <div class="projects3 overlay rosegold">
-                        <a id="projects3-gal" href="#" onclick="openPhotoSwipeProjects3();return false;"><h4>Paris Courbevoie - Bedroom</h4><p class="view-gal">View gallery</p></a>
-                    </div>
-                </div>
-                <div class="portfolio-banner hideme">
-                    <div class="projects4 overlay rosegold">
-                        <a id="projects4-gal" href="#" onclick="openPhotoSwipeProjects4();return false;"><h4>Paris - Office</h4><p class="view-gal">View gallery</p></a>
-                    </div>
-                </div>
-            </div>
-          </div>
-          <div class="grid-column grid-fifth"></div>
-        </section>
+
 
 
 
@@ -187,13 +158,13 @@
           <div class="grid-column grid-three-fifth cf">
 
             <div class="feature-content center cf">
-                <h3>ABOUT DELPHINE INTERIORS</h3>
+                <h3 class="about">About Delphine</h3>
                 <div class="about-container">
                 <div class="grid-column grid-half about-left cf"><img class="image-team hideme"></div>
                 <div class="grid-column grid-half about-right cf">
                 <div class="about-us-content">
                 <p>Delphine Interiors was created by Delphine after developing her skills and experience with interior design companies in Bordeaux, Paris, and London since 2010.
-                <p class="hideme">Now primarily based in New York, Delphine Interiors offers a complete design service, creating personalised interiors for your residential projects, with a touch of French influence and inspiration.
+                <p class="hideme">Now primarily based in New York and London, Delphine Interiors offers a complete design service, creating personalised interiors for your residential projects, with a touch of French influence and inspiration.
                 <p class="hideme">With a real passion for space planning, textures, colours, and lighting, Delphine Interiors will design your home to be beautiful, yet functional for your personal needs and lifestyle. 
                 <p class="hideme">No one project is ever the same and while projects may vary in size and scope, the same commitment and quality is ensured to achieve the best results.
                 <p class="hideme">Having worked extensively on both sides of the channel, Delphine Interiors is happy to discuss your project whether in the US, UK, France, or even further afield.
@@ -201,7 +172,7 @@
                 <img class="image-team hideme about-mobile" src="_img/about2.jpg">
                 <div class="about-us-content about-mobile">
                 <p>Delphine Interiors was created by Delphine after developing her skills and experience with interior design companies in Bordeaux, Paris, and London since 2010.
-                <p class="hideme">Now primarily based in New York, Delphine Interiors offers a complete design service, creating personalised interiors for your residential projects, with a touch of French influence and inspiration.
+                <p class="hideme">Now primarily based in New York and London, Delphine Interiors offers a complete design service, creating personalised interiors for your residential projects, with a touch of French influence and inspiration.
                 <p class="hideme">With a real passion for space planning, textures, colours, and lighting, Delphine Interiors will design your home to be beautiful, yet functional for your personal needs and lifestyle. 
                 <p class="hideme">No one project is ever the same and while projects may vary in size and scope, the same commitment and quality is ensured to achieve the best results.
                 <p class="hideme">Having worked extensively on both sides of the channel, Delphine Interiors is happy to discuss your project whether in the US, UK, France, or even further afield.
@@ -211,7 +182,37 @@
           <div class="grid-column grid-fifth cf"></div>
         </section>
         
-
+<a name="portfolio" class="anchor"></a>
+        <section class="grid-container portfolio cf hideme">
+            
+          <div class="grid-column grid-fifth"></div>
+          <div class="grid-column grid-three-fifth">
+            <div class="feature-content center">
+                <h3>Latest Projects</h3>
+                <div class="portfolio-banner hideme">
+                    <div class="projects1 overlay rosegold">
+                        <a id="projects1-gal" href="#" onclick="openPhotoSwipeProjects1();return false;"><h4>Paris 1 Arr - Apartment</h4></a>
+                    </div>
+                </div>                
+                <div class="portfolio-banner hideme">
+                    <div class="projects2 overlay rosegold">
+                        <a id="projects2-gal" href="#" onclick="openPhotoSwipeProjects2();return false;"><h4>Wandsworth, London - Living Area</h4></a>
+                    </div>
+                </div>
+                <div class="portfolio-banner hideme">
+                    <div class="projects3 overlay rosegold">
+                        <a id="projects3-gal" href="#" onclick="openPhotoSwipeProjects3();return false;"><h4>Paris Courbevoie - Bedroom</h4></a>
+                    </div>
+                </div>
+                <div class="portfolio-banner hideme">
+                    <div class="projects4 overlay rosegold">
+                        <a id="projects4-gal" href="#" onclick="openPhotoSwipeProjects4();return false;"><h4>Paris - Office</h4></a>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="grid-column grid-fifth"></div>
+        </section>
 
             <a name="how-we-work" class="anchor"></a>
         <section class="grid-container how-we-work cf">
@@ -219,7 +220,7 @@
           <div class="grid-column grid-fifth"></div>
           <div class="grid-column grid-three-fifth">
             <div class="feature-content center">
-                <h3>WHAT WE DO</h3>
+                <h3>What we do</h3>
 
                     <div class="grid-column grid-whole process1 hideme">
                         <div class="grid-column grid-fifth stage margin-left"><img class="stage-name" src="_img/process1.png"></div>
@@ -346,13 +347,13 @@
 
 
 <a name="reviews" class="anchor"></a>
-        <section class="grid-container about cf">
+        <section class="grid-container reviews cf">
             
           <div class="grid-column grid-fifth cf"></div>
           <div class="grid-column grid-three-fifth cf">
 
             <div class="feature-content center cf">
-                <h3>REVIEWS</h3>
+                <h3>Reviews</h3>
                 <div class="about-container">
                 <div class="grid-column grid-half reviews-left cf">
                 <div id="bark-icons">
@@ -417,7 +418,7 @@
           <div class="grid-column grid-three-fifth">
             <div class="feature-content center hideme">
                 <div id="formBox">
-                    <h3>CONTACT US</h3>
+                    <h3>Get in touch</h3>
                 <p>Feel free to contact us with any queries via phone, email, or by using the contact form below and we'll get back to you as soon as possible.</p>
                     <div class="contacts">
                     <ul>
