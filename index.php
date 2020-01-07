@@ -27,17 +27,17 @@
         <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Livvic&display=swap' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet'>
-        <script src="_js/main.js"></script>
-        <script src="_js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-        <script src="_js/main.js"></script>
+        <link rel="stylesheet" type="text/css" href="_style/jquery.fancybox.min.css">
         <link rel="stylesheet" href="_style/photoswipe.css">
         <link rel="stylesheet" href="_style/default-skin/default-skin.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <script src="_js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="_js/main.js"></script>
         <script src="_js/photoswipe.min.js"></script>
         <script src="_js/photoswipe-ui-default.min.js"></script>
+        <script src="_js/jquery.fancybox.js"></script>
     </head>
     <body>
         
@@ -146,7 +146,200 @@
                         </div>
                     </div>
 
+<!--
+    Body
+-->
 
+<a name="portfolio" class="anchor"></a>
+        <section class="grid-container portfolio cf hideme">
+            
+          <div class="grid-column grid-fifth"></div>
+          <div class="grid-column grid-three-fifth">
+            <div class="feature-content center">
+                <h3>Latest Projects</h3>
+                <div class="portfolio-banner hideme">
+                    <div class="projects1 overlay rosegold">
+                        <a id="projects1-gal" href="_img/portfolio/projects/paris/paris1.jpg" data-fancybox="paris1"><h4>Paris - Full Apartment</h4></a>
+                    </div>
+                </div>                
+                <div class="portfolio-banner hideme">
+                    <div class="projects2 overlay rosegold">
+                        <a id="projects2-gal" href="_img/portfolio/projects/wandsworth/ww1.jpg" data-fancybox="wandsworth"><h4>London Wandsworth - Living Area</h4></a>
+                    </div>
+                </div>
+                <div class="portfolio-banner hideme">
+                    <div class="projects3 overlay rosegold">
+                        <a id="projects3-gal" href="_img/portfolio/projects/courbevoie/courbevoie1.jpg" data-fancybox="courbevoie"><h4>Paris Courbevoie - Bedroom</h4></a>
+                    </div>
+                </div>
+                <div class="portfolio-banner hideme">
+                    <div class="projects4 overlay rosegold">
+                        <a id="projects4-gal" href="_img/portfolio/projects/myl/myl-after-10.jpg" data-fancybox="myl"><h4>Paris - Offices</h4></a>
+                    </div>
+                </div>
+
+<!--
+    Gallery - paris1
+-->
+
+  <a href="_img/portfolio/projects/paris/paris2.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris2.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris3.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris3.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris4.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris4.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris5.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris5.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris6.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris6.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris7.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris7.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris8.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris8.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris9.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris9.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris10.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris10.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris11.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris11.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris12.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris12.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris13.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris13.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris14.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris14.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris15.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris15.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris16.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris16.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris17.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris17.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris18.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris18.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris19.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris19.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris20.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris20.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris21.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris21.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris22.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris22.jpg"></a>
+
+<!--
+    Gallery - wandsworth
+-->
+
+  <a href="_img/portfolio/projects/wandsworth/ww2.jpg" data-fancybox="wandsworth"
+     data-thumb="_img/portfolio/projects/wandsworth/ww2.jpg"></a>
+
+  <a href="_img/portfolio/projects/wandsworth/ww3.jpg" data-fancybox="wandsworth"
+     data-thumb="_img/portfolio/projects/wandsworth/ww3.jpg"></a>
+
+  <a href="_img/portfolio/projects/wandsworth/ww4.jpg" data-fancybox="wandsworth"
+     data-thumb="_img/portfolio/projects/wandsworth/ww4.jpg"></a>
+
+  <a href="_img/portfolio/projects/wandsworth/ww5.jpg" data-fancybox="wandsworth"
+     data-thumb="_img/portfolio/projects/wandsworth/ww5.jpg"></a>
+
+  <a href="_img/portfolio/projects/wandsworth/ww6.jpg" data-fancybox="wandsworth"
+     data-thumb="_img/portfolio/projects/wandsworth/ww6.jpg"></a>
+
+  <a href="_img/portfolio/projects/wandsworth/ww7.jpg" data-fancybox="wandsworth"
+     data-thumb="_img/portfolio/projects/wandsworth/ww7.jpg"></a>
+
+  <a href="_img/portfolio/projects/wandsworth/ww8.jpg" data-fancybox="wandsworth"
+     data-thumb="_img/portfolio/projects/wandsworth/ww8.jpg"></a>
+
+  <a href="_img/portfolio/projects/wandsworth/ww9.jpg" data-fancybox="wandsworth"
+     data-thumb="_img/portfolio/projects/wandsworth/ww9.jpg"></a>
+
+
+<!--
+    Gallery - courbevoie
+-->
+
+  <a href="_img/portfolio/projects/courbevoie/courbevoie2.jpg" data-fancybox="courbevoie"
+     data-thumb="_img/portfolio/projects/courbevoie/courbevoie2.jpg"></a>
+
+  <a href="_img/portfolio/projects/courbevoie/courbevoie3.jpg" data-fancybox="courbevoie"
+     data-thumb="_img/portfolio/projects/courbevoie/courbevoie3.jpg"></a>
+
+  <a href="_img/portfolio/projects/courbevoie/courbevoie4.jpg" data-fancybox="courbevoie"
+     data-thumb="_img/portfolio/projects/courbevoie/courbevoie4.jpg"></a>
+
+<!--
+    Gallery - myl
+-->
+
+
+  <a href="_img/portfolio/projects/myl/myl-after-7.jpg" data-fancybox="myl"
+     data-thumb="_img/portfolio/projects/myl/myl-after-7.jpg"></a>
+
+  <a href="_img/portfolio/projects/myl/myl-after-2.jpg" data-fancybox="myl"
+     data-thumb="_img/portfolio/projects/myl/myl-after-2.jpg"></a>
+
+  <a href="_img/portfolio/projects/myl/myl-after-11.jpg" data-fancybox="myl"
+     data-thumb="_img/portfolio/projects/myl/myl-after-11.jpg"></a>  
+
+  <a href="_img/portfolio/projects/myl/myl-after-9.jpg" data-fancybox="myl"
+     data-thumb="_img/portfolio/projects/myl/myl-after-9.jpg"></a>  
+
+  <a href="_img/portfolio/projects/myl/myl-after-12.jpg" data-fancybox="myl"
+     data-thumb="_img/portfolio/projects/myl/myl-after-12.jpg"></a>  
+
+  <a href="_img/portfolio/projects/myl/myl-after-3.jpg" data-fancybox="myl"
+     data-thumb="_img/portfolio/projects/myl/myl-after-3.jpg"></a>  
+
+  <a href="_img/portfolio/projects/myl/myl-after-6.jpg" data-fancybox="myl"
+     data-thumb="_img/portfolio/projects/myl/myl-after-6.jpg"></a>  
+
+  <a href="_img/portfolio/projects/myl/myl-after-15.jpg" data-fancybox="myl"
+     data-thumb="_img/portfolio/projects/myl/myl-after-15.jpg"></a>  
+
+  <a href="_img/portfolio/projects/myl/myl-after-14.jpg" data-fancybox="myl"
+     data-thumb="_img/portfolio/projects/myl/myl-after-14.jpg"></a>  
+
+  <a href="_img/portfolio/projects/myl/myl-after-5.jpg" data-fancybox="myl"
+     data-thumb="_img/portfolio/projects/myl/myl-after-5.jpg"></a>  
+
+  <a href="_img/portfolio/projects/myl/myl-after-4.jpg" data-fancybox="myl"
+     data-thumb="_img/portfolio/projects/myl/myl-after-4.jpg"></a>  
+
+  <a href="_img/portfolio/projects/myl/myl-after-8.jpg" data-fancybox="myl"
+     data-thumb="_img/portfolio/projects/myl/myl-after-8.jpg"></a>  
+
+  <a href="_img/portfolio/projects/myl/myl-after-1.jpg" data-fancybox="myl"
+     data-thumb="_img/portfolio/projects/myl/myl-after-1.jpg"></a>  
+
+
+
+
+
+
+            </div>
+          </div>
+          <div class="grid-column grid-fifth"></div>
+        </section>
 
 
 
@@ -182,37 +375,7 @@
           <div class="grid-column grid-fifth cf"></div>
         </section>
         
-<a name="portfolio" class="anchor"></a>
-        <section class="grid-container portfolio cf hideme">
-            
-          <div class="grid-column grid-fifth"></div>
-          <div class="grid-column grid-three-fifth">
-            <div class="feature-content center">
-                <h3>Latest Projects</h3>
-                <div class="portfolio-banner hideme">
-                    <div class="projects1 overlay rosegold">
-                        <a id="projects1-gal" href="#" onclick="openPhotoSwipeProjects1();return false;"><h4>Paris 1 Arr - Apartment</h4></a>
-                    </div>
-                </div>                
-                <div class="portfolio-banner hideme">
-                    <div class="projects2 overlay rosegold">
-                        <a id="projects2-gal" href="#" onclick="openPhotoSwipeProjects2();return false;"><h4>Wandsworth, London - Living Area</h4></a>
-                    </div>
-                </div>
-                <div class="portfolio-banner hideme">
-                    <div class="projects3 overlay rosegold">
-                        <a id="projects3-gal" href="#" onclick="openPhotoSwipeProjects3();return false;"><h4>Paris Courbevoie - Bedroom</h4></a>
-                    </div>
-                </div>
-                <div class="portfolio-banner hideme">
-                    <div class="projects4 overlay rosegold">
-                        <a id="projects4-gal" href="#" onclick="openPhotoSwipeProjects4();return false;"><h4>Paris - Office</h4></a>
-                    </div>
-                </div>
-            </div>
-          </div>
-          <div class="grid-column grid-fifth"></div>
-        </section>
+
 
             <a name="how-we-work" class="anchor"></a>
         <section class="grid-container how-we-work cf">
