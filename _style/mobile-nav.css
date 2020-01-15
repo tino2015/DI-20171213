@@ -46,7 +46,7 @@ input#burger {
 input + label[for=burger] {
   position: -webkit-sticky;
   position: fixed;
-  top: 8vh;
+  top: 7vh;
   left: 40px;
   height: 20px;
   width: 1.5em;
@@ -108,7 +108,7 @@ input ~ nav {
   top: -19px;
   right: 0;
   width: 100%;
-  height: 16vh;
+  height: 14vh;
   z-index: 3;
   transition: .5s;
   transition-delay: .5s;
@@ -148,7 +148,7 @@ input ~ nav > ul > li > a {
 
 /* line 128, C:/Users/arthumar/Documents/PERSO/FEWD/DI/_sass/mobile-nav.scss */
 input:checked + label[for=burger] ~ nav {
-  height: 50vh;
+  height: 40vh;
   transition-delay: 0s;
 }
 

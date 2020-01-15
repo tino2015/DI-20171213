@@ -28,15 +28,13 @@
         <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet'>
-        <script src="_js/main.js"></script>
-        <script src="_js/vendor/modernizr-3.5.0.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="_style/jquery.fancybox.min.css">
+        <link rel="stylesheet" href="_style/default-skin/default-skin.css">
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-        <script src="_js/main.js"></script>
-        <link rel="stylesheet" href="_style/photoswipe.css">
-        <link rel="stylesheet" href="_style/default-skin/default-skin.css">
-        <script src="_js/photoswipe.min.js"></script>
-        <script src="_js/photoswipe-ui-default.min.js"></script>
+        <script src="_js/vendor/modernizr-3.5.0.min.js"></script>
+        
+        <script src="_js/jquery.fancybox.js"></script>
     </head>
     <body>
         
@@ -145,6 +143,9 @@
                         </div>
                     </div>
 
+<!--
+    Body
+-->
 
 <a name="portfolio" class="anchor"></a>
         <section class="grid-container portfolio cf hideme">
@@ -152,31 +153,191 @@
           <div class="grid-column grid-fifth"></div>
           <div class="grid-column grid-three-fifth">
             <div class="feature-content center">
-                <h3>LATEST PROJECTS</h3>
+                <h3>Latest Projects</h3>
                 <div class="portfolio-banner hideme">
                     <div class="projects1 overlay rosegold">
-                        <a id="projects1-gal" href="#" onclick="openPhotoSwipeProjects1();return false;"><h4>Paris 1 Arr - Apartment</h4><p class="view-gal">View gallery</p></a>
+                        <a id="projects1-gal" href="_img/portfolio/projects/paris/paris1.jpg" data-fancybox="paris1"><h4>Paris Apartment</h4></a>
                     </div>
                 </div>                
                 <div class="portfolio-banner hideme">
                     <div class="projects2 overlay rosegold">
-                        <a id="projects2-gal" href="#" onclick="openPhotoSwipeProjects2();return false;"><h4>Wandsworth, London - Living Area</h4><p class="view-gal">View gallery</p></a>
+                        <a id="projects2-gal" href="_img/portfolio/projects/wandsworth/ww1.jpg" data-fancybox="wandsworth"><h4>London Wandsworth Living Area</h4></a>
                     </div>
                 </div>
                 <div class="portfolio-banner hideme">
                     <div class="projects3 overlay rosegold">
-                        <a id="projects3-gal" href="#" onclick="openPhotoSwipeProjects3();return false;"><h4>Paris Courbevoie - Bedroom</h4><p class="view-gal">View gallery</p></a>
+                        <a id="projects3-gal" href="_img/portfolio/projects/courbevoie/courbevoie1.jpg" data-fancybox="courbevoie"><h4>Paris Courbevoie Bedroom</h4></a>
                     </div>
                 </div>
                 <div class="portfolio-banner hideme">
                     <div class="projects4 overlay rosegold">
-                        <a id="projects4-gal" href="#" onclick="openPhotoSwipeProjects4();return false;"><h4>Paris - Office</h4><p class="view-gal">View gallery</p></a>
+                        <a id="projects4-gal" href="_img/portfolio/projects/myl/myl-after-10.jpg" data-fancybox="myl"><h4>Paris Offices</h4></a>
                     </div>
                 </div>
+
+<!--
+    Gallery - paris1
+-->
+
+  <a href="_img/portfolio/projects/paris/paris2.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris2.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris3.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris3.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris4.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris4.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris5.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris5.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris6.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris6.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris7.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris7.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris8.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris8.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris9.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris9.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris10.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris10.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris11.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris11.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris12.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris12.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris13.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris13.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris14.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris14.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris15.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris15.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris16.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris16.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris17.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris17.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris18.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris18.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris19.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris19.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris20.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris20.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris21.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris21.jpg"></a>
+
+  <a href="_img/portfolio/projects/paris/paris22.jpg" data-fancybox="paris1"
+     data-thumb="_img/portfolio/projects/paris/paris22.jpg"></a>
+
+<!--
+    Gallery - wandsworth
+-->
+
+  <a href="_img/portfolio/projects/wandsworth/ww2.jpg" data-fancybox="wandsworth"
+     data-thumb="_img/portfolio/projects/wandsworth/ww2.jpg"></a>
+
+  <a href="_img/portfolio/projects/wandsworth/ww3.jpg" data-fancybox="wandsworth"
+     data-thumb="_img/portfolio/projects/wandsworth/ww3.jpg"></a>
+
+  <a href="_img/portfolio/projects/wandsworth/ww4.jpg" data-fancybox="wandsworth"
+     data-thumb="_img/portfolio/projects/wandsworth/ww4.jpg"></a>
+
+  <a href="_img/portfolio/projects/wandsworth/ww5.jpg" data-fancybox="wandsworth"
+     data-thumb="_img/portfolio/projects/wandsworth/ww5.jpg"></a>
+
+  <a href="_img/portfolio/projects/wandsworth/ww6.jpg" data-fancybox="wandsworth"
+     data-thumb="_img/portfolio/projects/wandsworth/ww6.jpg"></a>
+
+  <a href="_img/portfolio/projects/wandsworth/ww7.jpg" data-fancybox="wandsworth"
+     data-thumb="_img/portfolio/projects/wandsworth/ww7.jpg"></a>
+
+  <a href="_img/portfolio/projects/wandsworth/ww8.jpg" data-fancybox="wandsworth"
+     data-thumb="_img/portfolio/projects/wandsworth/ww8.jpg"></a>
+
+  <a href="_img/portfolio/projects/wandsworth/ww9.jpg" data-fancybox="wandsworth"
+     data-thumb="_img/portfolio/projects/wandsworth/ww9.jpg"></a>
+
+
+<!--
+    Gallery - courbevoie
+-->
+
+  <a href="_img/portfolio/projects/courbevoie/courbevoie2.jpg" data-fancybox="courbevoie"
+     data-thumb="_img/portfolio/projects/courbevoie/courbevoie2.jpg"></a>
+
+  <a href="_img/portfolio/projects/courbevoie/courbevoie3.jpg" data-fancybox="courbevoie"
+     data-thumb="_img/portfolio/projects/courbevoie/courbevoie3.jpg"></a>
+
+  <a href="_img/portfolio/projects/courbevoie/courbevoie4.jpg" data-fancybox="courbevoie"
+     data-thumb="_img/portfolio/projects/courbevoie/courbevoie4.jpg"></a>
+
+<!--
+    Gallery - myl
+-->
+
+
+  <a href="_img/portfolio/projects/myl/myl-after-7.jpg" data-fancybox="myl"
+     data-thumb="_img/portfolio/projects/myl/myl-after-7.jpg"></a>
+
+  <a href="_img/portfolio/projects/myl/myl-after-2.jpg" data-fancybox="myl"
+     data-thumb="_img/portfolio/projects/myl/myl-after-2.jpg"></a>
+
+  <a href="_img/portfolio/projects/myl/myl-after-11.jpg" data-fancybox="myl"
+     data-thumb="_img/portfolio/projects/myl/myl-after-11.jpg"></a>  
+
+  <a href="_img/portfolio/projects/myl/myl-after-9.jpg" data-fancybox="myl"
+     data-thumb="_img/portfolio/projects/myl/myl-after-9.jpg"></a>  
+
+  <a href="_img/portfolio/projects/myl/myl-after-12.jpg" data-fancybox="myl"
+     data-thumb="_img/portfolio/projects/myl/myl-after-12.jpg"></a>  
+
+  <a href="_img/portfolio/projects/myl/myl-after-3.jpg" data-fancybox="myl"
+     data-thumb="_img/portfolio/projects/myl/myl-after-3.jpg"></a>  
+
+  <a href="_img/portfolio/projects/myl/myl-after-6.jpg" data-fancybox="myl"
+     data-thumb="_img/portfolio/projects/myl/myl-after-6.jpg"></a>  
+
+  <a href="_img/portfolio/projects/myl/myl-after-15.jpg" data-fancybox="myl"
+     data-thumb="_img/portfolio/projects/myl/myl-after-15.jpg"></a>  
+
+  <a href="_img/portfolio/projects/myl/myl-after-14.jpg" data-fancybox="myl"
+     data-thumb="_img/portfolio/projects/myl/myl-after-14.jpg"></a>  
+
+  <a href="_img/portfolio/projects/myl/myl-after-5.jpg" data-fancybox="myl"
+     data-thumb="_img/portfolio/projects/myl/myl-after-5.jpg"></a>  
+
+  <a href="_img/portfolio/projects/myl/myl-after-4.jpg" data-fancybox="myl"
+     data-thumb="_img/portfolio/projects/myl/myl-after-4.jpg"></a>  
+
+  <a href="_img/portfolio/projects/myl/myl-after-8.jpg" data-fancybox="myl"
+     data-thumb="_img/portfolio/projects/myl/myl-after-8.jpg"></a>  
+
+  <a href="_img/portfolio/projects/myl/myl-after-1.jpg" data-fancybox="myl"
+     data-thumb="_img/portfolio/projects/myl/myl-after-1.jpg"></a>  
+
+
+
+
+
+
             </div>
           </div>
           <div class="grid-column grid-fifth"></div>
         </section>
+
 
 
 
@@ -187,13 +348,13 @@
           <div class="grid-column grid-three-fifth cf">
 
             <div class="feature-content center cf">
-                <h3>ABOUT DELPHINE INTERIORS</h3>
+                <h3 class="about">About Delphine</h3>
                 <div class="about-container">
                 <div class="grid-column grid-half about-left cf"><img class="image-team hideme"></div>
                 <div class="grid-column grid-half about-right cf">
                 <div class="about-us-content">
                 <p>Delphine Interiors was created by Delphine after developing her skills and experience with interior design companies in Bordeaux, Paris, and London since 2010.
-                <p class="hideme">Now primarily based in New York, Delphine Interiors offers a complete design service, creating personalised interiors for your residential projects, with a touch of French influence and inspiration.
+                <p class="hideme">Now primarily based in New York and London, Delphine Interiors offers a complete design service, creating personalised interiors for your residential projects, with a touch of French influence and inspiration.
                 <p class="hideme">With a real passion for space planning, textures, colours, and lighting, Delphine Interiors will design your home to be beautiful, yet functional for your personal needs and lifestyle. 
                 <p class="hideme">No one project is ever the same and while projects may vary in size and scope, the same commitment and quality is ensured to achieve the best results.
                 <p class="hideme">Having worked extensively on both sides of the channel, Delphine Interiors is happy to discuss your project whether in the US, UK, France, or even further afield.
@@ -201,7 +362,7 @@
                 <img class="image-team hideme about-mobile" src="_img/about2.jpg">
                 <div class="about-us-content about-mobile">
                 <p>Delphine Interiors was created by Delphine after developing her skills and experience with interior design companies in Bordeaux, Paris, and London since 2010.
-                <p class="hideme">Now primarily based in New York, Delphine Interiors offers a complete design service, creating personalised interiors for your residential projects, with a touch of French influence and inspiration.
+                <p class="hideme">Now primarily based in New York and London, Delphine Interiors offers a complete design service, creating personalised interiors for your residential projects, with a touch of French influence and inspiration.
                 <p class="hideme">With a real passion for space planning, textures, colours, and lighting, Delphine Interiors will design your home to be beautiful, yet functional for your personal needs and lifestyle. 
                 <p class="hideme">No one project is ever the same and while projects may vary in size and scope, the same commitment and quality is ensured to achieve the best results.
                 <p class="hideme">Having worked extensively on both sides of the channel, Delphine Interiors is happy to discuss your project whether in the US, UK, France, or even further afield.
@@ -219,7 +380,7 @@
           <div class="grid-column grid-fifth"></div>
           <div class="grid-column grid-three-fifth">
             <div class="feature-content center">
-                <h3>WHAT WE DO</h3>
+                <h3>What we do</h3>
 
                     <div class="grid-column grid-whole process1 hideme">
                         <div class="grid-column grid-fifth stage margin-left"><img class="stage-name" src="_img/process1.png"></div>
@@ -346,13 +507,13 @@
 
 
 <a name="reviews" class="anchor"></a>
-        <section class="grid-container about cf">
+        <section class="grid-container reviews cf">
             
           <div class="grid-column grid-fifth cf"></div>
           <div class="grid-column grid-three-fifth cf">
 
             <div class="feature-content center cf">
-                <h3>REVIEWS</h3>
+                <h3>Reviews</h3>
                 <div class="about-container">
                 <div class="grid-column grid-half reviews-left cf">
                 <div id="bark-icons">
@@ -404,7 +565,7 @@
                 <p>See our latest news, inspirations, and goings on from our <a href="https://www.instagram.com/delphine_interiors/"><img alt="Delphine Interiors Instagram" src="_img/instagram_logo.png" style="height:3ex"></a>
                 <p>&nbsp;</p>
                 <div class="hideme-instagram"> 
-                <div id="pixlee_container"></div><script type="text/javascript">window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'D6E5Jzc1Coy9cvnTCk7'});Pixlee.addSimpleWidget({widgetId:'9062'});};</script><script src="//instafeed.assets.pixlee.com/assets/pixlee_widget_1_0_0.js"></script>
+                <div id="pixlee_container"></div>
                 </div>
           </div>
           <div class="grid-column grid-fifth"></div>
@@ -417,7 +578,7 @@
           <div class="grid-column grid-three-fifth">
             <div class="feature-content center hideme">
                 <div id="formBox">
-                    <h3>CONTACT US</h3>
+                    <h3>Get in touch</h3>
                 <p>Feel free to contact us with any queries via phone, email, or by using the contact form below and we'll get back to you as soon as possible.</p>
                     <div class="contacts">
                     <ul>
@@ -532,82 +693,12 @@ form {
           <div class="grid-column grid-fifth"></div>
         </div>
 
-
-
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="_js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
         <script src="_js/main.js"></script>
         <script src="_js/nav.js"></script>
-
-          
-<!-- Root element of PhotoSwipe. Must have class pswp. -->
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-    <!-- Background of PhotoSwipe. 
-         It's a separate element as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-
-        <!-- Container that holds slides. 
-            PhotoSwipe keeps only 3 of them in the DOM to save memory.
-            Don't modify these 3 pswp__item elements, data is added later on. -->
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-        </div>
-
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-        <div class="pswp__ui pswp__ui--hidden">
-
-            <div class="pswp__top-bar">
-
-                <!--  Controls are self-explanatory. Order can be changed. -->
-
-                <div class="pswp__counter"></div>
-
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-                <button class="pswp__button pswp__button--share" title="Share"></button>
-
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                <!-- element will get class pswp__preloader--active when preloader is running -->
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                      <div class="pswp__preloader__cut">
-                        <div class="pswp__preloader__donut"></div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div> 
-            </div>
-
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-            </button>
-
-            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-            </button>
-
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-
+        <script type="text/javascript">window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'D6E5Jzc1Coy9cvnTCk7'});Pixlee.addSimpleWidget({widgetId:'9062'});};</script>
+        <script src="https://instafeed.assets.pixlee.com/assets/pixlee_widget_1_0_0.js"></script>
 
     </body>
 </html>
