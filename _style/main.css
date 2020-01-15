@@ -103,7 +103,11 @@ src: url("../_fonts/onesignature-webfont.woff") format("woff"),
 url("../_fonts/OneSignature.ttf") format("truetype");
 }
 
-
+@font-face {
+font-family: "vic-light";
+src: url("../_fonts/vic-light-webfont.woff") format("woff"),
+url("../_fonts/VIC-Light.ttf") format("truetype");
+}
 
 
 
@@ -281,7 +285,8 @@ body {
     padding-bottom: 20px;
     padding-top: 20px;
     background-color: rgba(48,48,48,1);
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'vic-light', sans-serif;
+    letter-spacing: 1px;
     border-bottom: solid 3px rgba(162,110,97,1);
 }
 
@@ -299,7 +304,6 @@ body {
     color: rgba(255,255,255,0.7);
     padding-left: 20px;
     padding-right: 20px;
-    font-weight: bold;
     font-size: 15px;
 }
 
@@ -620,8 +624,8 @@ a {
 .top-nav a {
     color: bisque;
     font-size: 1.3em;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 700;
+    font-family: 'vic-light', sans-serif;
+    letter-spacing: 1px;
 }
 
 .top-nav a:hover:nth-child(-n+1) {
