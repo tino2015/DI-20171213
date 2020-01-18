@@ -413,37 +413,90 @@ body {
 
 } 
 .slide2 {
-  background: url("../_img/portfolio/projects/paris/paris1.jpg")no-repeat center;
+  background: url("../_img/portfolio/projects/newington/newington5.jpg")no-repeat center;
       background-size: cover;
     animation:fade2 10s infinite;
 -webkit-animation:fade2 10s infinite;
 }
 .slide3 {
-    background: url("../_img/portfolio/projects/paris/paris6.jpg")no-repeat center;
+    background: url("../_img/portfolio/projects/paris/paris1.jpg")no-repeat center;
       background-size: cover;
     animation:fade3 10s infinite;
 -webkit-animation:fade3 10s infinite;
 }
-@keyframes fade
-{
-  0%   {opacity:1}
-  33.333% { opacity: 0}
-  66.666% { opacity: 0}
-  100% { opacity: 1}
+.slide4 {
+    background: url("../_img/portfolio/projects/newington/newington44.jpg")no-repeat center;
+      background-size: cover;
+    animation:fade4 10s infinite;
+-webkit-animation:fade4 10s infinite;
 }
-@keyframes fade2
-{
-  0%   {opacity:0}
-  33.333% { opacity: 1}
-  66.666% { opacity: 0 }
-  100% { opacity: 0}
+@keyframes fade {
+  0% {
+    opacity: 1
+  }
+  25% {
+    opacity: 0
+  }
+  50% {
+    opacity: 0
+  }
+  75% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
 }
-@keyframes fade3
-{
-  0%   {opacity:0}
-  33.333% { opacity: 0}
-  66.666% { opacity: 1}
-  100% { opacity: 0}
+@keyframes fade2 {
+  0% {
+    opacity: 0
+  }
+  25% {
+    opacity: 1
+  }
+  50% {
+    opacity: 0
+  }
+  75% {
+    opacity: 0
+  }
+  100% {
+    opacity: 0
+  }
+}
+@keyframes fade3 {
+  0% {
+    opacity: 0
+  }
+  25% {
+    opacity: 0
+  }
+  50% {
+    opacity: 1
+  }
+  75% {
+    opacity: 0
+  }
+  100% {
+    opacity: 0
+  }
+}
+@keyframes fade4 {
+  0% {
+    opacity: 0
+  }
+  25% {
+    opacity: 0
+  }
+  50% {
+    opacity: 0
+  }
+  75% {
+    opacity: 1
+  }
+  100% {
+    opacity: 0
+  }
 }
 
 
@@ -598,7 +651,7 @@ h3 {
 
 p {
     font-size: 1.2em;
-    font-family: 'Lato', sans-serif;
+    font-family: 'vic-light', sans-serif;
 }
 
 /*
@@ -1016,7 +1069,7 @@ li {
 #more-content4,
 #more-content5 {
     font-size: 1.2em;
-    font-family: 'Lato', sans-serif;
+    font-family: 'vic-light', sans-serif;
 }
 
 
@@ -1127,10 +1180,15 @@ li {
 
 .portfolio-banner h4 {
     margin: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'vic-light', sans-serif;
     font-size: 3em;
     text-align: -webkit-center;
     padding: 10% 0;
+}
+
+.projects {
+    background: url("../_img/portfolio/projects/newington/newington5.jpg");
+    background-position: center;
 }
 
 .projects1 {
@@ -1170,6 +1228,7 @@ li {
     background-position: top;   
 }
 
+.projects,
 .projects1,
 .projects2,
 .projects3,
@@ -1239,6 +1298,7 @@ li {
 .mood-boards *,
 .cgi *,
 .plans *,
+.projects *,
 .projects1 *, 
 .projects2 *,
 .projects3 *, 
@@ -1249,13 +1309,14 @@ li {
 #mood-gal h4,
 #cgi-gal h4,
 #plans-gal h4,
+#projects-gal h4,
 #projects1-gal h4, 
 #projects2-gal h4,
 #projects3-gal h4,
 #projects4-gal h4 {
     margin: 0;
     font-family: 'onesignature', sans-serif;
-    font-size: 3em;
+    font-size: 5.5em;
     font-weight: 100;
     text-align: -webkit-center;
     /*padding: 10% 0 0 0;*/
@@ -1267,7 +1328,7 @@ li {
 
 .soon {
     margin: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'vic-light', sans-serif;
     font-size: 0.75em;
     text-align: -webkit-center;
     color: white;
@@ -1285,8 +1346,7 @@ li {
     }
     #mood-gal h4,
     #cgi-gal h4,
-    #plans-gal h4,
-    #projects-gal h4 {
+    #plans-gal h4, {
         font-size: 2.5rem;
 /*        padding-top: 20%;
         padding-bottom: 20%;*/
@@ -1336,7 +1396,7 @@ p.view-gal {
 .portfolio h4 {
     color: rgba(162,110,97,1);
     margin: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'vic-light', sans-serif;
 }
 
 .events span,
@@ -1344,7 +1404,7 @@ p.view-gal {
     color: black;
     margin: 0;
     font-size: 1em;
-    font-family: 'Lato', sans-serif;
+    font-family: 'vic-light', sans-serif;
 }
 
 .event-logos {   
@@ -1525,7 +1585,7 @@ h3.black {
 
 .contacts li {
     font-size: 1.5em;
-    font-family: 'Lato', sans-serif;
+    font-family: 'vic-light', sans-serif;
     display: inline-block;
     float: none;
     width: 100%;
@@ -1644,7 +1704,7 @@ label {
     margin-top:20px;
     letter-spacing:2px;
     font-size: 1.2em;
-    font-family: 'Lato', sans-serif;
+    font-family: 'vic-light', sans-serif;
 }
 
 form {
@@ -1725,7 +1785,7 @@ input, textarea {
     min-height: 200px;
     padding-top: 20px;
     background-color: rgba(48,48,48,1);
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'vic-light', sans-serif;
 }
 
 .footer li {

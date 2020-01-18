@@ -24,8 +24,6 @@
         <link rel="stylesheet" href="_style/main.css">
         <link rel="stylesheet" href="_style/mobile-nav.css">
         <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet'>
         <link rel="stylesheet" type="text/css" href="_style/jquery.fancybox.min.css">
@@ -61,7 +59,7 @@
     <img class="logo-mobile center" src="_img/logo-icon.png">
   </div>  
   <ul class="mobile-nav">
-    <li><a href="#portfolio">Projects</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
     <li><a href="#about">About</a></li>
     <li><a href="#how-we-work">What we do</a></li>
     <li><a href="#reviews">Reviews</a></li>
@@ -87,7 +85,7 @@
           <div class="grid-column grid-fifth"></div>
             <div class="grid-column grid-three-fifth">
                 <ul class="text-uppercase">
-                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#how-we-work">What we do</a></li>
                     <li><a href="#reviews">Reviews</a></li>
@@ -116,6 +114,10 @@
                             <a href="#projects"><span></span></a>
                             <div class="grid-column grid-whole glass"></div>
                         </div>
+                        <div class="slide4 scroll-down">
+                            <a href="#projects"><span></span></a>
+                            <div class="grid-column grid-whole glass"></div>
+                        </div>
                 </div>
             </div>
         </div>
@@ -130,7 +132,7 @@
                                 <div class="grid-column grid-fifth"></div>
                                 <div class="grid-column grid-three-fifth">
                                     <ul class="text-uppercase">
-                                        <li><a href="#portfolio">Projects</a></li>
+                                        <li><a href="#portfolio">Portfolio</a></li>
                                         <li><a href="#about">About</a></li>
                                         <li><a href="#how-we-work">What we do</a></li>
                                         <li><a href="#reviews">Reviews</a></li>         
@@ -153,12 +155,17 @@
           <div class="grid-column grid-fifth"></div>
           <div class="grid-column grid-three-fifth">
             <div class="feature-content center">
-                <h3>Latest Projects</h3>
+                <h3>Portfolio</h3>
+                <div class="portfolio-banner hideme">
+                    <div class="projects overlay rosegold">
+                        <a id="projects-gal" href="_img/portfolio/projects/newington/newington1.jpg" data-fancybox="newington"><h4>London House</h4></a>
+                    </div>
+                </div>
                 <div class="portfolio-banner hideme">
                     <div class="projects1 overlay rosegold">
                         <a id="projects1-gal" href="_img/portfolio/projects/paris/paris1.jpg" data-fancybox="paris1"><h4>Paris Apartment</h4></a>
                     </div>
-                </div>                
+                </div>
                 <div class="portfolio-banner hideme">
                     <div class="projects2 overlay rosegold">
                         <a id="projects2-gal" href="_img/portfolio/projects/wandsworth/ww1.jpg" data-fancybox="wandsworth"><h4>London Wandsworth Living Area</h4></a>
@@ -174,6 +181,71 @@
                         <a id="projects4-gal" href="_img/portfolio/projects/myl/myl-after-10.jpg" data-fancybox="myl"><h4>Paris Offices</h4></a>
                     </div>
                 </div>
+
+<!--
+    Gallery - newington
+-->
+
+  <a href="_img/portfolio/projects/newington/newington2.jpg" data-fancybox="newington"
+     data-thumb="_img/portfolio/projects/newington/newington2.jpg"></a>
+
+  <a href="_img/portfolio/projects/newington/newington3.jpg" data-fancybox="newington"
+     data-thumb="_img/portfolio/projects/newington/newington3.jpg"></a>
+
+  <a href="_img/portfolio/projects/newington/newington4.jpg" data-fancybox="newington"
+     data-thumb="_img/portfolio/projects/newington/newington4.jpg"></a>
+
+  <a href="_img/portfolio/projects/newington/newington5.jpg" data-fancybox="newington"
+     data-thumb="_img/portfolio/projects/newington/newington5.jpg"></a>
+
+  <a href="_img/portfolio/projects/newington/newington6.jpg" data-fancybox="newington"
+     data-thumb="_img/portfolio/projects/newington/newington6.jpg"></a>
+
+  <a href="_img/portfolio/projects/newington/newington7.jpg" data-fancybox="newington"
+     data-thumb="_img/portfolio/projects/newington/newington7.jpg"></a>
+
+  <a href="_img/portfolio/projects/newington/newington8.jpg" data-fancybox="newington"
+     data-thumb="_img/portfolio/projects/newington/newington8.jpg"></a>
+
+  <a href="_img/portfolio/projects/newington/newington9.jpg" data-fancybox="newington"
+     data-thumb="_img/portfolio/projects/newington/newington9.jpg"></a>
+
+  <a href="_img/portfolio/projects/newington/newington10.jpg" data-fancybox="newington"
+     data-thumb="_img/portfolio/projects/newington/newington10.jpg"></a>
+
+  <a href="_img/portfolio/projects/newington/newington11.jpg" data-fancybox="newington"
+     data-thumb="_img/portfolio/projects/newington/newington11.jpg"></a>
+
+  <a href="_img/portfolio/projects/newington/newington12.jpg" data-fancybox="newington"
+     data-thumb="_img/portfolio/projects/newington/newington12.jpg"></a>
+
+  <a href="_img/portfolio/projects/newington/newington13.jpg" data-fancybox="newington"
+     data-thumb="_img/portfolio/projects/newington/newington13.jpg"></a>
+
+  <a href="_img/portfolio/projects/newington/newington14.jpg" data-fancybox="newington"
+     data-thumb="_img/portfolio/projects/newington/newington14.jpg"></a>
+
+  <a href="_img/portfolio/projects/newington/newington15.jpg" data-fancybox="newington"
+     data-thumb="_img/portfolio/projects/newington/newington15.jpg"></a>
+
+  <a href="_img/portfolio/projects/newington/newington16.jpg" data-fancybox="newington"
+     data-thumb="_img/portfolio/projects/newington/newington16.jpg"></a>
+
+  <a href="_img/portfolio/projects/newington/newington17.jpg" data-fancybox="newington"
+     data-thumb="_img/portfolio/projects/newington/newington17.jpg"></a>
+
+  <a href="_img/portfolio/projects/newington/newington18.jpg" data-fancybox="newington"
+     data-thumb="_img/portfolio/projects/newington/newington18.jpg"></a>
+
+  <a href="_img/portfolio/projects/newington/newington19.jpg" data-fancybox="newington"
+     data-thumb="_img/portfolio/projects/newington/newington19.jpg"></a>
+
+  <a href="_img/portfolio/projects/newington/newington20.jpg" data-fancybox="newington"
+     data-thumb="_img/portfolio/projects/newington/newington20.jpg"></a>
+
+  <a href="_img/portfolio/projects/newington/newington21.jpg" data-fancybox="newington"
+     data-thumb="_img/portfolio/projects/newington/newington21.jpg"></a>
+
 
 <!--
     Gallery - paris1
